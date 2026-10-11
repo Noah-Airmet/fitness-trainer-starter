@@ -1,0 +1,16 @@
+{
+  "display_name": "{display_name}",
+  "updated_at": null,
+  "latest_workout": null,
+  "latest_daily": null,
+  "next_plan": null,
+  "exercise_bank": "data/exercises/exercises.json",
+  "muscle_map": "data/muscles/body-map.json",
+  "goals": "data/{user}/goals.json",
+  "metrics": "data/{user}/metrics.json",
+  "soreness": "data/{user}/soreness.json",
+  "training_summary": "data/{user}/training-summary.json",
+  "week_outline": "data/{user}/plans/week-outline.json",
+  "workout_history": [],
+  "daily_history": []
+}

@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "updated_at": null,
+  "body_measurements": {
+    "body_weight_lb": null,
+    "waist_in": null,
+    "chest_in": null,
+    "upper_arm_in": null,
+    "thigh_in": null,
+    "notes": "Optional. Do not require frequent measurements."
+  },
+  "preferences": {
+    "usual_workout_window": null,
+    "diet_tracking_level": "minimal"
+  }
+}

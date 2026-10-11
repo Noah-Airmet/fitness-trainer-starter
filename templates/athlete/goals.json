@@ -1,0 +1,28 @@
+{
+  "schema_version": 2,
+  "updated_at": null,
+  "status": "template",
+  "notes": "Blank template. The trainer agent fills this in during onboarding (status -> draft_agent_proposed, then confirmed once the athlete agrees). Pillar muscles must use tokens from data/exercises/exercises.json primary_muscles.",
+  "cadence": {
+    "gym_days_per_week": 4,
+    "rest_days": ["Sunday"],
+    "hard_session_cap": 3,
+    "session_window": null,
+    "session_minutes": 60,
+    "equipment": "commercial gym",
+    "notes": "Edit to fit the athlete. Agents read this instead of hardcoding a schedule."
+  },
+  "north_star": {
+    "identity": "",
+    "vision": "",
+    "horizons": [],
+    "body_targets": {}
+  },
+  "pillars": [],
+  "nutrition_targets": {
+    "approach": "Simple support habits only. No calorie counting unless the athlete asks."
+  },
+  "strength_goals": [],
+  "habit_goals": [],
+  "injuries_and_cautions": []
+}

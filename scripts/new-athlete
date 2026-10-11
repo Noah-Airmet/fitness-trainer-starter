@@ -1,0 +1,40 @@
+#!/usr/bin/env python3
+"""new-athlete — create data/<name>/ from templates/athlete/.
+
+Usage: scripts/new-athlete <name> [--display-name "Sam"]
+
+<name> is lowercase a-z (it appears in URLs and file paths). The server
+discovers athletes from disk, so no restart is needed. Afterwards, open a
+trainer chat — the agent sees goals.status == "template" and onboards.
+"""
+import argparse
+import re
+import shutil
+import sys
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+
+parser = argparse.ArgumentParser(description=__doc__,
+                                 formatter_class=argparse.RawDescriptionHelpFormatter)
+parser.add_argument("name")
+parser.add_argument("--display-name")
+args = parser.parse_args()
+
+if not re.fullmatch(r"[a-z]{1,32}", args.name):
+    sys.exit("new-athlete: name must be 1-32 lowercase letters (a-z)")
+dest = ROOT / "data" / args.name
+if dest.exists():
+    sys.exit(f"new-athlete: {dest.relative_to(ROOT)} already exists")
+
+shutil.copytree(ROOT / "templates/athlete", dest)
+for sub in ("workouts", "plans", "daily"):
+    (dest / sub).mkdir(exist_ok=True)
+    (dest / sub / ".gitkeep").touch()
+display = args.display_name or args.name.title()
+for path in dest.glob("*.json"):
+    text = path.read_text().replace("{user}", args.name).replace("{display_name}", display)
+    path.write_text(text)
+print(f"created data/{args.name}/ for {display}")
+print(f"  dashboard: http://127.0.0.1:8766/?user={args.name}")
+print(f"  CLI:       export FITNESS_USER={args.name}; scripts/fit state")

@@ -1,0 +1,95 @@
+{
+  "date": "2026-10-07",
+  "reported_day": "Wednesday",
+  "session_type": "push",
+  "updated_by": "demo-seed",
+  "exercises": [
+    {
+      "exercise_id": "barbell_bench_press",
+      "name": "Barbell Bench Press",
+      "effort": "hard",
+      "actual": [
+        {
+          "set": 1,
+          "reps": 8,
+          "weight_lb": 135
+        },
+        {
+          "set": 2,
+          "reps": 8,
+          "weight_lb": 135
+        },
+        {
+          "set": 3,
+          "reps": 6,
+          "weight_lb": 135
+        }
+      ],
+      "notes": "8/8/6 at 135. Last set ground. Repeat 135."
+    },
+    {
+      "exercise_id": "seated_dumbbell_shoulder_press",
+      "name": "Seated Dumbbell Shoulder Press",
+      "effort": "solid",
+      "actual": [
+        {
+          "set": 1,
+          "reps": 10,
+          "weight_lb_each": 40
+        },
+        {
+          "set": 2,
+          "reps": 10,
+          "weight_lb_each": 40
+        },
+        {
+          "set": 3,
+          "reps": 9,
+          "weight_lb_each": 40
+        }
+      ]
+    },
+    {
+      "exercise_id": "cable_lateral_raise",
+      "name": "Cable Lateral Raise",
+      "effort": "solid",
+      "actual": [
+        {
+          "set": 1,
+          "reps": 12,
+          "weight_lb": 15
+        },
+        {
+          "set": 2,
+          "reps": 12,
+          "weight_lb": 15
+        }
+      ]
+    },
+    {
+      "exercise_id": "cable_tricep_pushdown",
+      "name": "Cable Tricep Pushdown",
+      "effort": "solid",
+      "actual": [
+        {
+          "set": 1,
+          "reps": 12,
+          "weight_lb": 50
+        },
+        {
+          "set": 2,
+          "reps": 12,
+          "weight_lb": 50
+        },
+        {
+          "set": 3,
+          "reps": 10,
+          "weight_lb": 50
+        }
+      ]
+    }
+  ],
+  "session_notes": "First logged session. Baselines set.",
+  "status": "completed",
+  "logged_at": "2026-10-11T13:41:49-06:00"
+}

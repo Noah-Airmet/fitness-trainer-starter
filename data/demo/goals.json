@@ -1,0 +1,157 @@
+{
+  "schema_version": 2,
+  "status": "draft_agent_proposed",
+  "notes": "SYNTHETIC DEMO DATA — shows the shape a filled-in goals.json takes. Delete data/demo/ once a real athlete exists.",
+  "cadence": {
+    "gym_days_per_week": 4,
+    "rest_days": [
+      "Sunday",
+      "Wednesday"
+    ],
+    "hard_session_cap": 3,
+    "session_window": "18:00-19:30",
+    "session_minutes": 60,
+    "equipment": "commercial gym",
+    "notes": "Mon/Tue/Thu/Fri lifting, Saturday optional easy cardio."
+  },
+  "north_star": {
+    "identity": "I'm someone who trains consistently and looks like it.",
+    "vision": "Add visible muscle to the upper body and keep legs strong, without obsessive tracking.",
+    "horizons": [
+      {
+        "id": "q1",
+        "label": "First 3 months",
+        "target_date": "2027-01-08",
+        "headline": "Four sessions a week locked in. Bench and row both up 15 lb."
+      },
+      {
+        "id": "y1",
+        "label": "1 year",
+        "target_date": "2027-10-08",
+        "headline": "Noticeably broader. Bench 185 for reps."
+      }
+    ],
+    "body_targets": {
+      "current": {
+        "weight_lb": 172,
+        "date": "2026-10-07",
+        "note": "Self-reported starting weight."
+      },
+      "q1": {
+        "weight_lb": "172-176",
+        "approach": "Slight surplus, high protein."
+      }
+    }
+  },
+  "pillars": [
+    {
+      "id": "upper",
+      "label": "Bigger Upper Body",
+      "icon": "shield",
+      "priority": 1,
+      "why": "Chest, shoulders, and arms are what reads as 'trained' in a T-shirt.",
+      "muscles": [
+        "pectoralis_major",
+        "pectoralis_major_clavicular",
+        "lateral_deltoid",
+        "anterior_deltoid",
+        "biceps_brachii",
+        "triceps_brachii"
+      ]
+    },
+    {
+      "id": "back",
+      "label": "Wide Back",
+      "icon": "triangle",
+      "priority": 2,
+      "why": "Lats and upper back build the V-taper and keep shoulders healthy.",
+      "muscles": [
+        "latissimus_dorsi",
+        "rhomboids",
+        "trapezius_middle_lower",
+        "posterior_deltoid"
+      ]
+    },
+    {
+      "id": "legs",
+      "label": "Strong Legs",
+      "icon": "flame",
+      "priority": 3,
+      "why": "Athletic base; keeps the build proportional.",
+      "muscles": [
+        "quadriceps",
+        "hamstrings",
+        "gluteus_maximus"
+      ]
+    }
+  ],
+  "nutrition_targets": {
+    "protein_g_per_day": 150,
+    "creatine_g_per_day": 5,
+    "approach": "Protein at every meal, creatine daily. No calorie counting."
+  },
+  "strength_goals": [
+    {
+      "id": "bench",
+      "label": "Bench press working weight",
+      "exercise_id": "barbell_bench_press",
+      "pillar_id": "upper",
+      "current_baseline": {
+        "weight_lb": 135,
+        "reps": 8,
+        "source": "2026-10-07 push",
+        "confidence": "high"
+      },
+      "target": {
+        "weight_lb": 155,
+        "reps": 8,
+        "timeframe": "3 months"
+      },
+      "next_micro_target": "135 x 3x8 clean, then 140.",
+      "start_date": "2026-10-07",
+      "start_weight_lb": 135,
+      "target_date": "2027-01-08"
+    },
+    {
+      "id": "row",
+      "label": "Cable row working weight",
+      "exercise_id": "seated_cable_row",
+      "pillar_id": "back",
+      "current_baseline": {
+        "weight_lb": 120,
+        "reps": 10,
+        "source": "2026-10-08 pull",
+        "confidence": "medium"
+      },
+      "target": {
+        "weight_lb": 140,
+        "reps": 10,
+        "timeframe": "3 months"
+      },
+      "next_micro_target": "Hold 120, chase 3x12 with a still torso.",
+      "start_date": "2026-10-07",
+      "start_weight_lb": 120,
+      "target_date": "2027-01-08"
+    }
+  ],
+  "habit_goals": [
+    {
+      "id": "show_up",
+      "label": "Four sessions a week",
+      "target": "Mon/Tue/Thu/Fri",
+      "cue": "When I get home from work on a gym day",
+      "action": "Bag is already packed; I leave within 15 minutes",
+      "status": "active"
+    },
+    {
+      "id": "protein",
+      "label": "Protein at every meal",
+      "target": "150 g/day",
+      "cue": "When I plan a meal",
+      "action": "Protein is the centerpiece",
+      "status": "active"
+    }
+  ],
+  "injuries_and_cautions": [],
+  "updated_at": "2026-10-11T13:42:26-06:00"
+}

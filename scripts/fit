@@ -1,0 +1,124 @@
+#!/usr/bin/env python3
+"""fit — agent CLI for the fitness trainer API.
+
+The trainer agent's interface to server/fitness_server.py. The server handles all the
+follow-through that agents used to forget: current.json pointers, training
+summary regeneration, soreness boosts, git commit + push. No deploy step.
+
+Usage:
+  fit state [--user NAME]                 full state bundle (session start)
+  fit version [--user NAME]               change token
+  fit log-workout FILE|- [--user NAME]    POST a completed workout JSON
+  fit plan FILE|- [--user NAME]           POST a plan JSON (sets next_plan)
+  fit goals FILE|- [--user NAME]          replace goals.json
+  fit soreness FILE|- [--user NAME]       replace soreness.json
+  fit outline FILE|- [--user NAME]        replace plans/week-outline.json
+  fit daily --date 2026-06-09 --field sleep_hours --value 7.5 [--user NAME]
+
+FILE may be '-' to read JSON from stdin (heredoc-friendly).
+Server base URL: $FITNESS_API, default http://127.0.0.1:8766.
+Athlete: --user, else $FITNESS_USER, else the only athlete on the server.
+Exits non-zero with the server's validation error so agents can self-correct.
+"""
+
+import argparse
+import json
+import os
+import sys
+import urllib.error
+import urllib.request
+
+BASE = os.environ.get("FITNESS_API", "http://127.0.0.1:8766").rstrip("/")
+
+DOC_COMMANDS = {
+    "log-workout": "workout",
+    "plan": "plan",
+    "goals": "goals",
+    "soreness": "soreness",
+    "outline": "week-outline",
+}
+
+
+def request(method, path, body=None):
+    data = json.dumps(body).encode() if body is not None else None
+    req = urllib.request.Request(
+        f"{BASE}{path}", data=data, method=method,
+        headers={"Content-Type": "application/json"},
+    )
+    try:
+        with urllib.request.urlopen(req, timeout=20) as resp:
+            return json.load(resp)
+    except urllib.error.HTTPError as e:
+        try:
+            err = json.load(e)
+            sys.exit(f"fit: server rejected the request ({e.code}): "
+                     f"{err.get('error', err)}")
+        except (json.JSONDecodeError, ValueError):
+            sys.exit(f"fit: HTTP {e.code} from {BASE}{path}")
+    except urllib.error.URLError as e:
+        sys.exit(f"fit: cannot reach {BASE} ({e.reason}). Is the server "
+                 "running? python3 server/fitness_server.py (or set FITNESS_API).")
+
+
+def load_doc(source):
+    raw = sys.stdin.read() if source == "-" else open(source).read()
+    try:
+        return json.loads(raw)
+    except json.JSONDecodeError as e:
+        sys.exit(f"fit: invalid JSON in {source}: {e}")
+
+
+def coerce(value):
+    try:
+        return json.loads(value)  # numbers, booleans, null, quoted strings
+    except json.JSONDecodeError:
+        return value  # plain string like "high" or "taken"
+
+
+def main():
+    parser = argparse.ArgumentParser(
+        prog="fit", description=__doc__,
+        formatter_class=argparse.RawDescriptionHelpFormatter)
+    sub = parser.add_subparsers(dest="command", required=True)
+
+    def add(name, **kwargs):
+        p = sub.add_parser(name, **kwargs)
+        p.add_argument("--user", default=os.environ.get("FITNESS_USER"))
+        return p
+
+    add("state", help="full state bundle")
+    add("version", help="change token")
+    for name in DOC_COMMANDS:
+        add(name, help=f"POST a {DOC_COMMANDS[name]} document").add_argument(
+            "file", help="JSON file path, or - for stdin")
+    daily = add("daily", help="merge one readiness field into a daily log")
+    daily.add_argument("--date", required=True)
+    daily.add_argument("--field", required=True)
+    daily.add_argument("--value", required=True)
+
+    args = parser.parse_args()
+    if not args.user:
+        users = [u["id"] for u in request("GET", "/api/users")["users"]]
+        real = [u for u in users if u != "demo"] or users
+        if len(real) != 1:
+            sys.exit(f"fit: pass --user (or set FITNESS_USER); athletes: {users}")
+        args.user = real[0]
+
+    if args.command == "state":
+        result = request("GET", f"/api/{args.user}/state")
+    elif args.command == "version":
+        result = request("GET", f"/api/{args.user}/state/version")
+    elif args.command == "daily":
+        result = request("POST", f"/api/{args.user}/daily", {
+            "date": args.date, "field": args.field, "value": coerce(args.value),
+        })
+    else:
+        result = request("POST", f"/api/{args.user}/{DOC_COMMANDS[args.command]}",
+                         load_doc(args.file))
+
+    json.dump(result, sys.stdout, indent=2, ensure_ascii=False)
+    print()
+
+
+if __name__ == "__main__":
+    main()

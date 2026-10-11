@@ -1,0 +1,11 @@
+# OPTIONAL — drains queue/ through a headless trainer agent (Claude Code CLI).
+[Unit]
+Description=Process queued fitness reports via the trainer agent
+After=fitness.service
+
+[Service]
+Type=oneshot
+WorkingDirectory=%h/fitness-trainer
+Environment=PATH=%h/.local/bin:/usr/local/bin:/usr/bin:/bin
+ExecStart=/usr/bin/env bash server/process-reports.sh
+TimeoutStartSec=900

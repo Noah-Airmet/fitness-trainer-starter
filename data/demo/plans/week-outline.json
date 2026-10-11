@@ -1,0 +1,67 @@
+{
+  "week_of": "2026-10-12",
+  "status": "planned",
+  "updated_by": "demo-seed",
+  "notes": "Week 2. Repeat loads, chase reps. Wednesday + Sunday rest.",
+  "structure": {
+    "gym_days_per_week": 4,
+    "hard_day_cap": 3,
+    "hard_days_planned": 3
+  },
+  "priority_muscles": [
+    "pectoralis_major — bench 8/8/6, close the last set",
+    "rhomboids — row form gate at 120"
+  ],
+  "days": [
+    {
+      "date": "2026-10-12",
+      "day": "Monday",
+      "type": "push",
+      "intensity": "hard",
+      "notes": "Bench 135 x3x8. Shoulder press 40s."
+    },
+    {
+      "date": "2026-10-13",
+      "day": "Tuesday",
+      "type": "pull",
+      "intensity": "hard",
+      "notes": "Row 120, still torso. Curls 30s."
+    },
+    {
+      "date": "2026-10-14",
+      "day": "Wednesday",
+      "type": "rest",
+      "intensity": "rest",
+      "notes": "Rest. Walk if restless."
+    },
+    {
+      "date": "2026-10-15",
+      "day": "Thursday",
+      "type": "legs",
+      "intensity": "hard",
+      "notes": "Leg press 280. Leg curl 110."
+    },
+    {
+      "date": "2026-10-16",
+      "day": "Friday",
+      "type": "easy",
+      "intensity": "easy",
+      "notes": "Arms + core pump, 30 min, nothing to failure."
+    },
+    {
+      "date": "2026-10-17",
+      "day": "Saturday",
+      "type": "easy",
+      "intensity": "easy",
+      "notes": "Optional: 30 min bike or hike."
+    },
+    {
+      "date": "2026-10-18",
+      "day": "Sunday",
+      "type": "rest",
+      "intensity": "rest",
+      "notes": "Rest."
+    }
+  ],
+  "updated_at": "2026-10-11T13:42:04-06:00"
+}

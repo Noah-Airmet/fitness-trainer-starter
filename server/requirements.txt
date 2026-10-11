@@ -1,0 +1,9 @@
+# Only the Trainer MCP shim (server/trainer_mcp.py) needs anything beyond the
+# Python stdlib. Install into a venv:
+#
+#   python3 -m venv .venv && .venv/bin/pip install -r server/requirements.txt
+#
+# The <2 bound is deliberate: MCP SDK v2 renames `FastMCP` -> `MCPServer`, so
+# `from mcp.server.fastmcp import FastMCP` breaks on 2.x. The port is small —
+# do it on purpose, not via a surprise pip install.
+mcp>=1.27,<2

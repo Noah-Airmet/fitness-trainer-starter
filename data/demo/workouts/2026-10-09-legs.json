@@ -1,0 +1,86 @@
+{
+  "date": "2026-10-09",
+  "reported_day": "Friday",
+  "session_type": "legs",
+  "updated_by": "demo-seed",
+  "exercises": [
+    {
+      "exercise_id": "leg_press",
+      "name": "Leg Press",
+      "effort": "solid",
+      "actual": [
+        {
+          "set": 1,
+          "reps": 10,
+          "weight_lb": 270
+        },
+        {
+          "set": 2,
+          "reps": 10,
+          "weight_lb": 270
+        },
+        {
+          "set": 3,
+          "reps": 10,
+          "weight_lb": 270
+        }
+      ]
+    },
+    {
+      "exercise_id": "romanian_deadlift",
+      "name": "Romanian Deadlift",
+      "effort": "solid",
+      "actual": [
+        {
+          "set": 1,
+          "reps": 10,
+          "weight_lb": 135
+        },
+        {
+          "set": 2,
+          "reps": 10,
+          "weight_lb": 135
+        },
+        {
+          "set": 3,
+          "reps": 10,
+          "weight_lb": 135
+        }
+      ]
+    },
+    {
+      "exercise_id": "seated_leg_curl",
+      "name": "Seated Leg Curl",
+      "effort": "easy",
+      "actual": [
+        {
+          "set": 1,
+          "reps": 12,
+          "weight_lb": 100
+        },
+        {
+          "set": 2,
+          "reps": 12,
+          "weight_lb": 100
+        }
+      ],
+      "notes": "Easy. Go 110 next."
+    },
+    {
+      "exercise_id": "plank",
+      "name": "Plank",
+      "actual": [
+        {
+          "set": 1,
+          "duration_seconds": 60
+        },
+        {
+          "set": 2,
+          "duration_seconds": 60
+        }
+      ]
+    }
+  ],
+  "status": "completed",
+  "logged_at": "2026-10-11T13:41:49-06:00"
+}

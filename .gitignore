@@ -1,0 +1,18 @@
+*.log
+.DS_Store
+__pycache__/
+.venv/
+node_modules/
+
+# Local Claude Code overrides (the shared settings.json IS tracked)
+.claude/settings.local.json
+
+# Raw health exports never get committed (privacy). Derived summaries can be.
+*.zip
+export.xml
+
+# Report queue (transient, worker-managed)
+queue/
+
+# Secrets
+*.env

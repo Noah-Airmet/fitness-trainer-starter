@@ -1,0 +1,3949 @@
+{
+  "schema_version": 1,
+  "generated_for": "fitness-trainer-starter",
+  "media_policy": "metadata_only_no_images_in_v1",
+  "exercises": [
+    {
+      "id": "barbell_bench_press",
+      "name": "Barbell Bench Press",
+      "category": "push",
+      "equipment": [
+        "barbell",
+        "bench"
+      ],
+      "movement_pattern": "horizontal press",
+      "primary_muscles": [
+        "pectoralis_major"
+      ],
+      "secondary_muscles": [
+        "anterior_deltoid",
+        "triceps_brachii"
+      ],
+      "biomechanics": "Trains horizontal shoulder adduction and elbow extension, overloading the chest in the mid-to-short range.",
+      "setup_cues": [
+        "Lie flat on the bench with eyes directly under the bar.",
+        "Set a firm grip slightly wider than shoulder width.",
+        "Keep feet flat on the floor and pull shoulder blades back and down.",
+        "Unrack the bar and stabilize it directly over the chest."
+      ],
+      "common_mistakes": [
+        "Flaring elbows out to 90 degrees, stressing the shoulder joint.",
+        "Bouncing the bar off the chest.",
+        "Lifting feet or hips off the bench during the lift."
+      ],
+      "progression": "Increase weight slowly while keeping 1-3 reps in reserve; use a spotter when lifting near failure.",
+      "regression": "Dumbbell bench press or push-ups to practice chest recruitment with lighter loading.",
+      "substitutions": [
+        "dumbbell_bench_press",
+        "chest_press_machine",
+        "push_up"
+      ],
+      "media": {
+        "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Barbell_Bench_Press_-_Medium_Grip/0.jpg",
+        "type": "image/jpeg",
+        "license": "Unlicense / public domain dedication",
+        "attribution": "free-exercise-db by yuhonas",
+        "source": "free-exercise-db",
+        "source_id": "Barbell_Bench_Press_-_Medium_Grip",
+        "matched_name": "Barbell Bench Press - Medium Grip"
+      },
+      "expert_rating": {
+        "score": 7.5,
+        "tier": "B",
+        "stability": "medium",
+        "stretch": "medium",
+        "sfr": "medium",
+        "verdict": "Great strength benchmark, but chest stretch is limited by the physical bar hitting the chest."
+      },
+      "plain_summary": "The classic chest builder: press a bar off your chest to load your pecs, front delts, and triceps together."
+    },
+    {
+      "id": "dumbbell_bench_press",
+      "name": "Dumbbell Bench Press",
+      "category": "push",
+      "equipment": [
+        "dumbbells",
+        "bench"
+      ],
+      "movement_pattern": "horizontal press",
+      "primary_muscles": [
+        "pectoralis_major"
+      ],
+      "secondary_muscles": [
+        "anterior_deltoid",
+        "triceps_brachii"
+      ],
+      "biomechanics": "Allows a deeper stretch at the bottom of the movement and independent arm control, correcting strength imbalances.",
+      "setup_cues": [
+        "Sit on the edge of the bench with dumbbells on thighs.",
+        "Lie back, kicking dumbbells up to chest level.",
+        "Keep feet flat on the floor and shoulder blades squeezed.",
+        "Press dumbbells up, maintaining a slight inward angle."
+      ],
+      "common_mistakes": [
+        "Clashing the dumbbells together at the top, losing tension.",
+        "Allowing elbows to flare excessively.",
+        "Uneven pressing speed between left and right arms."
+      ],
+      "progression": "Increase dumbbell weight or perform with a brief pause at the bottom stretch.",
+      "regression": "Chest press machine or light dumbbell press floor variation.",
+      "substitutions": [
+        "barbell_bench_press",
+        "chest_press_machine",
+        "push_up"
+      ],
+      "media": {
+        "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Dumbbell_Bench_Press/0.jpg",
+        "type": "image/jpeg",
+        "license": "Unlicense / public domain dedication",
+        "attribution": "free-exercise-db by yuhonas",
+        "source": "free-exercise-db",
+        "source_id": "Dumbbell_Bench_Press",
+        "matched_name": "Dumbbell Bench Press"
+      },
+      "expert_rating": {
+        "score": 8.5,
+        "tier": "A",
+        "stability": "medium",
+        "stretch": "high",
+        "sfr": "high",
+        "verdict": "Allows a deeper chest stretch and free arm convergence, though setup can limit top weights."
+      },
+      "plain_summary": "Press two separate weights over your chest to build your pecs while letting your arms move in a natural path."
+    },
+    {
+      "id": "incline_barbell_bench_press",
+      "name": "Incline Barbell Bench Press",
+      "category": "push",
+      "equipment": [
+        "barbell",
+        "incline_bench"
+      ],
+      "movement_pattern": "incline press",
+      "primary_muscles": [
+        "pectoralis_major_clavicular"
+      ],
+      "secondary_muscles": [
+        "anterior_deltoid",
+        "triceps_brachii"
+      ],
+      "biomechanics": "Shifts the emphasis toward the upper clavicular fibers of the chest and increases anterior shoulder contribution.",
+      "setup_cues": [
+        "Set the bench angle to 30-45 degrees.",
+        "Position yourself with eyes directly under the bar.",
+        "Unrack the bar and lower it controlled to the upper chest.",
+        "Press up and slightly back toward the face."
+      ],
+      "common_mistakes": [
+        "Setting the incline too high (over 45 degrees), turning it into a shoulder press.",
+        "Letting the bar drift too far forward during the descent.",
+        "Arching the lower back excessively to make it a flat press."
+      ],
+      "progression": "Add weight slowly while maintaining stable shoulder positioning and controlled tempos.",
+      "regression": "Chest press machine or incline dumbbell press.",
+      "substitutions": [
+        "incline_dumbbell_press",
+        "chest_press_machine"
+      ],
+      "media": {
+        "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Barbell_Incline_Bench_Press_-_Medium_Grip/0.jpg",
+        "type": "image/jpeg",
+        "license": "Unlicense / public domain dedication",
+        "attribution": "free-exercise-db by yuhonas",
+        "source": "free-exercise-db",
+        "source_id": "Barbell_Incline_Bench_Press_-_Medium_Grip",
+        "matched_name": "Barbell Incline Bench Press - Medium Grip"
+      },
+      "expert_rating": {
+        "score": 7.5,
+        "tier": "B",
+        "stability": "medium",
+        "stretch": "medium",
+        "sfr": "medium",
+        "verdict": "Solid upper chest builder; similarly restricted by the bar path."
+      },
+      "plain_summary": "Press a barbell on an upward slope to target your upper chest, filling out the area right below your collarbone."
+    },
+    {
+      "id": "incline_dumbbell_press",
+      "name": "Incline Dumbbell Press",
+      "category": "push",
+      "equipment": [
+        "dumbbells",
+        "incline_bench"
+      ],
+      "movement_pattern": "incline press",
+      "primary_muscles": [
+        "pectoralis_major_clavicular"
+      ],
+      "secondary_muscles": [
+        "anterior_deltoid",
+        "triceps_brachii"
+      ],
+      "biomechanics": "Provides a joint-friendly path for upper chest training, allowing natural rotation of the wrists.",
+      "setup_cues": [
+        "Set incline bench to 30 degrees.",
+        "Kick dumbbells up to shoulder height while lying back.",
+        "Depress shoulders and pull them back into the bench.",
+        "Press dumbbells up in a slight arc without touching them at the top."
+      ],
+      "common_mistakes": [
+        "Allowing the weights to drift outward, straining shoulders.",
+        "Bouncing the weights at the bottom stretch.",
+        "Elbows flaring out rather than tucked at a 45-degree angle."
+      ],
+      "progression": "Increase weight or add a 2-second pause at the bottom of each rep.",
+      "regression": "Chest press machine or decrease dumbbell weight.",
+      "substitutions": [
+        "incline_barbell_bench_press",
+        "chest_press_machine"
+      ],
+      "media": {
+        "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Incline_Dumbbell_Press/0.jpg",
+        "type": "image/jpeg",
+        "license": "Unlicense / public domain dedication",
+        "attribution": "free-exercise-db by yuhonas",
+        "source": "free-exercise-db",
+        "source_id": "Incline_Dumbbell_Press",
+        "matched_name": "Incline Dumbbell Press"
+      },
+      "expert_rating": {
+        "score": 9,
+        "tier": "S",
+        "stability": "medium",
+        "stretch": "high",
+        "sfr": "high",
+        "verdict": "Top-tier upper-chest developer. Joint-friendly angle allows optimal alignment with upper chest fibers."
+      },
+      "plain_summary": "Press dumbbells on a slanted bench to build your upper chest while allowing your hands to rotate naturally to protect your shoulders."
+    },
+    {
+      "id": "incline_dumbbell_flyes",
+      "name": "Incline Dumbbell Flyes",
+      "category": "push",
+      "equipment": [
+        "dumbbells",
+        "incline_bench"
+      ],
+      "movement_pattern": "fly",
+      "primary_muscles": [
+        "pectoralis_major_clavicular"
+      ],
+      "secondary_muscles": [
+        "anterior_deltoid"
+      ],
+      "biomechanics": "Isolates the chest by removing triceps involvement, focusing on horizontal adduction under stretch.",
+      "setup_cues": [
+        "Lie on a 30-degree incline bench with dumbbells held overhead.",
+        "Maintain a slight bend in the elbows throughout the set.",
+        "Lower dumbbells out in a wide arc until chest feels stretched.",
+        "Squeeze chest to return dumbbells to starting position."
+      ],
+      "common_mistakes": [
+        "Turning the fly into a press by bending the elbows too much at the bottom.",
+        "Lowering the weights too deep, risking shoulder injury.",
+        "Colliding the dumbbells together at the top, removing tension."
+      ],
+      "progression": "Increase dumbbell weight slightly or focus on slow eccentric phases.",
+      "regression": "Cable crossover or machine flyes.",
+      "substitutions": [
+        "cable_crossover",
+        "dumbbell_bench_press",
+        "push_up"
+      ],
+      "media": {
+        "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Incline_Dumbbell_Flyes/0.jpg",
+        "type": "image/jpeg",
+        "license": "Unlicense / public domain dedication",
+        "attribution": "free-exercise-db by yuhonas",
+        "source": "free-exercise-db",
+        "source_id": "Incline_Dumbbell_Flyes",
+        "matched_name": "Incline Dumbbell Flyes"
+      },
+      "expert_rating": {
+        "score": 6.5,
+        "tier": "C",
+        "stability": "low",
+        "stretch": "high",
+        "sfr": "low",
+        "verdict": "Excellent stretch, but tension drops off to zero at the top. Cable variations are vastly superior."
+      },
+      "plain_summary": "Sweep two dumbbells out in a wide arc on a slanted bench to stretch and isolate your upper chest muscles."
+    },
+    {
+      "id": "push_up",
+      "name": "Push-Up",
+      "category": "push",
+      "equipment": [],
+      "movement_pattern": "horizontal press",
+      "primary_muscles": [
+        "pectoralis_major"
+      ],
+      "secondary_muscles": [
+        "anterior_deltoid",
+        "triceps_brachii",
+        "core_stabilizers"
+      ],
+      "biomechanics": "A versatile bodyweight movement that builds horizontal press strength while requiring active core stabilization.",
+      "setup_cues": [
+        "Place hands slightly wider than shoulder width on the floor.",
+        "Establish a straight line from head to heels, squeezing glutes.",
+        "Lower chest to the floor by bending elbows back at a 45-degree angle.",
+        "Push away from the floor back to the starting plank."
+      ],
+      "common_mistakes": [
+        "Allowing the hips to sag, putting pressure on the lower back.",
+        "Flaring elbows to 90 degrees.",
+        "Doing half reps by not lowering chest all the way."
+      ],
+      "progression": "Perform decline push-ups (feet elevated) or add weighted vest.",
+      "regression": "Incline push-ups (hands on a bench or wall) or knee push-ups.",
+      "substitutions": [
+        "barbell_bench_press",
+        "dumbbell_bench_press",
+        "chest_press_machine"
+      ],
+      "media": {
+        "url": null,
+        "type": null,
+        "license": null,
+        "attribution": null
+      },
+      "expert_rating": {
+        "score": 7.5,
+        "tier": "B",
+        "stability": "medium",
+        "stretch": "medium",
+        "sfr": "high",
+        "verdict": "Excellent shoulder blade movement (scapular freedom), but difficult to overload progressively."
+      },
+      "plain_summary": "Push your body weight off the floor to build your chest, shoulders, and arms while teaching your core to stay tight."
+    },
+    {
+      "id": "chest_press_machine",
+      "name": "Seated Chest Press Machine",
+      "category": "push",
+      "equipment": [
+        "chest_press_machine"
+      ],
+      "movement_pattern": "horizontal press",
+      "primary_muscles": [
+        "pectoralis_major"
+      ],
+      "secondary_muscles": [
+        "anterior_deltoid",
+        "triceps_brachii"
+      ],
+      "biomechanics": "Targets the mid-chest with a stabilized movement pattern, excellent for training close to failure safely.",
+      "setup_cues": [
+        "Adjust seat so handles are at mid-chest level.",
+        "Keep shoulder blades retracted and chest up.",
+        "Push handles forward while keeping elbows tucked slightly below shoulders.",
+        "Control the weight back to the starting point without resting."
+      ],
+      "common_mistakes": [
+        "Not using a full range of motion.",
+        "Letting the lower back arch away from the pad.",
+        "Flaring elbows upwards during the push."
+      ],
+      "progression": "Increase weight or add a pause at the peak contraction.",
+      "regression": "Decrease weight or perform standard bodyweight push-ups.",
+      "substitutions": [
+        "dumbbell_bench_press",
+        "barbell_bench_press",
+        "push_up"
+      ],
+      "media": {
+        "url": null,
+        "type": null,
+        "license": null,
+        "attribution": null
+      },
+      "expert_rating": {
+        "score": 9.5,
+        "tier": "S",
+        "stability": "high",
+        "stretch": "high",
+        "sfr": "high",
+        "verdict": "Highly stable, allowing safe training close to absolute muscular failure without balance constraints."
+      },
+      "plain_summary": "Push the handles of a guided machine forward to train your chest safely without needing to balance a heavy free weight."
+    },
+    {
+      "id": "cable_crossover",
+      "name": "Cable Crossover",
+      "category": "push",
+      "equipment": [
+        "cable_machine"
+      ],
+      "movement_pattern": "fly",
+      "primary_muscles": [
+        "pectoralis_major"
+      ],
+      "secondary_muscles": [
+        "anterior_deltoid"
+      ],
+      "biomechanics": "Maintains constant tension on the chest throughout the entire range of motion, especially at peak contraction.",
+      "setup_cues": [
+        "Set pulleys to shoulder height or higher.",
+        "Grab handles, step forward to create tension, and stand split-stance.",
+        "Maintain a slight elbow bend and lean forward slightly.",
+        "Bring hands together in front of the waist in a sweeping arc."
+      ],
+      "common_mistakes": [
+        "Pressing the weight instead of flying.",
+        "Letting the hands go too far back and overstretching the shoulders.",
+        "Using momentum or leaning too far forward."
+      ],
+      "progression": "Increase cable stack weight or add a squeeze at contraction.",
+      "regression": "Reduce weight or use incline dumbbell flyes with light weights.",
+      "substitutions": [
+        "incline_dumbbell_flyes",
+        "dumbbell_bench_press",
+        "push_up"
+      ],
+      "media": {
+        "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Cable_Crossover/0.jpg",
+        "type": "image/jpeg",
+        "license": "Unlicense / public domain dedication",
+        "attribution": "free-exercise-db by yuhonas",
+        "source": "free-exercise-db",
+        "source_id": "Cable_Crossover",
+        "matched_name": "Cable Crossover"
+      },
+      "expert_rating": {
+        "score": 8.5,
+        "tier": "A",
+        "stability": "medium",
+        "stretch": "high",
+        "sfr": "high",
+        "verdict": "Maintains constant tension across the entire range of motion, providing a great squeeze at the top."
+      },
+      "plain_summary": "Pull cables together in front of you to keep constant tension on your chest muscles, especially when your hands meet."
+    },
+    {
+      "id": "overhead_barbell_press",
+      "name": "Overhead Barbell Press",
+      "category": "push",
+      "equipment": [
+        "barbell"
+      ],
+      "movement_pattern": "vertical press",
+      "primary_muscles": [
+        "anterior_deltoid"
+      ],
+      "secondary_muscles": [
+        "triceps_brachii",
+        "lateral_deltoid",
+        "trapezius"
+      ],
+      "biomechanics": "A fundamental vertical press that challenges shoulder strength, core stability, and overhead mobility.",
+      "setup_cues": [
+        "Set bar at chest height and grip slightly wider than shoulders.",
+        "Keep forearms vertical under the bar, elbows tucked slightly.",
+        "Brace core, squeeze glutes, and press bar straight up.",
+        "Pull head back slightly as the bar passes the face, then push head forward at lock."
+      ],
+      "common_mistakes": [
+        "Leaning back excessively, converting it to an incline press.",
+        "Failing to brace the core, causing lower back strain.",
+        "Not locking out at the top or skipping the bottom range."
+      ],
+      "progression": "Add weight slowly or perform seated to isolate the shoulders.",
+      "regression": "Seated dumbbell shoulder press or dumbbell shoulder press.",
+      "substitutions": [
+        "seated_dumbbell_shoulder_press",
+        "dumbbell_lateral_raise",
+        "chest_press_machine"
+      ],
+      "media": {
+        "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Barbell_Shoulder_Press/0.jpg",
+        "type": "image/jpeg",
+        "license": "Unlicense / public domain dedication",
+        "attribution": "free-exercise-db by yuhonas",
+        "source": "free-exercise-db",
+        "source_id": "Barbell_Shoulder_Press",
+        "matched_name": "Barbell Shoulder Press"
+      },
+      "expert_rating": {
+        "score": 6,
+        "tier": "D",
+        "stability": "low",
+        "stretch": "medium",
+        "sfr": "low",
+        "verdict": "Excellent strength/overhead test, but high fatigue and lower back limits make it sub-optimal for shoulder growth."
+      },
+      "plain_summary": "Press a barbell straight up to build the front of your shoulders and strengthen your core as you stand tall."
+    },
+    {
+      "id": "seated_dumbbell_shoulder_press",
+      "name": "Seated Dumbbell Shoulder Press",
+      "category": "push",
+      "equipment": [
+        "dumbbells",
+        "bench"
+      ],
+      "movement_pattern": "vertical press",
+      "primary_muscles": [
+        "anterior_deltoid"
+      ],
+      "secondary_muscles": [
+        "triceps_brachii",
+        "lateral_deltoid"
+      ],
+      "biomechanics": "Provides independent shoulder loading, reducing core stability demands compared to standing press.",
+      "setup_cues": [
+        "Sit on a bench with back support at a high angle.",
+        "Kick dumbbells up to shoulder height.",
+        "Keep elbows tucked at a 30-degree angle forward (scapular plane).",
+        "Press weights overhead in a controlled arc without touching them."
+      ],
+      "common_mistakes": [
+        "Flaring elbows completely to the sides (90 degrees).",
+        "Arching lower back off the pad.",
+        "Dropping weights too fast and losing tension at the bottom."
+      ],
+      "progression": "Increase dumbbell weight or pause at the bottom of the movement.",
+      "regression": "Seated machine shoulder press or lighter dumbbells.",
+      "substitutions": [
+        "overhead_barbell_press",
+        "dumbbell_lateral_raise",
+        "chest_press_machine"
+      ],
+      "media": {
+        "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Seated_Dumbbell_Press/0.jpg",
+        "type": "image/jpeg",
+        "license": "Unlicense / public domain dedication",
+        "attribution": "free-exercise-db by yuhonas",
+        "source": "free-exercise-db",
+        "source_id": "Seated_Dumbbell_Press",
+        "matched_name": "Seated Dumbbell Press"
+      },
+      "expert_rating": {
+        "score": 8,
+        "tier": "A",
+        "stability": "high",
+        "stretch": "high",
+        "sfr": "high",
+        "verdict": "Far superior shoulder hypertrophy stimulus than standing barbell press due to back support and stability."
+      },
+      "plain_summary": "Press dumbbells overhead while sitting to build the front of your shoulders without putting extra strain on your lower back."
+    },
+    {
+      "id": "dumbbell_lateral_raise",
+      "name": "Dumbbell Lateral Raise",
+      "category": "push",
+      "equipment": [
+        "dumbbells"
+      ],
+      "movement_pattern": "lateral raise",
+      "primary_muscles": [
+        "lateral_deltoid"
+      ],
+      "secondary_muscles": [
+        "anterior_deltoid",
+        "trapezius"
+      ],
+      "biomechanics": "Isolates the side shoulders through shoulder abduction, creating upper body width.",
+      "setup_cues": [
+        "Stand tall with dumbbells at your sides.",
+        "Lean forward very slightly, keeping chest proud.",
+        "Raise weights out to the sides, leading with the elbows.",
+        "Stop when hands reach shoulder height, then lower under control."
+      ],
+      "common_mistakes": [
+        "Shrugging the shoulders up, transferring the load to the traps.",
+        "Using body momentum to swing the weights up.",
+        "Keeping arms completely straight, placing stress on the elbows."
+      ],
+      "progression": "Increase weight slightly or use a 3-second negative tempo.",
+      "regression": "Cable lateral raise or lighter dumbbells.",
+      "substitutions": [
+        "cable_lateral_raise",
+        "seated_dumbbell_shoulder_press",
+        "dynamic_arm_swings"
+      ],
+      "media": {
+        "url": null,
+        "type": null,
+        "license": null,
+        "attribution": null
+      },
+      "expert_rating": {
+        "score": 7.5,
+        "tier": "B",
+        "stability": "low",
+        "stretch": "low",
+        "sfr": "medium",
+        "verdict": "Classic lateral head isolation, but suffers from zero tension at the bottom and max tension at the top."
+      },
+      "plain_summary": "Raise dumbbells out to your sides to build your side shoulders, creating the cap that makes your upper body look wider."
+    },
+    {
+      "id": "cable_lateral_raise",
+      "name": "Cable Lateral Raise",
+      "category": "push",
+      "equipment": [
+        "cable_machine"
+      ],
+      "movement_pattern": "lateral raise",
+      "primary_muscles": [
+        "lateral_deltoid"
+      ],
+      "secondary_muscles": [
+        "anterior_deltoid",
+        "trapezius"
+      ],
+      "biomechanics": "Maintains constant tension on the side deltoids, especially in the stretched position at the bottom of the rep.",
+      "setup_cues": [
+        "Set pulley to the lowest setting.",
+        "Stand sideways to the machine, holding the handle with the far hand.",
+        "Keep a slight bend in the elbow and chest up.",
+        "Raise hand out to the side until it reaches shoulder height."
+      ],
+      "common_mistakes": [
+        "Allowing the body to lean too far away from the machine.",
+        "Slamming the weights at the bottom.",
+        "Using momentum instead of controlled muscle contraction."
+      ],
+      "progression": "Increase the cable stack weight or add a pause at the top.",
+      "regression": "Dumbbell lateral raise with light weights.",
+      "substitutions": [
+        "dumbbell_lateral_raise",
+        "seated_dumbbell_shoulder_press",
+        "dynamic_arm_swings"
+      ],
+      "media": {
+        "url": null,
+        "type": null,
+        "license": null,
+        "attribution": null
+      },
+      "expert_rating": {
+        "score": 9,
+        "tier": "S",
+        "stability": "medium",
+        "stretch": "high",
+        "sfr": "high",
+        "verdict": "Superior to dumbbells due to constant cable tension, especially overloading the lateral delts in their stretched position."
+      },
+      "plain_summary": "Pull a cable across your body to keep constant tension on your side shoulders, building width even at the very bottom."
+    },
+    {
+      "id": "cable_tricep_pushdown",
+      "name": "Cable Tricep Pushdown",
+      "category": "push",
+      "equipment": [
+        "cable_machine"
+      ],
+      "movement_pattern": "tricep extension",
+      "primary_muscles": [
+        "triceps_brachii"
+      ],
+      "secondary_muscles": [],
+      "biomechanics": "Isolates the triceps, particularly the lateral and medial heads, by restricting movement to elbow extension.",
+      "setup_cues": [
+        "Attach a rope or straight bar to a high pulley.",
+        "Step back slightly, tucking elbows close to your ribs.",
+        "Keep chest up and knees slightly bent.",
+        "Push the weight down, fully extending the elbows and spreading the rope at the bottom."
+      ],
+      "common_mistakes": [
+        "Allowing the elbows to drift forward and backward, using the chest or shoulders.",
+        "Leaning too far over the bar to use bodyweight.",
+        "Letting the wrists collapse."
+      ],
+      "progression": "Increase the cable stack weight or add a hold at full extension.",
+      "regression": "Reduce stack weight or use lighter resistance band pushdowns.",
+      "substitutions": [
+        "overhead_dumbbell_tricep_extension",
+        "lying_tricep_extension"
+      ],
+      "media": {
+        "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Triceps_Pushdown/0.jpg",
+        "type": "image/jpeg",
+        "license": "Unlicense / public domain dedication",
+        "attribution": "free-exercise-db by yuhonas",
+        "source": "free-exercise-db",
+        "source_id": "Triceps_Pushdown",
+        "matched_name": "Triceps Pushdown"
+      },
+      "expert_rating": {
+        "score": 9,
+        "tier": "S",
+        "stability": "high",
+        "stretch": "medium",
+        "sfr": "high",
+        "verdict": "Superb lateral/medial tricep head builder. Extremely stable and easily customized."
+      },
+      "plain_summary": "Push a cable attachment down to isolate and build the triceps, which make up the back of your upper arm."
+    },
+    {
+      "id": "overhead_dumbbell_tricep_extension",
+      "name": "Overhead Dumbbell Tricep Extension",
+      "category": "push",
+      "equipment": [
+        "dumbbells",
+        "bench"
+      ],
+      "movement_pattern": "tricep extension",
+      "primary_muscles": [
+        "triceps_brachii_long_head"
+      ],
+      "secondary_muscles": [],
+      "biomechanics": "Overloads the long head of the triceps by placing the shoulder in a flexed, overhead position under stretch.",
+      "setup_cues": [
+        "Sit on a short-backed bench and hold a dumbbell overhead with both hands.",
+        "Keep elbows tucked close to your head, pointing forward.",
+        "Lower the weight slowly behind your head.",
+        "Press the dumbbell back up to the starting position by extending the elbows."
+      ],
+      "common_mistakes": [
+        "Flaring elbows wide, placing stress on the shoulder joint.",
+        "Not lowering the weight far enough to get a stretch.",
+        "Arching the lower back excessively."
+      ],
+      "progression": "Increase dumbbell weight or use a single-arm variation.",
+      "regression": "Cable tricep pushdown to avoid overhead shoulder mobility demands.",
+      "substitutions": [
+        "cable_tricep_pushdown",
+        "lying_tricep_extension"
+      ],
+      "media": {
+        "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Standing_Dumbbell_Triceps_Extension/0.jpg",
+        "type": "image/jpeg",
+        "license": "Unlicense / public domain dedication",
+        "attribution": "free-exercise-db by yuhonas",
+        "source": "free-exercise-db",
+        "source_id": "Standing_Dumbbell_Triceps_Extension",
+        "matched_name": "Standing Dumbbell Triceps Extension"
+      },
+      "expert_rating": {
+        "score": 8.5,
+        "tier": "A",
+        "stability": "medium",
+        "stretch": "high",
+        "sfr": "high",
+        "verdict": "Puts the long head of the triceps in a deep stretch, capitalizing on stretch-mediated hypertrophy."
+      },
+      "plain_summary": "Stretches the long head of your triceps overhead — the position that builds the thick back of your arm."
+    },
+    {
+      "id": "lying_tricep_extension",
+      "name": "Lying EZ-Bar Tricep Extension",
+      "category": "push",
+      "equipment": [
+        "barbell",
+        "bench"
+      ],
+      "movement_pattern": "tricep extension",
+      "primary_muscles": [
+        "triceps_brachii"
+      ],
+      "secondary_muscles": [],
+      "biomechanics": "Allows intense triceps loading with the shoulders fixed at 90 degrees, offering high stretch at the bottom of the movement.",
+      "setup_cues": [
+        "Lie on a flat bench holding an EZ-bar or barbell above chest with arms straight.",
+        "Incline your arms back slightly (about 10 degrees) to keep constant tension.",
+        "Bend at the elbows to lower the bar toward your forehead or behind your head.",
+        "Extend the elbows to return to the starting position, keeping the upper arms locked."
+      ],
+      "common_mistakes": [
+        "Allowing elbows to flare outward to the sides.",
+        "Moving the shoulders back and forth, turning it into a pull-over.",
+        "Slamming the bar toward the forehead."
+      ],
+      "progression": "Increase the bar load or perform with dumbbells.",
+      "regression": "Cable tricep pushdown for safer elbow loading.",
+      "substitutions": [
+        "cable_tricep_pushdown",
+        "overhead_dumbbell_tricep_extension"
+      ],
+      "media": {
+        "url": null,
+        "type": null,
+        "license": null,
+        "attribution": null
+      },
+      "expert_rating": {
+        "score": 8,
+        "tier": "A",
+        "stability": "medium",
+        "stretch": "high",
+        "sfr": "medium",
+        "verdict": "Hits the long head under excellent load, but can cause elbow joint stress over time."
+      },
+      "plain_summary": "Lower a weight toward your forehead while lying down to stretch and load the triceps on the back of your arms."
+    },
+    {
+      "id": "lat_pulldown",
+      "name": "Lat Pulldown",
+      "category": "pull",
+      "equipment": [
+        "cable_machine"
+      ],
+      "movement_pattern": "vertical pull",
+      "primary_muscles": [
+        "latissimus_dorsi"
+      ],
+      "secondary_muscles": [
+        "biceps_brachii",
+        "rhomboids",
+        "trapezius"
+      ],
+      "biomechanics": "Trains vertical shoulder adduction and elbow flexion, overloading the lats in the mid-to-stretched range.",
+      "setup_cues": [
+        "Adjust thigh pad so legs are locked in.",
+        "Grip the bar slightly wider than shoulders.",
+        "Lean back slightly (10-15 degrees) and pull shoulder blades down.",
+        "Pull the bar to your upper chest, leading with the elbows."
+      ],
+      "common_mistakes": [
+        "Pulling the bar behind the neck, risking shoulder impingement.",
+        "Using body momentum to swing and pull the weight.",
+        "Letsing the shoulders shrug up at the top."
+      ],
+      "progression": "Increase cable weight while keeping chest up and movement controlled.",
+      "regression": "Assisted pull-ups or lighter lat pulldowns.",
+      "substitutions": [
+        "pull_up",
+        "assisted_pull_up",
+        "lat_pulldown_close_grip"
+      ],
+      "media": {
+        "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Wide-Grip_Lat_Pulldown/0.jpg",
+        "type": "image/jpeg",
+        "license": "Unlicense / public domain dedication",
+        "attribution": "free-exercise-db by yuhonas",
+        "source": "free-exercise-db",
+        "source_id": "Wide-Grip_Lat_Pulldown",
+        "matched_name": "Wide-Grip Lat Pulldown"
+      },
+      "expert_rating": {
+        "score": 8.5,
+        "tier": "A",
+        "stability": "high",
+        "stretch": "high",
+        "sfr": "high",
+        "verdict": "Highly stable, easily progressive vertical pull that loads the lats optimally in the stretch."
+      },
+      "plain_summary": "Pulls a bar down to train your lats, building the back width that creates a V-taper."
+    },
+    {
+      "id": "pull_up",
+      "name": "Pull-Up",
+      "category": "pull",
+      "equipment": [
+        "pull_up_bar"
+      ],
+      "movement_pattern": "vertical pull",
+      "primary_muscles": [
+        "latissimus_dorsi"
+      ],
+      "secondary_muscles": [
+        "biceps_brachii",
+        "rhomboids",
+        "trapezius",
+        "core_stabilizers"
+      ],
+      "biomechanics": "A fundamental vertical pull that requires significant relative bodyweight strength and core stabilization.",
+      "setup_cues": [
+        "Grip the bar with palms facing away, slightly wider than shoulder width.",
+        "Hang at full extension, then depress shoulder blades.",
+        "Pull chest toward the bar, driving elbows down.",
+        "Lower yourself slowly back to a dead hang."
+      ],
+      "common_mistakes": [
+        "Kicking legs or using momentum (kipping).",
+        "Not completing the full range of motion (chin not clearing bar).",
+        "Allowing shoulders to roll forward at the top."
+      ],
+      "progression": "Add weight via a dip belt or slow down the eccentric phase.",
+      "regression": "Assisted pull-up or lat pulldowns.",
+      "substitutions": [
+        "assisted_pull_up",
+        "lat_pulldown"
+      ],
+      "media": {
+        "url": null,
+        "type": null,
+        "license": null,
+        "attribution": null
+      },
+      "expert_rating": {
+        "score": 8,
+        "tier": "A",
+        "stability": "medium",
+        "stretch": "high",
+        "sfr": "medium",
+        "verdict": "Classic vertical pull, but bodyweight limitation makes incremental loading less smooth."
+      },
+      "plain_summary": "Pull your own body weight up to a bar to build your lats, the big wing-shaped muscles on your back."
+    },
+    {
+      "id": "assisted_pull_up",
+      "name": "Assisted Pull-Up",
+      "category": "pull",
+      "equipment": [
+        "assisted_pull_up_machine"
+      ],
+      "movement_pattern": "vertical pull",
+      "primary_muscles": [
+        "latissimus_dorsi"
+      ],
+      "secondary_muscles": [
+        "biceps_brachii",
+        "rhomboids",
+        "trapezius"
+      ],
+      "biomechanics": "Allows building vertical pulling strength with reduced load, ensuring proper form and lat activation.",
+      "setup_cues": [
+        "Set the counterweight pad and stand/kneel on it.",
+        "Grip the handles slightly wider than shoulders.",
+        "Depress shoulder blades and pull chest up toward the handles.",
+        "Control the descent back to the starting point."
+      ],
+      "common_mistakes": [
+        "Bouncing at the bottom of the movement.",
+        "Using too much assistance and not challenging the muscles.",
+        "Allowing the chest to cave at the top."
+      ],
+      "progression": "Gradually decrease the assistance weight on the machine.",
+      "regression": "Increase the assistance weight or perform lat pulldowns.",
+      "substitutions": [
+        "pull_up",
+        "lat_pulldown"
+      ],
+      "media": {
+        "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Band_Assisted_Pull-Up/0.jpg",
+        "type": "image/jpeg",
+        "license": "Unlicense / public domain dedication",
+        "attribution": "free-exercise-db by yuhonas",
+        "source": "free-exercise-db",
+        "source_id": "Band_Assisted_Pull-Up",
+        "matched_name": "Band Assisted Pull-Up"
+      },
+      "expert_rating": {
+        "score": 8.5,
+        "tier": "A",
+        "stability": "high",
+        "stretch": "high",
+        "sfr": "high",
+        "verdict": "More scalable and controllable version of the pull-up, allowing strict lat isolation."
+      },
+      "plain_summary": "Use a counterweight platform to help pull yourself up, building back width through your lats with a manageable load."
+    },
+    {
+      "id": "seated_cable_row",
+      "name": "Seated Cable Row",
+      "category": "pull",
+      "equipment": [
+        "cable_machine",
+        "bench"
+      ],
+      "movement_pattern": "horizontal pull",
+      "primary_muscles": [
+        "rhomboids",
+        "trapezius_middle_lower"
+      ],
+      "secondary_muscles": [
+        "latissimus_dorsi",
+        "biceps_brachii",
+        "posterior_deltoid"
+      ],
+      "biomechanics": "A versatile horizontal pull that targets upper back thickness and shoulder blade retraction.",
+      "setup_cues": [
+        "Sit on the bench, knees slightly bent, and grip the attachment.",
+        "Sit upright, shoulders back and down, core braced.",
+        "Pull the handle toward the lower sternum, squeezing shoulder blades.",
+        "Extend arms forward under control, keeping the torso stable."
+      ],
+      "common_mistakes": [
+        "Leaning excessively backward and forward, using lower back momentum.",
+        "Shrugging shoulders up toward ears.",
+        "Failing to squeeze shoulder blades at the end of the pull."
+      ],
+      "progression": "Increase cable stack weight or add a 1-second pause at peak contraction.",
+      "regression": "Chest-supported row machine or lighter cable weight.",
+      "substitutions": [
+        "chest_supported_row_machine",
+        "dumbbell_row",
+        "barbell_row"
+      ],
+      "media": {
+        "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Seated_Cable_Rows/0.jpg",
+        "type": "image/jpeg",
+        "license": "Unlicense / public domain dedication",
+        "attribution": "free-exercise-db by yuhonas",
+        "source": "free-exercise-db",
+        "source_id": "Seated_Cable_Rows",
+        "matched_name": "Seated Cable Rows"
+      },
+      "expert_rating": {
+        "score": 8.5,
+        "tier": "A",
+        "stability": "medium",
+        "stretch": "high",
+        "sfr": "high",
+        "verdict": "Stable horizontal pull allowing great shoulder blade retraction and middle-back loading."
+      },
+      "plain_summary": "Rows a handle to your waist to thicken your mid-back — the muscles that fill out the V from behind."
+    },
+    {
+      "id": "chest_supported_row_machine",
+      "name": "Chest-Supported Row Machine",
+      "category": "pull",
+      "equipment": [
+        "chest_supported_row_machine"
+      ],
+      "movement_pattern": "horizontal pull",
+      "primary_muscles": [
+        "rhomboids",
+        "trapezius_middle_lower",
+        "latissimus_dorsi"
+      ],
+      "secondary_muscles": [
+        "biceps_brachii",
+        "posterior_deltoid"
+      ],
+      "biomechanics": "Removes lower back stabilization requirements, allowing complete focus on isolating the upper back and lats.",
+      "setup_cues": [
+        "Adjust seat so the chest pad is resting against the middle of your sternum.",
+        "Keep chest flat on the pad, feet firmly planted.",
+        "Grip the handles and pull them toward you, driving elbows back.",
+        "Control the weight back to the start, feeling the stretch in your lats."
+      ],
+      "common_mistakes": [
+        "Lifting the chest off the pad during the pull.",
+        "Letting shoulders roll forward at the end of the movement.",
+        "Slamming the weights."
+      ],
+      "progression": "Increase machine load or perform with single-arm focus.",
+      "regression": "Decrease weight or perform seated cable rows.",
+      "substitutions": [
+        "seated_cable_row",
+        "dumbbell_row",
+        "barbell_row"
+      ],
+      "media": {
+        "url": null,
+        "type": null,
+        "license": null,
+        "attribution": null
+      },
+      "expert_rating": {
+        "score": 9.5,
+        "tier": "S",
+        "stability": "high",
+        "stretch": "high",
+        "sfr": "high",
+        "verdict": "Top-tier back builder. Chest support completely removes lower back limits, letting you isolate the upper back or lats."
+      },
+      "plain_summary": "Pull machine handles with your chest resting on a pad to isolate your upper back muscles without straining your spine."
+    },
+    {
+      "id": "dumbbell_row",
+      "name": "Single-Arm Dumbbell Row",
+      "category": "pull",
+      "equipment": [
+        "dumbbells",
+        "bench"
+      ],
+      "movement_pattern": "horizontal pull",
+      "primary_muscles": [
+        "latissimus_dorsi",
+        "rhomboids"
+      ],
+      "secondary_muscles": [
+        "biceps_brachii",
+        "posterior_deltoid",
+        "core_stabilizers"
+      ],
+      "biomechanics": "Allows unilateral back training to address strength discrepancies, with high lat engagement through a long range of motion.",
+      "setup_cues": [
+        "Place one knee and hand on the bench, keeping the back flat and parallel to floor.",
+        "Hold the dumbbell in the opposite hand, arm hanging straight down.",
+        "Pull the dumbbell up to your hip, keeping the elbow tucked.",
+        "Lower the weight slowly to the start position, feeling a lat stretch."
+      ],
+      "common_mistakes": [
+        "Twisting the torso to help pull the dumbbell.",
+        "Pulling the dumbbell to the chest instead of the hip.",
+        "Rounding the lower back."
+      ],
+      "progression": "Increase dumbbell weight or focus on a slow, 3-second eccentric phase.",
+      "regression": "Chest-supported row machine or lighter dumbbells.",
+      "substitutions": [
+        "seated_cable_row",
+        "chest_supported_row_machine"
+      ],
+      "media": {
+        "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/One-Arm_Dumbbell_Row/0.jpg",
+        "type": "image/jpeg",
+        "license": "Unlicense / public domain dedication",
+        "attribution": "free-exercise-db by yuhonas",
+        "source": "free-exercise-db",
+        "source_id": "One-Arm_Dumbbell_Row",
+        "matched_name": "One-Arm Dumbbell Row"
+      },
+      "expert_rating": {
+        "score": 8,
+        "tier": "A",
+        "stability": "medium",
+        "stretch": "high",
+        "sfr": "medium",
+        "verdict": "Excellent single-arm row that provides a deep lat stretch, though core rotation can creep in."
+      },
+      "plain_summary": "Pull a dumbbell to your hip one side at a time to build your back width and balance strength between arms."
+    },
+    {
+      "id": "barbell_row",
+      "name": "Bent-Over Barbell Row",
+      "category": "pull",
+      "equipment": [
+        "barbell"
+      ],
+      "movement_pattern": "horizontal pull",
+      "primary_muscles": [
+        "latissimus_dorsi",
+        "rhomboids",
+        "trapezius"
+      ],
+      "secondary_muscles": [
+        "erector_spinae",
+        "biceps_brachii",
+        "posterior_deltoid"
+      ],
+      "biomechanics": "A compound back builder that requires significant isometric lower-back and hamstring engagement.",
+      "setup_cues": [
+        "Stand with feet hip-width apart and hinge forward at the hips to about 45 degrees.",
+        "Grip the barbell slightly wider than shoulders.",
+        "Keep the spine neutral and pull the bar to your belly button.",
+        "Lower the bar under control back to arm's length."
+      ],
+      "common_mistakes": [
+        "Rounding the back, risking lower back injury.",
+        "Standing too upright, turning it into a shoulder press.",
+        "Using leg momentum to lift the bar."
+      ],
+      "progression": "Increase bar weight or incorporate pauses at the top.",
+      "regression": "Chest-supported row machine or single-arm dumbbell row.",
+      "substitutions": [
+        "seated_cable_row",
+        "chest_supported_row_machine",
+        "dumbbell_row"
+      ],
+      "media": {
+        "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Bent_Over_Barbell_Row/0.jpg",
+        "type": "image/jpeg",
+        "license": "Unlicense / public domain dedication",
+        "attribution": "free-exercise-db by yuhonas",
+        "source": "free-exercise-db",
+        "source_id": "Bent_Over_Barbell_Row",
+        "matched_name": "Bent Over Barbell Row"
+      },
+      "expert_rating": {
+        "score": 6.5,
+        "tier": "C",
+        "stability": "low",
+        "stretch": "medium",
+        "sfr": "low",
+        "verdict": "Great for overall strength, but highly limited by spinal erector fatigue rather than upper back fatigue."
+      },
+      "plain_summary": "Bend forward and pull a barbell to your stomach to build thickness in your upper back and strengthen your posture."
+    },
+    {
+      "id": "face_pull",
+      "name": "Cable Face Pull",
+      "category": "pull",
+      "equipment": [
+        "cable_machine"
+      ],
+      "movement_pattern": "horizontal pull",
+      "primary_muscles": [
+        "posterior_deltoid",
+        "infraspinatus",
+        "teres_minor"
+      ],
+      "secondary_muscles": [
+        "trapezius_middle_lower"
+      ],
+      "biomechanics": "Combines horizontal pulling with shoulder external rotation, critical for posture and shoulder health.",
+      "setup_cues": [
+        "Set pulley at upper chest/face height with a rope attachment.",
+        "Hold the rope with thumbs pointing back.",
+        "Step back to tension cable, standing split-stance.",
+        "Pull the rope toward your nose, flaring elbows out and pulling hands apart at the end."
+      ],
+      "common_mistakes": [
+        "Pulling too low toward the chest, missing the rear delts.",
+        "Using too much weight, causing shrugging or leaning back.",
+        "Slamming the stack."
+      ],
+      "progression": "Increase cable stack weight slowly while keeping strict form.",
+      "regression": "Decrease weight or perform band pull-aparts.",
+      "substitutions": [
+        "reverse_dumbbell_fly",
+        "dumbbell_row",
+        "seated_cable_row"
+      ],
+      "media": {
+        "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Face_Pull/0.jpg",
+        "type": "image/jpeg",
+        "license": "Unlicense / public domain dedication",
+        "attribution": "free-exercise-db by yuhonas",
+        "source": "free-exercise-db",
+        "source_id": "Face_Pull",
+        "matched_name": "Face Pull"
+      },
+      "expert_rating": {
+        "score": 8,
+        "tier": "A",
+        "stability": "medium",
+        "stretch": "medium",
+        "sfr": "high",
+        "verdict": "Outstanding for rear delts, lower traps, and general rotator cuff/shoulder health."
+      },
+      "plain_summary": "Pull a cable rope toward your face to strengthen your rear shoulders and upper back, helping pull your shoulders back."
+    },
+    {
+      "id": "reverse_dumbbell_fly",
+      "name": "Reverse Dumbbell Fly",
+      "category": "pull",
+      "equipment": [
+        "dumbbells",
+        "bench"
+      ],
+      "movement_pattern": "fly",
+      "primary_muscles": [
+        "posterior_deltoid"
+      ],
+      "secondary_muscles": [
+        "rhomboids",
+        "trapezius_middle_lower"
+      ],
+      "biomechanics": "Isolates the rear shoulder by performing horizontal abduction, preventing shoulder imbalance.",
+      "setup_cues": [
+        "Hinge forward at the hips with flat back, or lie chest-down on a low incline bench.",
+        "Hold dumbbells beneath you with arms slightly bent.",
+        "Raise weights out to the sides in a wide arc, leading with knuckles.",
+        "Lower under control back to the starting point."
+      ],
+      "common_mistakes": [
+        "Squeezing the shoulder blades too early, letting traps dominate rear delts.",
+        "Swinging the dumbbells using hip momentum.",
+        "Bending the elbows too much, making it a row."
+      ],
+      "progression": "Increase dumbbell weight slightly or add a pause at the peak.",
+      "regression": "Cable face pulls or lighter dumbbells.",
+      "substitutions": [
+        "face_pull",
+        "dumbbell_row",
+        "seated_cable_row"
+      ],
+      "media": {
+        "url": null,
+        "type": null,
+        "license": null,
+        "attribution": null
+      },
+      "expert_rating": {
+        "score": 7,
+        "tier": "B",
+        "stability": "low",
+        "stretch": "low",
+        "sfr": "medium",
+        "verdict": "Good rear-delt builder, though tension is unevenly distributed through the arc."
+      },
+      "plain_summary": "Raise dumbbells out to the sides while bent forward to isolate the rear shoulders, which helps balance your posture."
+    },
+    {
+      "id": "lat_pulldown_close_grip",
+      "name": "Close-Grip Lat Pulldown",
+      "category": "pull",
+      "equipment": [
+        "cable_machine"
+      ],
+      "movement_pattern": "vertical pull",
+      "primary_muscles": [
+        "latissimus_dorsi_lower"
+      ],
+      "secondary_muscles": [
+        "biceps_brachii",
+        "brachialis",
+        "rhomboids"
+      ],
+      "biomechanics": "Using a neutral, close-grip attachment places the arms in shoulder extension, increasing pull through the lower lats.",
+      "setup_cues": [
+        "Attach a close-grip V-bar to the lat pulldown station.",
+        "Slide knees under pad and grip the handle.",
+        "Lean back slightly and pull the handle to your chest, driving elbows down.",
+        "Extend arms fully, letting lats stretch at the top."
+      ],
+      "common_mistakes": [
+        "Pulling with the arms rather than driving with the elbows.",
+        "Rounding the chest and shoulders forward at the bottom.",
+        "Leaning too far back to pull the weight."
+      ],
+      "progression": "Increase cable weight while keeping lats engaged and torso stable.",
+      "regression": "Perform standard lat pulldown with lighter load.",
+      "substitutions": [
+        "lat_pulldown",
+        "seated_cable_row"
+      ],
+      "media": {
+        "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Close-Grip_Front_Lat_Pulldown/0.jpg",
+        "type": "image/jpeg",
+        "license": "Unlicense / public domain dedication",
+        "attribution": "free-exercise-db by yuhonas",
+        "source": "free-exercise-db",
+        "source_id": "Close-Grip_Front_Lat_Pulldown",
+        "matched_name": "Close-Grip Front Lat Pulldown"
+      },
+      "expert_rating": {
+        "score": 9,
+        "tier": "S",
+        "stability": "high",
+        "stretch": "high",
+        "sfr": "high",
+        "verdict": "Close grip puts the lats in an excellent line of pull, leading to deep stretch and high activation."
+      },
+      "plain_summary": "Pull a narrow handle down to your chest to focus on the lower section of your lats near the waist."
+    },
+    {
+      "id": "dumbbell_curl",
+      "name": "Standing Dumbbell Curl",
+      "category": "pull",
+      "equipment": [
+        "dumbbells"
+      ],
+      "movement_pattern": "bicep curl",
+      "primary_muscles": [
+        "biceps_brachii"
+      ],
+      "secondary_muscles": [
+        "brachialis",
+        "brachioradialis"
+      ],
+      "biomechanics": "Isolates elbow flexion and forearm supination, targeting the biceps.",
+      "setup_cues": [
+        "Stand tall with dumbbells at your sides, palms facing each other.",
+        "Squeeze elbows close to your torso.",
+        "Curl weights up, rotating wrists so palms face up at the top.",
+        "Lower dumbbells slowly to the starting position."
+      ],
+      "common_mistakes": [
+        "Swinging the body to lift the weights.",
+        "Letting elbows drift forward, engaging the anterior shoulder.",
+        "Not extending arms fully at the bottom."
+      ],
+      "progression": "Increase dumbbell weight or perform seated to prevent swinging.",
+      "regression": "Cable bicep curl or lighter dumbbells.",
+      "substitutions": [
+        "hammer_curl",
+        "incline_dumbbell_curl",
+        "cable_bicep_curl"
+      ],
+      "media": {
+        "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Dumbbell_Bicep_Curl/0.jpg",
+        "type": "image/jpeg",
+        "license": "Unlicense / public domain dedication",
+        "attribution": "free-exercise-db by yuhonas",
+        "source": "free-exercise-db",
+        "source_id": "Dumbbell_Bicep_Curl",
+        "matched_name": "Dumbbell Bicep Curl"
+      },
+      "expert_rating": {
+        "score": 8,
+        "tier": "A",
+        "stability": "medium",
+        "stretch": "medium",
+        "sfr": "high",
+        "verdict": "A baseline staple. Supinating the wrist at the top aligns with the biceps' main functions."
+      },
+      "plain_summary": "Curl weights up to your shoulders to squeeze and build your biceps, the muscles on the front of your arms."
+    },
+    {
+      "id": "hammer_curl",
+      "name": "Hammer Curl",
+      "category": "pull",
+      "equipment": [
+        "dumbbells"
+      ],
+      "movement_pattern": "bicep curl",
+      "primary_muscles": [
+        "brachialis",
+        "brachioradialis"
+      ],
+      "secondary_muscles": [
+        "biceps_brachii"
+      ],
+      "biomechanics": "Using a neutral grip shifts the load to the brachialis and brachioradialis, building forearm and upper-arm thickness.",
+      "setup_cues": [
+        "Stand tall with dumbbells in hands, palms facing inward.",
+        "Keep elbows pinned to your sides.",
+        "Curl the dumbbells up while maintaining the neutral (hammer) grip.",
+        "Lower slowly back to full extension."
+      ],
+      "common_mistakes": [
+        "Using hip momentum to get the dumbbells moving.",
+        "Elbows drifting forward during the curl.",
+        "Half-repping by stopping short of full extension."
+      ],
+      "progression": "Increase dumbbell weight or use slow eccentric tempo.",
+      "regression": "Cable hammer curls with rope attachment or lighter dumbbells.",
+      "substitutions": [
+        "dumbbell_curl",
+        "cable_bicep_curl"
+      ],
+      "media": {
+        "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Hammer_Curls/0.jpg",
+        "type": "image/jpeg",
+        "license": "Unlicense / public domain dedication",
+        "attribution": "free-exercise-db by yuhonas",
+        "source": "free-exercise-db",
+        "source_id": "Hammer_Curls",
+        "matched_name": "Hammer Curls"
+      },
+      "expert_rating": {
+        "score": 8,
+        "tier": "A",
+        "stability": "medium",
+        "stretch": "medium",
+        "sfr": "high",
+        "verdict": "Essential for building forearm thickness and upper-arm width by targeting brachialis and brachioradialis."
+      },
+      "plain_summary": "Curl dumbbells with your palms facing each other to target your forearms and the muscle that sits under your biceps."
+    },
+    {
+      "id": "incline_dumbbell_curl",
+      "name": "Incline Dumbbell Curl",
+      "category": "pull",
+      "equipment": [
+        "dumbbells",
+        "incline_bench"
+      ],
+      "movement_pattern": "bicep curl",
+      "primary_muscles": [
+        "biceps_brachii_long_head"
+      ],
+      "secondary_muscles": [
+        "brachialis"
+      ],
+      "biomechanics": "Placing the shoulders in hyperextension puts the bicep long head under a high passive stretch, increasing recruitment.",
+      "setup_cues": [
+        "Set incline bench to 45 degrees.",
+        "Sit back, letting dumbbells hang straight down behind the torso.",
+        "Keep elbows fixed in place and curl the weights up.",
+        "Lower dumbbells slowly to feel the deep stretch at the bottom."
+      ],
+      "common_mistakes": [
+        "Allowing the elbows to swing forward to make the curl easier.",
+        "Using a bench incline that is too steep or too low.",
+        "Not completing the full stretch at the bottom."
+      ],
+      "progression": "Increase dumbbell weight slightly or hold the stretch at the bottom.",
+      "regression": "Standing dumbbell curl to remove the intense stretch position.",
+      "substitutions": [
+        "dumbbell_curl",
+        "preacher_curl"
+      ],
+      "media": {
+        "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Incline_Dumbbell_Curl/0.jpg",
+        "type": "image/jpeg",
+        "license": "Unlicense / public domain dedication",
+        "attribution": "free-exercise-db by yuhonas",
+        "source": "free-exercise-db",
+        "source_id": "Incline_Dumbbell_Curl",
+        "matched_name": "Incline Dumbbell Curl"
+      },
+      "expert_rating": {
+        "score": 9,
+        "tier": "S",
+        "stability": "medium",
+        "stretch": "high",
+        "sfr": "high",
+        "verdict": "Unrivaled stretch-mediated bicep builder. Keeps constant tension on the long head in its most lengthened position."
+      },
+      "plain_summary": "Curl weights while sitting back on a slanted bench to stretch and build the outer peak of your biceps."
+    },
+    {
+      "id": "preacher_curl",
+      "name": "Preacher EZ-Bar Curl",
+      "category": "pull",
+      "equipment": [
+        "preacher_curl_bench",
+        "barbell"
+      ],
+      "movement_pattern": "bicep curl",
+      "primary_muscles": [
+        "biceps_brachii_short_head"
+      ],
+      "secondary_muscles": [
+        "brachialis"
+      ],
+      "biomechanics": "The arm pad prevents shoulder movement, isolating the biceps and highlighting peak contraction in the shortened range.",
+      "setup_cues": [
+        "Sit at the bench, placing your armpits flat against the top of the pad.",
+        "Grip the bar with palms facing up.",
+        "Lower the bar slowly until arms are almost fully straight.",
+        "Curl the bar up toward your face, keeping elbows firmly on the pad."
+      ],
+      "common_mistakes": [
+        "Hyperextending the elbows at the bottom, risking tendon injury.",
+        "Lifting the armpits or chest off the pad.",
+        "Not going through the full range of motion."
+      ],
+      "progression": "Increase EZ bar load slowly while keeping 1-3 reps in reserve.",
+      "regression": "Standing dumbbell curls or machine preacher curls with light weights.",
+      "substitutions": [
+        "incline_dumbbell_curl",
+        "dumbbell_curl"
+      ],
+      "media": {
+        "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Preacher_Curl/0.jpg",
+        "type": "image/jpeg",
+        "license": "Unlicense / public domain dedication",
+        "attribution": "free-exercise-db by yuhonas",
+        "source": "free-exercise-db",
+        "source_id": "Preacher_Curl",
+        "matched_name": "Preacher Curl"
+      },
+      "expert_rating": {
+        "score": 8.5,
+        "tier": "A",
+        "stability": "high",
+        "stretch": "medium",
+        "sfr": "high",
+        "verdict": "Arm support removes momentum, creating strict tension, but overloading is heaviest at the bottom extension."
+      },
+      "plain_summary": "Rest your arms on a slanted pad while curling to prevent cheating and target the inner part of your biceps."
+    },
+    {
+      "id": "cable_bicep_curl",
+      "name": "Cable Bicep Curl",
+      "category": "pull",
+      "equipment": [
+        "cable_machine"
+      ],
+      "movement_pattern": "bicep curl",
+      "primary_muscles": [
+        "biceps_brachii"
+      ],
+      "secondary_muscles": [
+        "brachialis"
+      ],
+      "biomechanics": "Provides constant tension on the biceps throughout the movement, avoiding the drop-offs in tension typical of free weights.",
+      "setup_cues": [
+        "Set pulley to the bottom setting with a bar or rope attachment.",
+        "Stand facing the machine, elbows tucked at sides.",
+        "Curl the handle up to shoulder level.",
+        "Lower under control, fully extending arms."
+      ],
+      "common_mistakes": [
+        "Standing too far back, changing the angle of pull.",
+        "Letting elbows flare or move forward.",
+        "Slamming the weight stack."
+      ],
+      "progression": "Increase stack weight or add a 1-second pause at contraction.",
+      "regression": "Decrease stack weight or use dumbbell curls.",
+      "substitutions": [
+        "dumbbell_curl",
+        "hammer_curl"
+      ],
+      "media": {
+        "url": null,
+        "type": null,
+        "license": null,
+        "attribution": null
+      },
+      "expert_rating": {
+        "score": 8.5,
+        "tier": "A",
+        "stability": "medium",
+        "stretch": "medium",
+        "sfr": "high",
+        "verdict": "Constant tension throughout the entire movement arc, preventing rest at the bottom or top."
+      },
+      "plain_summary": "Curl a cable bar up to keep smooth, constant tension on your biceps all the way through the movement."
+    },
+    {
+      "id": "barbell_back_squat",
+      "name": "Barbell Back Squat",
+      "category": "legs",
+      "equipment": [
+        "barbell",
+        "squat_rack"
+      ],
+      "movement_pattern": "squat",
+      "primary_muscles": [
+        "quadriceps"
+      ],
+      "secondary_muscles": [
+        "gluteus_maximus",
+        "adductor_magnus",
+        "erector_spinae"
+      ],
+      "biomechanics": "A primary compound lower-body movement that loads quads, glutes, and core under high mechanical tension.",
+      "setup_cues": [
+        "Set bar at chest height and step under, resting it across upper back/traps.",
+        "Step back, setting feet slightly wider than hips, toes out 15-30 degrees.",
+        "Brace core and sit down between knees, keeping chest proud.",
+        "Drive through the mid-foot to stand up, keeping knees aligned with toes."
+      ],
+      "common_mistakes": [
+        "Allowing knees to cave inward (valgus collapse).",
+        "Rounding the spine or chest collapsing forward.",
+        "Squatting too shallow (not reaching parallel)."
+      ],
+      "progression": "Increase bar weight slowly while maintaining deep depth and clean form.",
+      "regression": "Goblet squats or leg press to build lower-body capacity with less spine loading.",
+      "substitutions": [
+        "leg_press",
+        "goblet_squat",
+        "goblet_box_squat"
+      ],
+      "media": {
+        "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Barbell_Squat/0.jpg",
+        "type": "image/jpeg",
+        "license": "Unlicense / public domain dedication",
+        "attribution": "free-exercise-db by yuhonas",
+        "source": "free-exercise-db",
+        "source_id": "Barbell_Squat",
+        "matched_name": "Barbell Squat"
+      },
+      "expert_rating": {
+        "score": 7.5,
+        "tier": "B",
+        "stability": "medium",
+        "stretch": "high",
+        "sfr": "low",
+        "verdict": "Amazing strength movement, but systemic/lower-back fatigue limits direct quad growth compared to hack squats."
+      },
+      "plain_summary": "Bend your knees with a barbell on your back to build your quads, glutes, and overall lower body power."
+    },
+    {
+      "id": "goblet_squat",
+      "name": "Goblet Squat",
+      "category": "legs",
+      "equipment": [
+        "dumbbell",
+        "kettlebell"
+      ],
+      "movement_pattern": "squat",
+      "primary_muscles": [
+        "quadriceps"
+      ],
+      "secondary_muscles": [
+        "gluteus_maximus",
+        "core_stabilizers",
+        "erector_spinae"
+      ],
+      "biomechanics": "An excellent squat pattern that uses front-loading to encourage a vertical torso, reducing back shear.",
+      "setup_cues": [
+        "Hold a dumbbell vertically by the upper bell, close to chest.",
+        "Stand with feet shoulder-width apart.",
+        "Squat down by pushing hips back and knees out, keeping elbows inside knees.",
+        "Drive back to the top, keeping core braced."
+      ],
+      "common_mistakes": [
+        "Holding the dumbbell away from the chest, straining arms.",
+        "Letting knees collapse inward.",
+        "Rounding the upper back at the bottom."
+      ],
+      "progression": "Increase dumbbell weight or add a pause at the bottom.",
+      "regression": "Bodyweight squat or goblet box squat.",
+      "substitutions": [
+        "barbell_back_squat",
+        "leg_press",
+        "goblet_box_squat"
+      ],
+      "media": {
+        "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Goblet_Squat/0.jpg",
+        "type": "image/jpeg",
+        "license": "Unlicense / public domain dedication",
+        "attribution": "free-exercise-db by yuhonas",
+        "source": "free-exercise-db",
+        "source_id": "Goblet_Squat",
+        "matched_name": "Goblet Squat"
+      },
+      "expert_rating": {
+        "score": 7,
+        "tier": "B",
+        "stability": "medium",
+        "stretch": "high",
+        "sfr": "medium",
+        "verdict": "Great for learning squat mechanics, but loading is limited by how much weight your arms can support."
+      },
+      "plain_summary": "Hold a weight against your chest while squatting to keep your torso upright and target the front of your thighs."
+    },
+    {
+      "id": "leg_press",
+      "name": "Leg Press",
+      "category": "legs",
+      "equipment": [
+        "leg_press_machine"
+      ],
+      "movement_pattern": "squat",
+      "primary_muscles": [
+        "quadriceps"
+      ],
+      "secondary_muscles": [
+        "gluteus_maximus",
+        "adductor_magnus"
+      ],
+      "biomechanics": "Removes balance and spinal loading constraints, allowing safe, high-load hypertrophy training for quads and glutes.",
+      "setup_cues": [
+        "Sit in machine, lower back flat against backrest.",
+        "Place feet shoulder-width apart on the sled.",
+        "Release safety locks and lower sled slowly toward chest until knees are at 90 degrees.",
+        "Press the sled away, stopping just short of locking knees."
+      ],
+      "common_mistakes": [
+        "Lowering the sled too deep, causing the tailbone to lift off the pad (butt wink).",
+        "Locking knees aggressively at the top.",
+        "Placing feet too low or high without proper alignment."
+      ],
+      "progression": "Increase machine load while maintaining a controlled tempo.",
+      "regression": "Reduce machine weight or perform goblet squats.",
+      "substitutions": [
+        "barbell_back_squat",
+        "goblet_squat"
+      ],
+      "media": {
+        "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Leg_Press/0.jpg",
+        "type": "image/jpeg",
+        "license": "Unlicense / public domain dedication",
+        "attribution": "free-exercise-db by yuhonas",
+        "source": "free-exercise-db",
+        "source_id": "Leg_Press",
+        "matched_name": "Leg Press"
+      },
+      "expert_rating": {
+        "score": 9,
+        "tier": "S",
+        "stability": "high",
+        "stretch": "high",
+        "sfr": "high",
+        "verdict": "Superb quad hypertrophy tool. High stability removes back limitation, letting you load the quads deep in the stretch."
+      },
+      "plain_summary": "Push a heavy sled away with your feet to build your thighs and glutes without loading weight onto your spine."
+    },
+    {
+      "id": "romanian_deadlift",
+      "name": "Romanian Deadlift",
+      "category": "legs",
+      "equipment": [
+        "barbell",
+        "dumbbells"
+      ],
+      "movement_pattern": "hip hinge",
+      "primary_muscles": [
+        "hamstrings",
+        "gluteus_maximus"
+      ],
+      "secondary_muscles": [
+        "erector_spinae",
+        "forearm_flexors"
+      ],
+      "biomechanics": "An essential hip hinge movement that overloads the posterior chain in the stretched position.",
+      "setup_cues": [
+        "Stand holding barbell/dumbbells at thighs, feet hip-width apart.",
+        "Brace core, soften knees, and push hips straight back.",
+        "Keep the weight close to your legs as you lower it toward mid-shin.",
+        "Squeeze glutes and drive hips forward to stand, keeping spine straight."
+      ],
+      "common_mistakes": [
+        "Allowing the bar to drift away from the legs, stressing the lower back.",
+        "Rounding the lower or upper back.",
+        "Bending knees too much, turning the hinge into a squat."
+      ],
+      "progression": "Increase bar weight or perform with a slow eccentric phase.",
+      "regression": "Seated leg curl to train hamstrings without lower-back loading.",
+      "substitutions": [
+        "barbell_deadlift",
+        "seated_leg_curl",
+        "lying_leg_curl"
+      ],
+      "media": {
+        "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Romanian_Deadlift/0.jpg",
+        "type": "image/jpeg",
+        "license": "Unlicense / public domain dedication",
+        "attribution": "free-exercise-db by yuhonas",
+        "source": "free-exercise-db",
+        "source_id": "Romanian_Deadlift",
+        "matched_name": "Romanian Deadlift"
+      },
+      "expert_rating": {
+        "score": 9.5,
+        "tier": "S",
+        "stability": "medium",
+        "stretch": "high",
+        "sfr": "high",
+        "verdict": "The gold standard for posterior chain hypertrophy. Overloads the hamstrings and glutes under deep eccentric stretch."
+      },
+      "plain_summary": "Hinge at your hips to lower a barbell, stretching and strengthening the back of your thighs and your glutes."
+    },
+    {
+      "id": "barbell_deadlift",
+      "name": "Barbell Conventional Deadlift",
+      "category": "legs",
+      "equipment": [
+        "barbell",
+        "weight_plates"
+      ],
+      "movement_pattern": "hip hinge",
+      "primary_muscles": [
+        "gluteus_maximus",
+        "hamstrings"
+      ],
+      "secondary_muscles": [
+        "erector_spinae",
+        "trapezius",
+        "quadriceps",
+        "forearm_flexors"
+      ],
+      "biomechanics": "A primary compound movement pulling from the floor, building overall body strength and posterior chain power.",
+      "setup_cues": [
+        "Stand with mid-foot under the bar, feet hip-width.",
+        "Hinge down, gripping the bar outside shins.",
+        "Pull shins forward to touch the bar, flatten back, and pull shoulder blades back.",
+        "Drive legs into floor to stand up, keeping bar close to shins."
+      ],
+      "common_mistakes": [
+        "Rounding the back during the lift, risking disc injury.",
+        "Jerk-starting the lift instead of pulling tension out of the bar first.",
+        "Hyperextending the lower back at the top."
+      ],
+      "progression": "Increase bar weight slowly or transition to trap bar deadlifts.",
+      "regression": "Romanian deadlift or rack pulls.",
+      "substitutions": [
+        "trap_bar_deadlift",
+        "romanian_deadlift"
+      ],
+      "media": {
+        "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Barbell_Deadlift/0.jpg",
+        "type": "image/jpeg",
+        "license": "Unlicense / public domain dedication",
+        "attribution": "free-exercise-db by yuhonas",
+        "source": "free-exercise-db",
+        "source_id": "Barbell_Deadlift",
+        "matched_name": "Barbell Deadlift"
+      },
+      "expert_rating": {
+        "score": 5,
+        "tier": "F",
+        "stability": "low",
+        "stretch": "low",
+        "sfr": "low",
+        "verdict": "Excellent whole-body power builder, but poor stimulus-to-fatigue ratio due to lack of eccentric control and high fatigue."
+      },
+      "plain_summary": "Lift a heavy barbell off the floor to build total body strength, focusing on your glutes, hamstrings, and back."
+    },
+    {
+      "id": "seated_leg_curl",
+      "name": "Seated Leg Curl",
+      "category": "legs",
+      "equipment": [
+        "leg_curl_machine"
+      ],
+      "movement_pattern": "leg curl",
+      "primary_muscles": [
+        "hamstrings"
+      ],
+      "secondary_muscles": [
+        "gastrocnemius"
+      ],
+      "biomechanics": "Isolates the hamstrings in a seated position where the hip is flexed, putting hamstrings in a greater stretched state.",
+      "setup_cues": [
+        "Sit in machine, aligning knee joint with the machine pivot point.",
+        "Secure thigh pad firmly against thighs.",
+        "Place feet on top of roller, pull toes up.",
+        "Curl legs down and back, squeezing hamstrings at the bottom.",
+        "Return under control, feeling a stretch."
+      ],
+      "common_mistakes": [
+        "Letting the butt lift off the seat during the curl.",
+        "Allowing the weight stack to slam at the top.",
+        "Using a fast, uncontrolled tempo."
+      ],
+      "progression": "Increase stack weight or add a 1-second pause at full contraction.",
+      "regression": "Lighter stack weight or lying leg curl.",
+      "substitutions": [
+        "lying_leg_curl",
+        "romanian_deadlift"
+      ],
+      "media": {
+        "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Seated_Leg_Curl/0.jpg",
+        "type": "image/jpeg",
+        "license": "Unlicense / public domain dedication",
+        "attribution": "free-exercise-db by yuhonas",
+        "source": "free-exercise-db",
+        "source_id": "Seated_Leg_Curl",
+        "matched_name": "Seated Leg Curl"
+      },
+      "expert_rating": {
+        "score": 9.5,
+        "tier": "S",
+        "stability": "high",
+        "stretch": "high",
+        "sfr": "high",
+        "verdict": "Top-tier hamstring builder. Seated posture flexes the hips, placing hamstrings in a maximally stretched state."
+      },
+      "plain_summary": "Bend your knees against machine resistance while sitting to isolate and build the back of your thighs under a deep stretch."
+    },
+    {
+      "id": "lying_leg_curl",
+      "name": "Lying Leg Curl",
+      "category": "legs",
+      "equipment": [
+        "leg_curl_machine"
+      ],
+      "movement_pattern": "leg curl",
+      "primary_muscles": [
+        "hamstrings"
+      ],
+      "secondary_muscles": [
+        "gastrocnemius"
+      ],
+      "biomechanics": "Isolates the hamstrings with the hips extended, focusing on the knee flexion function.",
+      "setup_cues": [
+        "Lie face down on the machine, placing roller pad just below calf muscles.",
+        "Hold handles and press hips down into the pad.",
+        "Curl heels toward glutes in a smooth arc.",
+        "Slowly extend legs back to the starting position."
+      ],
+      "common_mistakes": [
+        "Arching the lower back or lifting hips off the pad to assist the curl.",
+        "Swinging the weight up.",
+        "Not going through a full range of motion."
+      ],
+      "progression": "Increase machine load or perform unilaterally.",
+      "regression": "Seated leg curl or reduce weight.",
+      "substitutions": [
+        "seated_leg_curl",
+        "romanian_deadlift"
+      ],
+      "media": {
+        "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Lying_Leg_Curls/0.jpg",
+        "type": "image/jpeg",
+        "license": "Unlicense / public domain dedication",
+        "attribution": "free-exercise-db by yuhonas",
+        "source": "free-exercise-db",
+        "source_id": "Lying_Leg_Curls",
+        "matched_name": "Lying Leg Curls"
+      },
+      "expert_rating": {
+        "score": 8.5,
+        "tier": "A",
+        "stability": "medium",
+        "stretch": "medium",
+        "sfr": "high",
+        "verdict": "Isolates hamstrings, but offers slightly less growth stimulus than seated curls due to neutral hips."
+      },
+      "plain_summary": "Bend your legs while lying flat to isolate and strengthen your hamstrings, the muscles along the back of your thighs."
+    },
+    {
+      "id": "leg_extension",
+      "name": "Leg Extension",
+      "category": "legs",
+      "equipment": [
+        "leg_extension_machine"
+      ],
+      "movement_pattern": "leg extension",
+      "primary_muscles": [
+        "quadriceps"
+      ],
+      "secondary_muscles": [],
+      "biomechanics": "Isolates the quadriceps, specifically overloading them in the shortened, fully contracted range.",
+      "setup_cues": [
+        "Sit in machine, back supported, placing roller pad at top of shins.",
+        "Align knee joint with machine pivot point.",
+        "Hold handles to stabilize torso.",
+        "Extend legs fully, flexing quads at the top, then lower under control."
+      ],
+      "common_mistakes": [
+        "Slamming the weights or rushing the eccentric phase.",
+        "Allowing hips to rise off the seat.",
+        "Pointing or flexing toes excessively in a way that shifts knee tension awkwardly."
+      ],
+      "progression": "Increase machine weight or pause for 2 seconds at full extension.",
+      "regression": "Decrease machine weight or perform goblet squats.",
+      "substitutions": [
+        "goblet_squat",
+        "leg_press"
+      ],
+      "media": {
+        "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Leg_Extensions/0.jpg",
+        "type": "image/jpeg",
+        "license": "Unlicense / public domain dedication",
+        "attribution": "free-exercise-db by yuhonas",
+        "source": "free-exercise-db",
+        "source_id": "Leg_Extensions",
+        "matched_name": "Leg Extensions"
+      },
+      "expert_rating": {
+        "score": 8.5,
+        "tier": "A",
+        "stability": "high",
+        "stretch": "low",
+        "sfr": "high",
+        "verdict": "The only exercise that isolates the rectus femoris (quad) under peak contraction. Excellent stability."
+      },
+      "plain_summary": "Straighten your legs against a padded roller while seated to isolate and burn the muscles on the front of your thighs."
+    },
+    {
+      "id": "barbell_hip_thrust",
+      "name": "Barbell Hip Thrust",
+      "category": "legs",
+      "equipment": [
+        "barbell",
+        "bench",
+        "hip_thrust_pad"
+      ],
+      "movement_pattern": "hip hinge",
+      "primary_muscles": [
+        "gluteus_maximus"
+      ],
+      "secondary_muscles": [
+        "hamstrings",
+        "core_stabilizers"
+      ],
+      "biomechanics": "Overloads the glutes in their fully shortened position under high horizontal mechanical tension.",
+      "setup_cues": [
+        "Sit on floor, upper back against a secured bench.",
+        "Roll a padded barbell over hips and plant feet flat.",
+        "Drive heels into floor and lift hips, keeping chin tucked and ribs down.",
+        "Squeeze glutes at the top (hips aligned with knees), then lower slowly."
+      ],
+      "common_mistakes": [
+        "Arching the lower back at the top instead of tilting the pelvis.",
+        "Placing feet too far forward (hamstring dominant) or too close (quad dominant).",
+        "Letting the neck fly back instead of keeping chin tucked."
+      ],
+      "progression": "Add weight to the barbell or add a pause at the top.",
+      "regression": "Glute bridge (bodyweight on floor) or single-leg glute bridge.",
+      "substitutions": [
+        "romanian_deadlift",
+        "barbell_deadlift",
+        "lying_leg_curl"
+      ],
+      "media": {
+        "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Barbell_Hip_Thrust/0.jpg",
+        "type": "image/jpeg",
+        "license": "Unlicense / public domain dedication",
+        "attribution": "free-exercise-db by yuhonas",
+        "source": "free-exercise-db",
+        "source_id": "Barbell_Hip_Thrust",
+        "matched_name": "Barbell Hip Thrust"
+      },
+      "expert_rating": {
+        "score": 8,
+        "tier": "A",
+        "stability": "medium",
+        "stretch": "low",
+        "sfr": "medium",
+        "verdict": "Excellent peak contraction glute overload, but setup can be tedious and fatigue-inducing."
+      },
+      "plain_summary": "Drive your hips upward with a loaded barbell across your lap to isolate and strengthen your glutes, your rear muscles."
+    },
+    {
+      "id": "bulgarian_split_squat",
+      "name": "Bulgarian Split Squat",
+      "category": "legs",
+      "equipment": [
+        "dumbbells",
+        "bench"
+      ],
+      "movement_pattern": "lunge",
+      "primary_muscles": [
+        "quadriceps",
+        "gluteus_maximus"
+      ],
+      "secondary_muscles": [
+        "adductors",
+        "core_stabilizers"
+      ],
+      "biomechanics": "A highly effective unilateral lower-body exercise that develops single-leg strength and stability while deep-stretching the hip flexor.",
+      "setup_cues": [
+        "Stand in front of a bench, placing the top of one foot flat on the bench behind you.",
+        "Hold dumbbells at your sides.",
+        "Lower rear knee toward the floor, keeping front knee tracking in line with front foot.",
+        "Drive back up through the front heel."
+      ],
+      "common_mistakes": [
+        "Placing the front foot too close to the bench, compressing the knee.",
+        "Allowing the front knee to cave inward.",
+        "Torso collapsing excessively forward."
+      ],
+      "progression": "Increase dumbbell weight or perform with a deficit (front foot elevated).",
+      "regression": "Dumbbell lunges or bodyweight split squats.",
+      "substitutions": [
+        "dumbbell_lunges",
+        "goblet_squat",
+        "leg_press"
+      ],
+      "media": {
+        "url": null,
+        "type": null,
+        "license": null,
+        "attribution": null
+      },
+      "expert_rating": {
+        "score": 9,
+        "tier": "S",
+        "stability": "low",
+        "stretch": "high",
+        "sfr": "high",
+        "verdict": "Incredible quad and glute builder under stretch. Unilateral isolation is fantastic, though balance can be tricky."
+      },
+      "plain_summary": "Elevate one foot behind you and squat to target your front leg, building single-leg balance, quads, and glutes."
+    },
+    {
+      "id": "dumbbell_lunges",
+      "name": "Dumbbell Lunges",
+      "category": "legs",
+      "equipment": [
+        "dumbbells"
+      ],
+      "movement_pattern": "lunge",
+      "primary_muscles": [
+        "quadriceps",
+        "gluteus_maximus"
+      ],
+      "secondary_muscles": [
+        "hamstrings",
+        "core_stabilizers"
+      ],
+      "biomechanics": "A dynamic unilateral movement that trains deceleration, hip stability, and knee control.",
+      "setup_cues": [
+        "Stand tall holding dumbbells at your sides.",
+        "Take a controlled step forward, lowering hips until back knee is near the floor.",
+        "Keep front knee tracking over front toes.",
+        "Push off the front foot to return to the starting position."
+      ],
+      "common_mistakes": [
+        "Walking a tightrope (stepping inline), losing balance.",
+        "Slamming the rear knee into the floor.",
+        "Allowing front knee to drift far past toes without heel support."
+      ],
+      "progression": "Increase dumbbell weight or switch to reverse lunges (safer for knees).",
+      "regression": "Bodyweight lunges or static split squats.",
+      "substitutions": [
+        "bulgarian_split_squat",
+        "goblet_squat",
+        "leg_press"
+      ],
+      "media": {
+        "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Dumbbell_Lunges/0.jpg",
+        "type": "image/jpeg",
+        "license": "Unlicense / public domain dedication",
+        "attribution": "free-exercise-db by yuhonas",
+        "source": "free-exercise-db",
+        "source_id": "Dumbbell_Lunges",
+        "matched_name": "Dumbbell Lunges"
+      },
+      "expert_rating": {
+        "score": 7.5,
+        "tier": "B",
+        "stability": "low",
+        "stretch": "medium",
+        "sfr": "medium",
+        "verdict": "Dynamic athletic movement, but balance requirements reduce absolute target muscle loading."
+      },
+      "plain_summary": "Step forward and lower your hips to train your thighs and glutes one leg at a time, improving stability."
+    },
+    {
+      "id": "standing_calf_raise",
+      "name": "Standing Calf Raise",
+      "category": "legs",
+      "equipment": [
+        "calf_raise_machine"
+      ],
+      "movement_pattern": "calf raise",
+      "primary_muscles": [
+        "gastrocnemius"
+      ],
+      "secondary_muscles": [
+        "soleus"
+      ],
+      "biomechanics": "Overloads the gastrocnemius calf muscle by performing ankle plantarflexion with a straight knee.",
+      "setup_cues": [
+        "Place balls of feet on step, heels hanging off, knees locked straight.",
+        "Lower heels down slowly to feel a deep stretch in the calves.",
+        "Push up through the big toe to raise heels as high as possible.",
+        "Hold for 1 second at the top, then lower controlled."
+      ],
+      "common_mistakes": [
+        "Bouncing at the bottom, using Achilles tendon elasticity instead of muscle.",
+        "Bending the knees to push the weight.",
+        "Not using a full range of motion."
+      ],
+      "progression": "Increase weight or add a 2-second pause at the bottom stretch.",
+      "regression": "Bodyweight standing calf raises on a flat floor.",
+      "planning_note": "Pick standing or seated calf raises based on the athlete's gym equipment.",
+      "substitutions": [
+        "seated_calf_raise",
+        "leg_press",
+        "barbell_back_squat"
+      ],
+      "media": {
+        "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Standing_Calf_Raises/0.jpg",
+        "type": "image/jpeg",
+        "license": "Unlicense / public domain dedication",
+        "attribution": "free-exercise-db by yuhonas",
+        "source": "free-exercise-db",
+        "source_id": "Standing_Calf_Raises",
+        "matched_name": "Standing Calf Raises"
+      },
+      "expert_rating": {
+        "score": 8,
+        "tier": "A",
+        "stability": "medium",
+        "stretch": "high",
+        "sfr": "high",
+        "verdict": "Essential for calf gastrocnemius growth; requires a deep stretch hold at the bottom."
+      },
+      "plain_summary": "Raise up onto your toes while standing to build the outer calf muscle, giving your lower legs shape."
+    },
+    {
+      "id": "seated_calf_raise",
+      "name": "Seated Calf Raise",
+      "category": "legs",
+      "equipment": [
+        "seated_calf_raise_machine"
+      ],
+      "movement_pattern": "calf raise",
+      "primary_muscles": [
+        "soleus"
+      ],
+      "secondary_muscles": [
+        "gastrocnemius"
+      ],
+      "biomechanics": "Since the knee is bent, the gastrocnemius is active-insufficient, isolating the deeper soleus calf muscle.",
+      "setup_cues": [
+        "Sit in machine and adjust thigh pad over knees.",
+        "Place balls of feet on the platform.",
+        "Release safety bar and lower heels down slowly for a stretch.",
+        "Press up through toes to elevate knees, contracting calves."
+      ],
+      "common_mistakes": [
+        "Bouncing the weight stack.",
+        "Using hands to pull thighs up.",
+        "Failing to stretch fully at the bottom."
+      ],
+      "progression": "Increase machine weight slowly while maintaining controlled pauses.",
+      "regression": "Standing calf raises with bodyweight.",
+      "substitutions": [
+        "standing_calf_raise",
+        "leg_press",
+        "barbell_back_squat"
+      ],
+      "media": {
+        "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Seated_Calf_Raise/0.jpg",
+        "type": "image/jpeg",
+        "license": "Unlicense / public domain dedication",
+        "attribution": "free-exercise-db by yuhonas",
+        "source": "free-exercise-db",
+        "source_id": "Seated_Calf_Raise",
+        "matched_name": "Seated Calf Raise"
+      },
+      "expert_rating": {
+        "score": 7.5,
+        "tier": "B",
+        "stability": "high",
+        "stretch": "high",
+        "sfr": "medium",
+        "verdict": "Isolates the soleus (lower calf) because the bent knee deactivates the larger gastrocnemius muscle."
+      },
+      "plain_summary": "Push up on your toes while sitting to isolate the deep calf muscle that sits underneath the outer cap."
+    },
+    {
+      "id": "back_extension",
+      "name": "Back Extension",
+      "category": "legs",
+      "equipment": [
+        "hyperextension_bench",
+        "weight_plate"
+      ],
+      "movement_pattern": "hip extension",
+      "primary_muscles": [
+        "erector_spinae",
+        "gluteus_maximus",
+        "hamstrings"
+      ],
+      "secondary_muscles": [],
+      "biomechanics": "Strengthens the posterior chain, specifically targeting the erector spinae, glutes, and hamstrings through hip extension.",
+      "setup_cues": [
+        "Position yourself in the back extension bench, placing hips just above the pad.",
+        "Hinge forward at the hips, keeping the spine neutral.",
+        "Squeeze the glutes and hamstrings to raise your torso back to alignment.",
+        "Avoid hyperextending the lower back at the top."
+      ],
+      "common_mistakes": [
+        "Hyperextending the lumbar spine at the top of the movement.",
+        "Using momentum or swinging the torso.",
+        "Bending at the waist instead of the hips."
+      ],
+      "progression": "Hold a weight plate or dumbbell at the chest.",
+      "regression": "Bodyweight back extensions or decrease range of motion.",
+      "substitutions": [
+        "romanian_deadlift",
+        "barbell_deadlift"
+      ],
+      "media": {
+        "url": null,
+        "type": null,
+        "license": null,
+        "attribution": null
+      },
+      "expert_rating": {
+        "score": 8,
+        "tier": "A",
+        "stability": "high",
+        "stretch": "high",
+        "sfr": "medium",
+        "verdict": "Great for isolating hip extension and lumbar erectors with minimal fatigue compared to deadlifts."
+      },
+      "plain_summary": "Raise your torso from a bent position on a bench to strengthen your lower back, glutes, and back of thighs."
+    },
+    {
+      "id": "trap_bar_deadlift",
+      "name": "Trap Bar Deadlift",
+      "category": "legs",
+      "equipment": [
+        "trap_bar",
+        "weight_plates"
+      ],
+      "movement_pattern": "hip hinge",
+      "primary_muscles": [
+        "quadriceps",
+        "gluteus_maximus",
+        "erector_spinae"
+      ],
+      "secondary_muscles": [
+        "hamstrings",
+        "trapezius",
+        "forearm_flexors"
+      ],
+      "biomechanics": "Allows a more vertical torso and higher quad involvement than a straight barbell, reducing lower-back shearing force.",
+      "setup_cues": [
+        "Step inside the trap bar, aligning feet with the handles.",
+        "Squat/hinge down and grip handles firmly.",
+        "Flatten back and keep chest proud, bracing core.",
+        "Drive through feet to stand up, locking out hips at the top."
+      ],
+      "common_mistakes": [
+        "Letting the knees cave inward.",
+        "Rounding the spine.",
+        "Hyperextending the lower back at the lockout."
+      ],
+      "progression": "Add weight to the bar slowly while keeping form clean.",
+      "regression": "Romanian deadlift or high-handle setup.",
+      "substitutions": [
+        "barbell_deadlift",
+        "romanian_deadlift"
+      ],
+      "media": {
+        "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Trap_Bar_Deadlift/0.jpg",
+        "type": "image/jpeg",
+        "license": "Unlicense / public domain dedication",
+        "attribution": "free-exercise-db by yuhonas",
+        "source": "free-exercise-db",
+        "source_id": "Trap_Bar_Deadlift",
+        "matched_name": "Trap Bar Deadlift"
+      },
+      "expert_rating": {
+        "score": 8,
+        "tier": "A",
+        "stability": "medium",
+        "stretch": "medium",
+        "sfr": "medium",
+        "verdict": "A hybrid hinge/squat that is easier on the back than conventional pulls and hits quads harder."
+      },
+      "plain_summary": "Lift a hexagonal bar while standing inside it to build your thighs and hips with less strain on your back."
+    },
+    {
+      "id": "goblet_box_squat",
+      "name": "Goblet Box Squat",
+      "category": "legs",
+      "equipment": [
+        "dumbbell",
+        "bench"
+      ],
+      "movement_pattern": "squat",
+      "primary_muscles": [
+        "quadriceps"
+      ],
+      "secondary_muscles": [
+        "gluteus_maximus",
+        "core_stabilizers"
+      ],
+      "biomechanics": "Provides a physical depth target and breaks the eccentric-concentric cycle, building power out of the hole and teaching proper squat mechanics.",
+      "setup_cues": [
+        "Stand in front of a bench/box, holding a dumbbell at chest.",
+        "Push hips back and lower until glutes touch the box lightly.",
+        "Pause for 1 second on the box without relaxing the core.",
+        "Drive heels into floor to stand up, squeezing glutes."
+      ],
+      "common_mistakes": [
+        "Rocking or leaning forward to stand up off the box.",
+        "Plop-sitting (collapsing onto the box).",
+        "Allowing knees to cave."
+      ],
+      "progression": "Increase dumbbell weight or lower the box height.",
+      "regression": "Bodyweight squats to a high box.",
+      "substitutions": [
+        "goblet_squat",
+        "barbell_back_squat"
+      ],
+      "media": {
+        "url": null,
+        "type": null,
+        "license": null,
+        "attribution": null
+      },
+      "expert_rating": {
+        "score": 6.5,
+        "tier": "C",
+        "stability": "medium",
+        "stretch": "medium",
+        "sfr": "medium",
+        "verdict": "Good squat regression, but pausing on the box dissipates stored elastic energy and tension."
+      },
+      "plain_summary": "Squat down until you touch a box, then stand up, to learn good squat form and build your thighs."
+    },
+    {
+      "id": "plank",
+      "name": "Forearm Plank",
+      "category": "core",
+      "equipment": [],
+      "movement_pattern": "static core",
+      "primary_muscles": [
+        "rectus_abdominis"
+      ],
+      "secondary_muscles": [
+        "transversus_abdominis",
+        "obliques",
+        "gluteus_maximus"
+      ],
+      "biomechanics": "Trains isometric anterior core stability, protecting the lumbar spine from extension.",
+      "setup_cues": [
+        "Place forearms on the floor, elbows directly under shoulders.",
+        "Extend legs back and lift hips, forming a straight line.",
+        "Squeeze glutes, pull belly button to spine, and press floor away with elbows.",
+        "Hold position, breathing shallowly into the stomach."
+      ],
+      "common_mistakes": [
+        "Allowing the hips to sag, putting load on the lower back.",
+        "Poking hips high in the air, removing core tension.",
+        "Looking forward instead of down, straining the neck."
+      ],
+      "progression": "Increase duration or perform dynamic variations (e.g. plank jacks).",
+      "regression": "Knee plank or incline plank (hands on bench).",
+      "substitutions": [
+        "dead_bug",
+        "pallof_press",
+        "ab_wheel_rollout"
+      ],
+      "media": {
+        "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Plank/0.jpg",
+        "type": "image/jpeg",
+        "license": "Unlicense / public domain dedication",
+        "attribution": "free-exercise-db by yuhonas",
+        "source": "free-exercise-db",
+        "source_id": "Plank",
+        "matched_name": "Plank"
+      },
+      "expert_rating": {
+        "score": 6,
+        "tier": "D",
+        "stability": "high",
+        "stretch": "low",
+        "sfr": "medium",
+        "verdict": "Decent baseline stability builder, but static isometric hold is poor for direct abdominal hypertrophy."
+      },
+      "plain_summary": "Hold a push-up position on your forearms to build endurance in your abs and keep your spine stable."
+    },
+    {
+      "id": "dead_bug",
+      "name": "Dead Bug",
+      "category": "core",
+      "equipment": [],
+      "movement_pattern": "dynamic core",
+      "primary_muscles": [
+        "transversus_abdominis"
+      ],
+      "secondary_muscles": [
+        "rectus_abdominis",
+        "obliques"
+      ],
+      "biomechanics": "Teaches coordination and core stabilization during limb movement, critical for lumbar spine safety.",
+      "setup_cues": [
+        "Lie on back, arms pointing up, knees bent at 90 degrees directly over hips.",
+        "Press lower back flat against the floor (no gap).",
+        "Slowly lower right arm back and left leg forward until they hover just above floor.",
+        "Return to start and repeat with opposite limbs, maintaining flat back."
+      ],
+      "common_mistakes": [
+        "Allowing the lower back to arch off the floor.",
+        "Moving the non-working limbs at the same time.",
+        "Rushing through the movement."
+      ],
+      "progression": "Add light resistance bands or dumbbells.",
+      "regression": "Heel taps (keeping knees bent and only tapping one heel down at a time).",
+      "substitutions": [
+        "plank",
+        "pallof_press",
+        "ab_wheel_rollout"
+      ],
+      "media": {
+        "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Dead_Bug/0.jpg",
+        "type": "image/jpeg",
+        "license": "Unlicense / public domain dedication",
+        "attribution": "free-exercise-db by yuhonas",
+        "source": "free-exercise-db",
+        "source_id": "Dead_Bug",
+        "matched_name": "Dead Bug"
+      },
+      "expert_rating": {
+        "score": 7,
+        "tier": "B",
+        "stability": "high",
+        "stretch": "low",
+        "sfr": "high",
+        "verdict": "Incredible for deep core stability (transversus abdominis) and anti-extension lumbar control."
+      },
+      "plain_summary": "Lie on your back and move opposite limbs to train your deep core muscles, protecting your spine during daily movements."
+    },
+    {
+      "id": "pallof_press",
+      "name": "Cable Pallof Press",
+      "category": "core",
+      "equipment": [
+        "cable_machine"
+      ],
+      "movement_pattern": "static core",
+      "primary_muscles": [
+        "obliques"
+      ],
+      "secondary_muscles": [
+        "transversus_abdominis",
+        "gluteus_medius"
+      ],
+      "biomechanics": "An anti-rotation exercise that challenges the obliques and deep stabilizers to resist lateral trunk twisting.",
+      "setup_cues": [
+        "Set pulley to chest height and hold handle with both hands.",
+        "Step away from machine sideways, standing with feet shoulder-width.",
+        "Pull handle to center of chest, bracing core and squeezing glutes.",
+        "Press the cable straight out in front of you, resist pulling toward machine, and return slowly."
+      ],
+      "common_mistakes": [
+        "Letting the torso twist toward the cable machine.",
+        "Shrugging shoulders or holding breath.",
+        "Using too much weight, causing hips to shift."
+      ],
+      "progression": "Increase stack weight or narrow the stance.",
+      "regression": "Reduce weight or use a resistance band instead of cables.",
+      "substitutions": [
+        "plank",
+        "dead_bug"
+      ],
+      "media": {
+        "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Pallof_Press/0.jpg",
+        "type": "image/jpeg",
+        "license": "Unlicense / public domain dedication",
+        "attribution": "free-exercise-db by yuhonas",
+        "source": "free-exercise-db",
+        "source_id": "Pallof_Press",
+        "matched_name": "Pallof Press"
+      },
+      "expert_rating": {
+        "score": 7.5,
+        "tier": "B",
+        "stability": "medium",
+        "stretch": "low",
+        "sfr": "high",
+        "verdict": "Outstanding anti-rotation exercise, teaching oblique/core engagement without shearing forces."
+      },
+      "plain_summary": "Press a cable out in front of you while resisting the pull to strengthen your side abs against twisting."
+    },
+    {
+      "id": "hanging_knee_raise",
+      "name": "Hanging Knee Raise",
+      "category": "core",
+      "equipment": [
+        "pull_up_bar"
+      ],
+      "movement_pattern": "dynamic core",
+      "primary_muscles": [
+        "rectus_abdominis"
+      ],
+      "secondary_muscles": [
+        "iliopsoas"
+      ],
+      "biomechanics": "Trains posterior pelvic tilt and hip flexion under hanging traction, strengthening the lower abs.",
+      "setup_cues": [
+        "Hang from pull-up bar (or support yourself in captain's chair).",
+        "Keep shoulder blades depressed and core tight.",
+        "Raise knees toward chest by curling the pelvis upward.",
+        "Lower knees slowly under control, preventing body swing."
+      ],
+      "common_mistakes": [
+        "Swinging the legs to use momentum.",
+        "Letting the shoulders shrug up or lower back arch at the bottom.",
+        "Dropping legs too fast."
+      ],
+      "progression": "Perform hanging leg raise (straight legs) or hold a light dumbbell between feet.",
+      "regression": "Lying leg raises on floor or captain's chair knee raises.",
+      "substitutions": [
+        "russian_twist",
+        "plank",
+        "dead_bug"
+      ],
+      "media": {
+        "url": null,
+        "type": null,
+        "license": null,
+        "attribution": null
+      },
+      "expert_rating": {
+        "score": 8,
+        "tier": "A",
+        "stability": "low",
+        "stretch": "high",
+        "sfr": "high",
+        "verdict": "Highly effective for lower rectus abdominis, provided you actively tilt the pelvis upward at the top."
+      },
+      "plain_summary": "Hang from a bar and raise your knees to your chest to target your lower abs under traction."
+    },
+    {
+      "id": "russian_twist",
+      "name": "Russian Twist",
+      "category": "core",
+      "equipment": [],
+      "movement_pattern": "dynamic core",
+      "primary_muscles": [
+        "obliques"
+      ],
+      "secondary_muscles": [
+        "rectus_abdominis",
+        "transversus_abdominis"
+      ],
+      "biomechanics": "Trains rotational core strength and stability, targeting the internal and external obliques.",
+      "setup_cues": [
+        "Sit on floor, knees bent, leaning back at a 45-degree angle.",
+        "Clasp hands in front of chest.",
+        "Rotate torso from side to side, touching hands to the floor next to your hips.",
+        "Keep spine long and chest up."
+      ],
+      "common_mistakes": [
+        "Only moving the arms rather than rotating the shoulders/torso.",
+        "Rounding the upper back significantly.",
+        "Twisting too rapidly without control."
+      ],
+      "progression": "Hold a light dumbbell/plate or lift feet off the floor.",
+      "regression": "Keep feet planted flat on floor or reduce torso angle.",
+      "substitutions": [
+        "hanging_knee_raise",
+        "plank",
+        "dead_bug"
+      ],
+      "media": {
+        "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Russian_Twist/0.jpg",
+        "type": "image/jpeg",
+        "license": "Unlicense / public domain dedication",
+        "attribution": "free-exercise-db by yuhonas",
+        "source": "free-exercise-db",
+        "source_id": "Russian_Twist",
+        "matched_name": "Russian Twist"
+      },
+      "expert_rating": {
+        "score": 6,
+        "tier": "D",
+        "stability": "low",
+        "stretch": "medium",
+        "sfr": "low",
+        "verdict": "Good oblique rotative idea, but frequently performed with high momentum and lower back shear."
+      },
+      "plain_summary": "Twist your torso side to side while sitting on the floor to build and strengthen your side abs."
+    },
+    {
+      "id": "ab_wheel_rollout",
+      "name": "Ab Wheel Rollout",
+      "category": "core",
+      "equipment": [
+        "ab_wheel"
+      ],
+      "movement_pattern": "dynamic core",
+      "primary_muscles": [
+        "rectus_abdominis"
+      ],
+      "secondary_muscles": [
+        "transversus_abdominis",
+        "latissimus_dorsi",
+        "shoulder_stabilizers"
+      ],
+      "biomechanics": "An advanced anti-extension exercise that overloads the rectus abdominis in a long, stretched position.",
+      "setup_cues": [
+        "Kneel on a pad with hands on the ab wheel handles.",
+        "Start with wheel under shoulders, round the spine slightly, brace core.",
+        "Roll wheel forward, keeping core locked, until torso is near floor.",
+        "Pull wheel back to start by contracting abs, not hips."
+      ],
+      "common_mistakes": [
+        "Letting the lower back arch, causing severe lower-back stress.",
+        "Leading with the hips instead of the wheel.",
+        "Bending arms during the rollout."
+      ],
+      "progression": "Increase rollout distance or perform from feet.",
+      "regression": "Stability ball rollout or partial-range rollout facing a wall to block the wheel.",
+      "substitutions": [
+        "plank",
+        "dead_bug"
+      ],
+      "media": {
+        "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Ab_Roller/0.jpg",
+        "type": "image/jpeg",
+        "license": "Unlicense / public domain dedication",
+        "attribution": "free-exercise-db by yuhonas",
+        "source": "free-exercise-db",
+        "source_id": "Ab_Roller",
+        "matched_name": "Ab Roller"
+      },
+      "expert_rating": {
+        "score": 8.5,
+        "tier": "A",
+        "stability": "medium",
+        "stretch": "high",
+        "sfr": "high",
+        "verdict": "Extreme anti-extension load. Smashes the rectus abdominis under stretch, but has a high entry barrier."
+      },
+      "plain_summary": "Roll a wheel forward on your knees to stretch and load your abs in a long, fully extended position."
+    },
+    {
+      "id": "cardio_rowing_machine",
+      "name": "Rowing Machine Warmup",
+      "category": "warmup",
+      "equipment": [
+        "rowing_machine"
+      ],
+      "movement_pattern": "warmup",
+      "primary_muscles": [
+        "whole_body"
+      ],
+      "secondary_muscles": [],
+      "biomechanics": "Engages both upper and lower body in a low-impact rhythmic pattern to raise core body temperature.",
+      "setup_cues": [
+        "Set damper to a moderate level (3-5).",
+        "Secure feet in straps and grip handle with straight arms.",
+        "Push with legs first, then lean back slightly, then pull handle to upper ribs.",
+        "Extend arms, lean forward, then bend knees to slide forward."
+      ],
+      "common_mistakes": [
+        "Pulling with the arms first before driving with the legs.",
+        "Rounding the back at the start of the stroke.",
+        "Setting the damper too high."
+      ],
+      "progression": "Slightly increase pace or stroke rate.",
+      "regression": "Perform slowly at a conversational pace.",
+      "substitutions": [
+        "cardio_stationary_bike",
+        "cardio_treadmill_walk"
+      ],
+      "media": {
+        "url": null,
+        "type": null,
+        "license": null,
+        "attribution": null
+      },
+      "expert_rating": null,
+      "plain_summary": "Row with legs and arms together to warm up your whole body and raise your heart rate before lifting."
+    },
+    {
+      "id": "cardio_stationary_bike",
+      "name": "Stationary Bike Warmup",
+      "category": "warmup",
+      "equipment": [
+        "stationary_bike"
+      ],
+      "movement_pattern": "warmup",
+      "primary_muscles": [
+        "quadriceps",
+        "gluteus_maximus"
+      ],
+      "secondary_muscles": [],
+      "biomechanics": "A low-impact cardio warmup that increases knee joint synovial fluid and elevates heart rate.",
+      "setup_cues": [
+        "Adjust seat height so leg is almost fully extended at the bottom of the pedal stroke.",
+        "Keep chest up and grip handles lightly.",
+        "Pedal at a moderate, consistent cadence (70-90 RPM).",
+        "Breathe deeply through the nose."
+      ],
+      "common_mistakes": [
+        "Setting seat too low, causing knee strain.",
+        "Slouching heavily over the handlebars.",
+        "Using too high resistance for a warmup."
+      ],
+      "progression": "Slightly increase resistance or RPM.",
+      "regression": "Reduce resistance and pedal slowly.",
+      "substitutions": [
+        "cardio_rowing_machine",
+        "cardio_treadmill_walk"
+      ],
+      "media": {
+        "url": null,
+        "type": null,
+        "license": null,
+        "attribution": null
+      },
+      "expert_rating": null,
+      "plain_summary": "Pedal a stationary bike to warm up your knees and get blood flowing to your thigh muscles and hips."
+    },
+    {
+      "id": "cardio_treadmill_walk",
+      "name": "Treadmill Walk Warmup",
+      "category": "warmup",
+      "equipment": [
+        "treadmill"
+      ],
+      "movement_pattern": "warmup",
+      "primary_muscles": [
+        "whole_body"
+      ],
+      "secondary_muscles": [],
+      "biomechanics": "Increases systemic circulation and prepares the ankles, knees, and hips for weight-bearing exercises.",
+      "setup_cues": [
+        "Set incline to 1.0-2.0% to mimic outdoor walking.",
+        "Walk at a brisk, comfortable pace.",
+        "Swing arms naturally at your sides.",
+        "Focus on heel-to-toe foot placement."
+      ],
+      "common_mistakes": [
+        "Holding onto the handrails, reducing core activity.",
+        "Walking with a slouched posture.",
+        "Setting the speed too fast too early."
+      ],
+      "progression": "Increase speed or incline slightly.",
+      "regression": "Decrease speed or flat walk.",
+      "substitutions": [
+        "cardio_stationary_bike",
+        "cardio_rowing_machine"
+      ],
+      "media": {
+        "url": null,
+        "type": null,
+        "license": null,
+        "attribution": null
+      },
+      "expert_rating": null,
+      "plain_summary": "Walk at a brisk pace on a treadmill to warm up your joints and increase blood flow before training."
+    },
+    {
+      "id": "dynamic_arm_swings",
+      "name": "Dynamic Arm Swings",
+      "category": "warmup",
+      "equipment": [],
+      "movement_pattern": "warmup",
+      "primary_muscles": [
+        "pectoralis_major",
+        "deltoids",
+        "rotator_cuff"
+      ],
+      "secondary_muscles": [],
+      "biomechanics": "Lubricates the shoulder joint and increases blood flow to the chest, back, and shoulders.",
+      "setup_cues": [
+        "Stand with feet shoulder-width apart, arms extended to the sides.",
+        "Swing arms across the front of your chest, crossing them over each other.",
+        "Swing back out to a stretch, then cross again with opposite arm on top.",
+        "Perform in a slow, controlled rhythm, not forcing the range."
+      ],
+      "common_mistakes": [
+        "Swinging with excessive speed or aggression.",
+        "Shrugging the shoulders up toward the ears.",
+        "Rounding the upper spine."
+      ],
+      "progression": "Incorporate light resistance bands for shoulder external rotation.",
+      "regression": "Perform sitting down or with smaller range of motion.",
+      "substitutions": [
+        "dynamic_leg_swings",
+        "cardio_rowing_machine",
+        "doorway_chest_stretch"
+      ],
+      "media": {
+        "url": null,
+        "type": null,
+        "license": null,
+        "attribution": null
+      },
+      "expert_rating": null,
+      "plain_summary": "Swing your arms in wide circles and side to side to loosen up your chest and shoulder joints."
+    },
+    {
+      "id": "dynamic_leg_swings",
+      "name": "Dynamic Leg Swings",
+      "category": "warmup",
+      "equipment": [],
+      "movement_pattern": "warmup",
+      "primary_muscles": [
+        "hip_flexors",
+        "hamstrings",
+        "adductors"
+      ],
+      "secondary_muscles": [],
+      "biomechanics": "Improves hip mobility in sagittal and frontal planes, preparing lower limbs for squats and hinges.",
+      "setup_cues": [
+        "Stand next to a rack or wall, placing one hand on it for support.",
+        "Swing the outer leg forward and backward in a smooth motion.",
+        "Maintain a tall torso, resisting excessive lower-back arching.",
+        "Repeat sideways (across the body and out to the side) to warm up hip adductors."
+      ],
+      "common_mistakes": [
+        "Leaning the torso forward and backward to force leg height.",
+        "Swinging aggressively, straining the hamstring.",
+        "Letting the supporting leg collapse inward."
+      ],
+      "progression": "Gradually increase the range of swing as muscles warm up.",
+      "regression": "Perform slow knee circles (hip openers) instead of swings.",
+      "substitutions": [
+        "dynamic_arm_swings",
+        "cardio_treadmill_walk",
+        "world_greatest_stretch"
+      ],
+      "media": {
+        "url": null,
+        "type": null,
+        "license": null,
+        "attribution": null
+      },
+      "expert_rating": null,
+      "plain_summary": "Swing your legs forward and backward to stretch and warm up your hips, thighs, and hamstrings before squatting."
+    },
+    {
+      "id": "doorway_chest_stretch",
+      "name": "Doorway Chest Stretch",
+      "category": "stretch",
+      "equipment": [],
+      "movement_pattern": "stretch",
+      "primary_muscles": [
+        "pectoralis_major",
+        "anterior_deltoid"
+      ],
+      "secondary_muscles": [],
+      "biomechanics": "Stretches the chest and front shoulders, counteracting the internally rotated posture from desk work.",
+      "setup_cues": [
+        "Stand in a doorway or next to a rack post.",
+        "Place your forearm flat against the surface, elbow bent at 90 degrees at shoulder height.",
+        "Step forward with one foot until a comfortable stretch is felt in the chest.",
+        "Hold and take deep diaphragmatic breaths."
+      ],
+      "common_mistakes": [
+        "Leaning forward with the head, straining the neck.",
+        "Arching the lower back excessively.",
+        "Shrugging the shoulder of the stretched side."
+      ],
+      "progression": "Adjust arm height higher or lower to target different chest fibers.",
+      "regression": "Perform with hands behind the head, pulling elbows back gently.",
+      "substitutions": [
+        "world_greatest_stretch",
+        "dynamic_arm_swings",
+        "overhead_tricep_stretch"
+      ],
+      "media": {
+        "url": null,
+        "type": null,
+        "license": null,
+        "attribution": null
+      },
+      "expert_rating": null,
+      "plain_summary": "Lean forward through a doorway to stretch your chest and front shoulders, correcting tight posture from sitting at desks."
+    },
+    {
+      "id": "overhead_tricep_stretch",
+      "name": "Overhead Tricep Stretch",
+      "category": "stretch",
+      "equipment": [],
+      "movement_pattern": "stretch",
+      "primary_muscles": [
+        "triceps_brachii",
+        "latissimus_dorsi"
+      ],
+      "secondary_muscles": [],
+      "biomechanics": "Lengthens the triceps and lats in shoulder flexion, improving overhead mobility.",
+      "setup_cues": [
+        "Raise one arm overhead and bend the elbow, reaching hand down your spine.",
+        "Use the opposite hand to gently pull the elbow back and down.",
+        "Keep the chest up and look forward, not down.",
+        "Breath deeply to relax the target muscles."
+      ],
+      "common_mistakes": [
+        "Tucking chin to chest, putting pressure on cervical spine.",
+        "Arching the lower back to compensate for tight shoulders.",
+        "Pulling too aggressively, causing pain."
+      ],
+      "progression": "Incorporate a slight side bend to increase lat stretch.",
+      "regression": "Cross-body tricep/shoulder stretch.",
+      "substitutions": [
+        "doorway_chest_stretch",
+        "dynamic_arm_swings",
+        "world_greatest_stretch"
+      ],
+      "media": {
+        "url": null,
+        "type": null,
+        "license": null,
+        "attribution": null
+      },
+      "expert_rating": null,
+      "plain_summary": "Pull your elbow behind your head to stretch the back of your upper arms and your wide back muscles."
+    },
+    {
+      "id": "world_greatest_stretch",
+      "name": "World's Greatest Stretch",
+      "category": "stretch",
+      "equipment": [],
+      "movement_pattern": "mobility",
+      "primary_muscles": [
+        "hip_flexors",
+        "hamstrings",
+        "thoracic_spine_rotators"
+      ],
+      "secondary_muscles": [
+        "gluteus_maximus",
+        "adductors"
+      ],
+      "biomechanics": "A comprehensive full-body mobility flow targeting hip extension, hamstring flexibility, and thoracic rotation.",
+      "setup_cues": [
+        "Step back into a deep lunge with hands flat on the floor inside front foot.",
+        "Elbow-drop the hand closest to front foot toward floor, stretching hip.",
+        "Rotate that same arm upward toward ceiling, looking at your hand to open chest.",
+        "Place hand back down, push hips back to straighten front leg, stretching hamstring."
+      ],
+      "common_mistakes": [
+        "Letting the back knee sag or touch the floor during the active phase.",
+        "Rounding the upper back during thoracic rotation.",
+        "Rushing through the positions instead of pausing for breaths."
+      ],
+      "progression": "Increase hold time in each phase or add dynamic lateral lunges.",
+      "regression": "Perform with the back knee resting on a soft pad.",
+      "substitutions": [
+        "dynamic_leg_swings",
+        "dynamic_arm_swings",
+        "doorway_chest_stretch"
+      ],
+      "media": {
+        "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Worlds_Greatest_Stretch/0.jpg",
+        "type": "image/jpeg",
+        "license": "Unlicense / public domain dedication",
+        "attribution": "free-exercise-db by yuhonas",
+        "source": "free-exercise-db",
+        "source_id": "Worlds_Greatest_Stretch",
+        "matched_name": "World's Greatest Stretch"
+      },
+      "expert_rating": null,
+      "plain_summary": "Perform a deep lunge and twist to stretch your hips, back of your thighs, and open your upper back."
+    },
+    {
+      "id": "foam_rolling_quads",
+      "name": "Foam Rolling Quads",
+      "category": "recovery",
+      "equipment": [
+        "foam_roller"
+      ],
+      "movement_pattern": "myofascial release",
+      "primary_muscles": [
+        "quadriceps"
+      ],
+      "secondary_muscles": [],
+      "biomechanics": "Utilizes mechanical pressure to improve blood flow, down-regulate nervous system tone, and reduce muscle soreness.",
+      "setup_cues": [
+        "Lie face down with a foam roller under your thighs.",
+        "Support body weight on forearms in a plank position.",
+        "Slowly roll up and down from the hip down to just above the knee.",
+        "Pause and breathe on any particularly tender spots."
+      ],
+      "common_mistakes": [
+        "Rolling directly over the knee cap.",
+        "Rolling too fast, which reduces effectiveness.",
+        "Tensing the muscles instead of relaxing them into the roller."
+      ],
+      "progression": "Cross one leg over the other to increase pressure on a single side.",
+      "regression": "Roll both legs together to distribute pressure, or use a slower tempo/softer roller.",
+      "substitutions": [
+        "world_greatest_stretch",
+        "dynamic_leg_swings",
+        "cardio_stationary_bike"
+      ],
+      "media": {
+        "url": null,
+        "type": null,
+        "license": null,
+        "attribution": null
+      },
+      "expert_rating": null,
+      "plain_summary": "Roll your thighs over a foam roller to massage and loosen tight quad muscles and ease muscle soreness."
+    },
+    {
+      "id": "classic_sit_up",
+      "name": "Classic Sit-Up",
+      "category": "core",
+      "equipment": [],
+      "movement_pattern": "dynamic core",
+      "primary_muscles": [
+        "hip_flexors"
+      ],
+      "secondary_muscles": [
+        "rectus_abdominis"
+      ],
+      "biomechanics": "Flexes the torso off the floor. Heavy activation of iliopsoas/rectus femoris (hip flexors) to lift the torso, causing spinal compression with minimal direct abdominal tension.",
+      "setup_cues": [
+        "Lie flat on your back with knees bent and feet anchored.",
+        "Place hands behind head or crossed over chest.",
+        "Lift your entire torso off the floor until your chest touches your thighs.",
+        "Lower back down to the floor."
+      ],
+      "common_mistakes": [
+        "Yanking the neck forward with hands.",
+        "Relying entirely on hip flexors instead of squeezing the abs.",
+        "Rounding and compressing the lumbar spine aggressively under load."
+      ],
+      "progression": "Perform on a decline bench or hold a plate to your chest.",
+      "regression": "Perform abdominal crunches (keeping lower back on the floor).",
+      "substitutions": [
+        "dead_bug",
+        "abdominal_crunch",
+        "hanging_knee_raise"
+      ],
+      "media": {
+        "url": null,
+        "type": null,
+        "license": null,
+        "attribution": null
+      },
+      "expert_rating": {
+        "score": 4,
+        "tier": "F",
+        "stability": "medium",
+        "stretch": "low",
+        "sfr": "low",
+        "verdict": "Low abdominal efficacy. Hip flexors perform the majority of the work while the lower back is heavily compressed."
+      },
+      "plain_summary": "Curl your torso up to your knees to work your hip flexors, though it can stress your lower back."
+    },
+    {
+      "id": "abdominal_crunch",
+      "name": "Abdominal Crunch",
+      "category": "core",
+      "equipment": [],
+      "movement_pattern": "dynamic core",
+      "primary_muscles": [
+        "rectus_abdominis"
+      ],
+      "secondary_muscles": [
+        "obliques"
+      ],
+      "biomechanics": "Isolates the upper rectus abdominis by flexing only the thoracic spine, keeping the lumbar spine flat on the floor.",
+      "setup_cues": [
+        "Lie on back with knees bent, feet flat on the floor.",
+        "Place fingers lightly behind ears, keeping elbows wide.",
+        "Contract abs to lift shoulders off the floor while pressing lower back down.",
+        "Exhale and squeeze at the top, then slowly lower shoulders down."
+      ],
+      "common_mistakes": [
+        "Pulling on the head/neck.",
+        "Lifting the lower back off the floor, which engages the hip flexors.",
+        "Using momentum to bounce off the floor."
+      ],
+      "progression": "Decline crunch or cable crunch to add range and resistance.",
+      "regression": "Hand-slide crunch (sliding hands up thighs toward knees).",
+      "substitutions": [
+        "classic_sit_up",
+        "dead_bug",
+        "hanging_knee_raise"
+      ],
+      "media": {
+        "url": null,
+        "type": null,
+        "license": null,
+        "attribution": null
+      },
+      "expert_rating": {
+        "score": 6.5,
+        "tier": "C",
+        "stability": "medium",
+        "stretch": "low",
+        "sfr": "medium",
+        "verdict": "Slightly better than sit-ups because it excludes hip flexors, but has a very limited range of motion."
+      },
+      "plain_summary": "Raise just your shoulders off the floor to isolate and squeeze the upper portion of your six-pack abs."
+    },
+    {
+      "id": "ab_crunch_machine",
+      "name": "Ab Crunch Machine",
+      "category": "core",
+      "equipment": [
+        "ab_crunch_machine"
+      ],
+      "movement_pattern": "dynamic core",
+      "primary_muscles": [
+        "rectus_abdominis"
+      ],
+      "secondary_muscles": [
+        "obliques"
+      ],
+      "biomechanics": "Loads spinal flexion through a fixed machine path, letting the rectus abdominis work against adjustable resistance through a fuller range than a floor crunch.",
+      "setup_cues": [
+        "Adjust the seat so the pad sits at mid-chest and the pivot aligns with your torso.",
+        "Grip the handles lightly — drive with the abs, not the arms.",
+        "Exhale and crunch the ribcage toward the pelvis.",
+        "Return slowly without letting the stack touch down between reps."
+      ],
+      "common_mistakes": [
+        "Pulling with the arms instead of flexing the trunk.",
+        "Using a load so heavy the hips drive the movement.",
+        "Rushing the eccentric and letting the stack slam."
+      ],
+      "progression": "Increase stack weight or add a 1-second squeeze at peak contraction.",
+      "regression": "Lighter stack, or abdominal crunch on the floor.",
+      "substitutions": [
+        "abdominal_crunch",
+        "classic_sit_up",
+        "hanging_knee_raise"
+      ],
+      "media": {
+        "url": null,
+        "type": null,
+        "license": null,
+        "attribution": null
+      },
+      "expert_rating": {
+        "score": 7.5,
+        "tier": "B",
+        "stability": "high",
+        "stretch": "medium",
+        "sfr": "high",
+        "verdict": "Best crunch variation for progressive overload: machine stability plus adjustable load makes ab training trackable like any other lift."
+      },
+      "plain_summary": "Curl forward against weighted resistance on a machine to build your front abs through a controlled, guided path."
+    },
+    {
+      "id": "hack_squat",
+      "name": "Hack Squat",
+      "category": "legs",
+      "equipment": [
+        "hack_squat_machine"
+      ],
+      "movement_pattern": "squat",
+      "primary_muscles": [
+        "quadriceps"
+      ],
+      "secondary_muscles": [
+        "gluteus_maximus",
+        "adductor_magnus"
+      ],
+      "biomechanics": "Fixed linear travel removes lateral stability demands, allowing high loading. Placing feet lower on the platform increases knee flexion and quad stretch, while higher feet shift work to the glutes.",
+      "setup_cues": [
+        "Position shoulders and back firmly against the pads.",
+        "Place feet shoulder-width apart on the platform, mid-to-low height.",
+        "Disengage safety handles, brace core, and lower under control until thighs are parallel to footplate.",
+        "Drive up through the mid-foot, avoiding knee lock at the top."
+      ],
+      "common_mistakes": [
+        "Lifting heels off the platform at the bottom of the rep.",
+        "Allowing knees to cave inward (valgus collapse).",
+        "Lifting lower back or hips off the backrest."
+      ],
+      "progression": "Increase plate loading or add a brief pause at the bottom stretch.",
+      "regression": "Leg press or goblet box squat.",
+      "substitutions": [
+        "leg_press",
+        "barbell_back_squat",
+        "goblet_squat"
+      ],
+      "media": {
+        "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Hack_Squat/0.jpg",
+        "type": "image/jpeg",
+        "license": "Unlicense / public domain dedication",
+        "attribution": "free-exercise-db by yuhonas",
+        "source": "free-exercise-db",
+        "source_id": "Hack_Squat",
+        "matched_name": "Hack Squat"
+      },
+      "expert_rating": {
+        "score": 9.5,
+        "tier": "S",
+        "stability": "high",
+        "stretch": "high",
+        "sfr": "high",
+        "verdict": "An absolute gold standard for quad hypertrophy. Extremely stable, allows safe training to failure, and provides a massive loaded stretch."
+      },
+      "plain_summary": "Squat on a guided sled machine to focus entirely on building your thighs without needing to balance a barbell."
+    },
+    {
+      "id": "diverging_lat_pulldown",
+      "name": "Diverging Lat Pulldown Machine",
+      "category": "pull",
+      "equipment": [
+        "lat_pulldown_machine"
+      ],
+      "movement_pattern": "vertical pull",
+      "primary_muscles": [
+        "latissimus_dorsi"
+      ],
+      "secondary_muscles": [
+        "biceps_brachii",
+        "trapezius_middle_lower",
+        "rhomboids"
+      ],
+      "biomechanics": "The diverging path follows the natural motion of the shoulder blades, increasing the contraction sweep and aligning perfectly with the lat fibers.",
+      "setup_cues": [
+        "Adjust seat height and knee pads so you are firmly locked in.",
+        "Grip handles unilaterally or bilaterally, chest up.",
+        "Pull shoulders down and back, driving elbows down toward your hips.",
+        "Control the path back up, allowing a full stretch at the top."
+      ],
+      "common_mistakes": [
+        "Shrugging shoulders up at the bottom of the pull.",
+        "Leaning back excessively to use bodyweight.",
+        "Pulling with hands or biceps rather than leading with elbows."
+      ],
+      "progression": "Increase machine weight while keeping strict form.",
+      "regression": "Standard lat pulldown or assisted pull-up.",
+      "substitutions": [
+        "lat_pulldown",
+        "pull_up",
+        "chest_supported_row_machine"
+      ],
+      "media": {
+        "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Wide-Grip_Lat_Pulldown/0.jpg",
+        "type": "image/jpeg",
+        "license": "Unlicense / public domain dedication",
+        "attribution": "free-exercise-db by yuhonas",
+        "source": "free-exercise-db",
+        "source_id": "Wide-Grip_Lat_Pulldown",
+        "matched_name": "Wide-Grip Lat Pulldown"
+      },
+      "expert_rating": {
+        "score": 9,
+        "tier": "S",
+        "stability": "high",
+        "stretch": "high",
+        "sfr": "high",
+        "verdict": "Outstanding unilateral lat builder. Highly stable seat lock with converging/diverging handle arcs that match lat anatomy better than a straight bar."
+      },
+      "plain_summary": "Pull down handles that spread outward to follow your shoulder blade motion, building wide back wings in a natural path."
+    },
+    {
+      "id": "machine_bicep_curl",
+      "name": "Selectorized Bicep Curl Machine",
+      "category": "pull",
+      "equipment": [
+        "biceps_curl_machine"
+      ],
+      "movement_pattern": "bicep curl",
+      "primary_muscles": [
+        "biceps_brachii"
+      ],
+      "secondary_muscles": [
+        "brachialis",
+        "brachioradialis"
+      ],
+      "biomechanics": "Secures the upper arm on a pad, preventing shoulder flexion (cheating) and isolating elbow flexion. The cam design provides continuous tension.",
+      "setup_cues": [
+        "Adjust seat height so your armpits rest comfortably at the top of the pad.",
+        "Align the elbow joint with the pivot axis of the machine.",
+        "Grip handles, keep chest tall, and curl handles toward shoulders.",
+        "Lower under control, extending elbows fully at the bottom."
+      ],
+      "common_mistakes": [
+        "Lifting elbows off the pad during the curl.",
+        "Hunching shoulders forward or using torso momentum.",
+        "Stopping short of full extension."
+      ],
+      "progression": "Increase weight stack or hold the peak contraction.",
+      "regression": "Cable bicep curl or light dumbbell curl.",
+      "substitutions": [
+        "preacher_curl",
+        "cable_bicep_curl",
+        "dumbbell_curl"
+      ],
+      "media": {
+        "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Machine_Bicep_Curl/0.jpg",
+        "type": "image/jpeg",
+        "license": "Unlicense / public domain dedication",
+        "attribution": "free-exercise-db by yuhonas",
+        "source": "free-exercise-db",
+        "source_id": "Machine_Bicep_Curl",
+        "matched_name": "Machine Bicep Curl"
+      },
+      "expert_rating": {
+        "score": 8.5,
+        "tier": "A",
+        "stability": "high",
+        "stretch": "medium",
+        "sfr": "high",
+        "verdict": "Extremely high stability isolates the elbow flexors perfectly. The machine cam curve maintains tension throughout the range of motion."
+      },
+      "plain_summary": "Curl padded machine levers upward to keep constant tension on your biceps and build the front of your arm."
+    },
+    {
+      "id": "machine_tricep_extension",
+      "name": "Selectorized Triceps Extension Machine",
+      "category": "push",
+      "equipment": [
+        "triceps_extension_machine"
+      ],
+      "movement_pattern": "tricep extension",
+      "primary_muscles": [
+        "triceps_brachii"
+      ],
+      "secondary_muscles": [],
+      "biomechanics": "A seated position with chest and elbow support isolates the triceps, providing a stabilized path for elbow extension.",
+      "setup_cues": [
+        "Adjust seat so chest rests against the support pad.",
+        "Place elbows on the pad, aligning them with the machine's pivot point.",
+        "Extend arms fully, pushing the handles away.",
+        "Slowly return to the start position, controlling the eccentric stretch."
+      ],
+      "common_mistakes": [
+        "Allowing elbows to flare outward off the pads.",
+        "Using chest/shoulder press mechanics instead of pure elbow extension.",
+        "Cutting the range of motion short."
+      ],
+      "progression": "Increase weight stack or add a 1-second pause at full extension.",
+      "regression": "Cable tricep pushdown.",
+      "substitutions": [
+        "cable_tricep_pushdown",
+        "overhead_dumbbell_tricep_extension"
+      ],
+      "media": {
+        "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Machine_Triceps_Extension/0.jpg",
+        "type": "image/jpeg",
+        "license": "Unlicense / public domain dedication",
+        "attribution": "free-exercise-db by yuhonas",
+        "source": "free-exercise-db",
+        "source_id": "Machine_Triceps_Extension",
+        "matched_name": "Machine Triceps Extension"
+      },
+      "expert_rating": {
+        "score": 8.5,
+        "tier": "A",
+        "stability": "high",
+        "stretch": "medium",
+        "sfr": "high",
+        "verdict": "High-stability setup that removes core/shoulder balance demands, making it excellent for safe, high-effort triceps isolation."
+      },
+      "plain_summary": "Push down padded levers on a seated machine to isolate and build the triceps on the back of your arms."
+    },
+    {
+      "id": "assisted_chest_dip",
+      "name": "Assisted Chest Dip",
+      "category": "push",
+      "equipment": [
+        "assisted_pull_up_machine"
+      ],
+      "movement_pattern": "vertical press",
+      "primary_muscles": [
+        "pectoralis_major"
+      ],
+      "secondary_muscles": [
+        "anterior_deltoid",
+        "triceps_brachii"
+      ],
+      "biomechanics": "Allows progressive overload of the chest dip by offloading bodyweight. Leaning forward targets lower pectoralis major fibers.",
+      "setup_cues": [
+        "Set the assist weight stack (higher weight = easier).",
+        "Place knees or feet on the pad and grip handles, chest out.",
+        "Lean forward slightly (30 degrees) and lower until chest feels stretched.",
+        "Press back up, focusing on squeezing the chest, avoiding shoulder shrugging."
+      ],
+      "common_mistakes": [
+        "Staying too upright, shifting focus entirely to triceps.",
+        "Allowing shoulders to roll forward (internal rotation) at the bottom.",
+        "Dropping too fast into the deep stretch position."
+      ],
+      "progression": "Reduce the assist weight on the machine.",
+      "regression": "Push-ups or chest press machine.",
+      "substitutions": [
+        "chest_press_machine",
+        "cable_crossover",
+        "push_up"
+      ],
+      "media": {
+        "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Dips_-_Chest_Version/0.jpg",
+        "type": "image/jpeg",
+        "license": "Unlicense / public domain dedication",
+        "attribution": "free-exercise-db by yuhonas",
+        "source": "free-exercise-db",
+        "source_id": "Dips_-_Chest_Version",
+        "matched_name": "Dips - Chest Version"
+      },
+      "expert_rating": {
+        "score": 8.5,
+        "tier": "A",
+        "stability": "medium",
+        "stretch": "high",
+        "sfr": "high",
+        "verdict": "Excellent lower chest developer. The assist pad makes dips accessible and controllable, allowing safe training in the deep stretched range."
+      },
+      "plain_summary": "Lower and raise your body on bars with a helper platform to train your lower chest and triceps safely."
+    },
+    {
+      "id": "kettlebell_swing",
+      "name": "Kettlebell Swing",
+      "category": "legs",
+      "equipment": [
+        "kettlebell"
+      ],
+      "movement_pattern": "hinge",
+      "primary_muscles": [
+        "gluteus_maximus",
+        "hamstrings"
+      ],
+      "secondary_muscles": [
+        "core_stabilizers",
+        "erector_spinae"
+      ],
+      "biomechanics": "A dynamic, explosive hip hinge that trains rapid deceleration and acceleration of the posterior chain.",
+      "setup_cues": [
+        "Stand with feet slightly wider than shoulder width, kettlebell 1 foot in front of you.",
+        "Hinge at the hips, keeping back flat, and grab kettlebell handle.",
+        "Hike kettlebell back between legs, then snap hips forward explosively.",
+        "Let kettlebell float to chest height; do not pull it up with arms."
+      ],
+      "common_mistakes": [
+        "Squatting the weight up and down instead of hinging.",
+        "Using arms to lift the kettlebell.",
+        "Arching the lower back at the top."
+      ],
+      "progression": "Increase kettlebell weight or swing single-arm.",
+      "regression": "Dumbbell romanian deadlift or hip hinge practice.",
+      "substitutions": [
+        "romanian_deadlift",
+        "barbell_deadlift"
+      ],
+      "media": {
+        "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/One-Arm_Kettlebell_Swings/0.jpg",
+        "type": "image/jpeg",
+        "license": "Unlicense / public domain dedication",
+        "attribution": "free-exercise-db by yuhonas",
+        "source": "free-exercise-db",
+        "source_id": "One-Arm_Kettlebell_Swings",
+        "matched_name": "One-Arm Kettlebell Swings"
+      },
+      "expert_rating": {
+        "score": 8,
+        "tier": "B",
+        "stability": "medium",
+        "stretch": "medium",
+        "sfr": "medium",
+        "verdict": "Fantastic explosive power and posterior chain conditioning tool. Excellent for coordination, though barbell/dumbbell hinges are superior for pure mechanical tension hypertrophy."
+      },
+      "plain_summary": "Swing a kettlebell between your legs and up to chest height to build explosive hips, glutes, and thighs."
+    },
+    {
+      "id": "captains_chair_leg_raise",
+      "name": "Captain's Chair Hanging Leg Raise",
+      "category": "core",
+      "equipment": [
+        "hanging_leg_lift_machine"
+      ],
+      "movement_pattern": "core",
+      "primary_muscles": [
+        "rectus_abdominis"
+      ],
+      "secondary_muscles": [
+        "obliques",
+        "hip_flexors"
+      ],
+      "biomechanics": "A supported forearm position stabilizes the upper body, allowing active hip flexion and posterior pelvic tilt to isolate the lower abs.",
+      "setup_cues": [
+        "Rest forearms on the pads, gripping the handles firmly.",
+        "Press shoulders down away from ears, supporting bodyweight.",
+        "Raise legs (straight or bent knees) by curling the pelvis upward.",
+        "Lower legs slowly, resisting gravity, avoiding swinging."
+      ],
+      "common_mistakes": [
+        "Swinging legs and using momentum.",
+        "Hanging passively with shoulders shrugged up to ears.",
+        "Lifting legs using hip flexors only, without tilting the pelvis to engage abs."
+      ],
+      "progression": "Perform with straight legs or add a pause at the peak contraction.",
+      "regression": "Hanging knee raise or dead bug.",
+      "substitutions": [
+        "hanging_knee_raise",
+        "dead_bug",
+        "plank"
+      ],
+      "media": {
+        "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Hanging_Leg_Raise/0.jpg",
+        "type": "image/jpeg",
+        "license": "Unlicense / public domain dedication",
+        "attribution": "free-exercise-db by yuhonas",
+        "source": "free-exercise-db",
+        "source_id": "Hanging_Leg_Raise",
+        "matched_name": "Hanging Leg Raise"
+      },
+      "expert_rating": {
+        "score": 8.5,
+        "tier": "A",
+        "stability": "high",
+        "stretch": "medium",
+        "sfr": "high",
+        "verdict": "Highly effective core builder. The captain's chair pads provide excellent upper body stability, preventing the swinging common in hanging bar leg raises."
+      },
+      "plain_summary": "Support your body on forearm pads and raise your legs to isolate and build your lower abs safely."
+    },
+    {
+      "id": "cardio_stairmaster",
+      "name": "Cardio Stairmaster / Stepmill",
+      "category": "cardio",
+      "equipment": [
+        "stair_stepper_machine"
+      ],
+      "movement_pattern": "cardio",
+      "primary_muscles": [
+        "quadriceps",
+        "gluteus_maximus",
+        "calves"
+      ],
+      "secondary_muscles": [
+        "hamstrings"
+      ],
+      "biomechanics": "An active climbing motion that forces unilateral leg extension under bodyweight load, building cardiovascular capacity and lower body muscular endurance.",
+      "setup_cues": [
+        "Step onto the machine and select speed/level.",
+        "Keep posture upright, chest tall, avoiding leaning heavily on side handles.",
+        "Step through the full foot, pushing through the heel to engage glutes.",
+        "Maintain a steady, rhythmic breathing pace."
+      ],
+      "common_mistakes": [
+        "Leaning far forward and supporting bodyweight with arms on the handrails.",
+        "Taking tiny, rapid steps instead of full strides.",
+        "Allowing knees to cave inward while stepping."
+      ],
+      "progression": "Increase level (stepping speed) or session duration.",
+      "regression": "Treadmill incline walking.",
+      "substitutions": [
+        "cardio_treadmill_walk",
+        "cardio_stationary_bike"
+      ],
+      "media": {
+        "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Stairmaster/0.jpg",
+        "type": "image/jpeg",
+        "license": "Unlicense / public domain dedication",
+        "attribution": "free-exercise-db by yuhonas",
+        "source": "free-exercise-db",
+        "source_id": "Stairmaster",
+        "matched_name": "Stairmaster"
+      },
+      "expert_rating": {
+        "score": 8.5,
+        "tier": "A",
+        "stability": "medium",
+        "stretch": "medium",
+        "sfr": "high",
+        "verdict": "Top-tier cardio builder that also stimulates lower-body endurance. Excellent for active recovery and cardiovascular conditioning without joint impact stress."
+      },
+      "plain_summary": "Climb steps on a continuous machine to build cardiovascular fitness while strengthening your thighs, glutes, and lower legs."
+    },
+    {
+      "id": "cardio_elliptical",
+      "name": "Cardio Elliptical Trainer",
+      "category": "cardio",
+      "equipment": [
+        "ellipticals"
+      ],
+      "movement_pattern": "cardio",
+      "primary_muscles": [
+        "quadriceps",
+        "gluteus_maximus"
+      ],
+      "secondary_muscles": [
+        "hamstrings",
+        "calves"
+      ],
+      "biomechanics": "Low-impact closed-loop elliptical path that provides smooth cardiovascular stimulus without ground impact, allowing active arm contribution.",
+      "setup_cues": [
+        "Step onto footplates and grip handles.",
+        "Start pedaling in a forward motion.",
+        "Push and pull the handles rhythmically, keeping core engaged.",
+        "Maintain tall posture with hips and chest aligned forward."
+      ],
+      "common_mistakes": [
+        "Standing on toes, causing foot numbness.",
+        "Allowing heels to lift excessively off the plates.",
+        "Leaning heavily on handles, reducing lower body effort."
+      ],
+      "progression": "Increase resistance or incline level on console.",
+      "regression": "Treadmill walking.",
+      "substitutions": [
+        "cardio_stationary_bike",
+        "cardio_treadmill_walk"
+      ],
+      "media": {
+        "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Elliptical_Trainer/0.jpg",
+        "type": "image/jpeg",
+        "license": "Unlicense / public domain dedication",
+        "attribution": "free-exercise-db by yuhonas",
+        "source": "free-exercise-db",
+        "source_id": "Elliptical_Trainer",
+        "matched_name": "Elliptical Trainer"
+      },
+      "expert_rating": {
+        "score": 7.5,
+        "tier": "B",
+        "stability": "medium",
+        "stretch": "medium",
+        "sfr": "medium",
+        "verdict": "Great low-impact cardiovascular tool, particularly effective for joint-friendly active recovery and endurance workouts."
+      },
+      "plain_summary": "Glide in a smooth, low-impact stride to build your heart health and warm up your thighs and glutes."
+    },
+    {
+      "id": "couch_stretch",
+      "name": "Kneeling Hip Flexor (Couch Stretch)",
+      "category": "stretch",
+      "equipment": [],
+      "movement_pattern": "stretch",
+      "primary_muscles": [
+        "hip_flexors",
+        "quadriceps"
+      ],
+      "secondary_muscles": [],
+      "biomechanics": "By flexing the knee and extending the hip simultaneously, this places the rectus femoris and psoas under an intense, active stretch. Corrects anterior pelvic tilt and tight hips from prolonged sitting.",
+      "setup_cues": [
+        "Kneel on a soft pad in front of a wall or a bench.",
+        "Place one knee close to the base of the wall, with your shin running straight up the wall.",
+        "Step the other foot forward into a lunge position, keeping your knee stacked over the ankle.",
+        "Slowly squeeze your glutes and bring your torso upright until you feel a deep stretch in the front of your hip."
+      ],
+      "common_mistakes": [
+        "Arching the lower back excessively to make the torso upright, bypassing the hip stretch.",
+        "Allowing the front knee to cave inward.",
+        "Not actively squeezing the glute on the stretched side."
+      ],
+      "progression": "Bring the knee closer to the wall and lift your chest higher.",
+      "regression": "Perform a standard half-kneeling lunge stretch without the wall support.",
+      "substitutions": [
+        "world_greatest_stretch"
+      ],
+      "media": {
+        "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Kneeling_Hip_Flexor/0.jpg",
+        "type": "image/jpeg",
+        "license": "Unlicense / public domain dedication",
+        "attribution": "free-exercise-db by yuhonas",
+        "source": "free-exercise-db",
+        "source_id": "Kneeling_Hip_Flexor",
+        "matched_name": "Kneeling Hip Flexor"
+      },
+      "expert_rating": null,
+      "plain_summary": "Kneel with one foot raised against a wall to deeply stretch your hip flexors and the front of your thighs."
+    },
+    {
+      "id": "wall_calf_ankle_stretch",
+      "name": "Wall Calf & Ankle Stretch",
+      "category": "stretch",
+      "equipment": [],
+      "movement_pattern": "stretch",
+      "primary_muscles": [
+        "calves"
+      ],
+      "secondary_muscles": [],
+      "biomechanics": "Loads the gastrocnemius and soleus under passive dorsiflexion, which directly improves ankle range of motion—the primary constraint in deep squatting mechanics.",
+      "setup_cues": [
+        "Stand facing a wall, about one arm length away.",
+        "Place hands on the wall for support, and step one foot back.",
+        "Keep the back leg straight, heel flat on the floor, and front knee bent.",
+        "Lean forward slightly to increase the calf stretch, holding for time."
+      ],
+      "common_mistakes": [
+        "Lifting the back heel off the floor.",
+        "Turning the back foot outward, which rotates the ankle out of alignment.",
+        "Arching the spine."
+      ],
+      "progression": "Step the back foot further away from the wall.",
+      "regression": "Perform seated with a resistance band looped around the foot.",
+      "substitutions": [
+        "standing_calf_raise"
+      ],
+      "media": {
+        "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Calf_Stretch_Hands_Against_Wall/0.jpg",
+        "type": "image/jpeg",
+        "license": "Unlicense / public domain dedication",
+        "attribution": "free-exercise-db by yuhonas",
+        "source": "free-exercise-db",
+        "source_id": "Calf_Stretch_Hands_Against_Wall",
+        "matched_name": "Calf Stretch Hands Against Wall"
+      },
+      "expert_rating": null,
+      "plain_summary": "Lean against a wall with your back heel down to stretch your calf muscles and improve your ankle mobility."
+    },
+    {
+      "id": "cat_cow_stretch",
+      "name": "Cat-Cow Stretch",
+      "category": "stretch",
+      "equipment": [],
+      "movement_pattern": "stretch",
+      "primary_muscles": [
+        "erector_spinae",
+        "core_stabilizers"
+      ],
+      "secondary_muscles": [],
+      "biomechanics": "Promotes spinal flexion and extension, mobilizing the vertebrae and hydrating the intervertebral discs. Helps establish neuromuscular control of the pelvis (anterior/posterior tilt).",
+      "setup_cues": [
+        "Start on all fours (tabletop position) with hands under shoulders and knees under hips.",
+        "Inhale, drop your belly toward the floor, lift your chest and chin, looking forward (Cow).",
+        "Exhale, round your spine toward the ceiling, tuck your chin to your chest, and pull your belly button in (Cat).",
+        "Flow smoothly between the two positions, matching breath to movement."
+      ],
+      "common_mistakes": [
+        "Using jerky or rapid movements.",
+        "Hyperextending the neck in the cow position.",
+        "Forcing ranges of motion that cause pain."
+      ],
+      "progression": "Add lateral movements or torso circles between transitions.",
+      "regression": "Perform seated in a chair, rounding and arching the back.",
+      "substitutions": [
+        "world_greatest_stretch"
+      ],
+      "media": {
+        "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Cat_Stretch/0.jpg",
+        "type": "image/jpeg",
+        "license": "Unlicense / public domain dedication",
+        "attribution": "free-exercise-db by yuhonas",
+        "source": "free-exercise-db",
+        "source_id": "Cat_Stretch",
+        "matched_name": "Cat Stretch"
+      },
+      "expert_rating": null,
+      "plain_summary": "Arch and round your back on your hands and knees to mobilize your spine and loosen stiff back muscles."
+    },
+    {
+      "id": "lying_glute_stretch",
+      "name": "Lying Glute Stretch (Figure-Four)",
+      "category": "stretch",
+      "equipment": [],
+      "movement_pattern": "stretch",
+      "primary_muscles": [
+        "gluteus_maximus"
+      ],
+      "secondary_muscles": [
+        "obliques"
+      ],
+      "biomechanics": "Stretches the gluteal muscles and deep hip rotators (such as the piriformis) through hip flexion and external rotation, reducing sciatic nerve compression and lower back tightness.",
+      "setup_cues": [
+        "Lie flat on your back with knees bent and feet flat on the floor.",
+        "Cross your right ankle over your left knee, creating a '4' shape.",
+        "Reach through your legs and grab the back of your left thigh or shin.",
+        "Gently pull your left knee toward your chest until you feel a stretch in your right outer hip/glute."
+      ],
+      "common_mistakes": [
+        "Yanking the knee aggressively, straining the knee joint.",
+        "Lifting the lower back completely off the floor.",
+        "Tensing the head and shoulders instead of keeping them relaxed."
+      ],
+      "progression": "Gently press the right knee outward with your elbow while pulling the left leg closer.",
+      "regression": "Perform seated in a chair, crossing the leg and leaning forward.",
+      "substitutions": [
+        "world_greatest_stretch"
+      ],
+      "media": {
+        "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Lying_Glute/0.jpg",
+        "type": "image/jpeg",
+        "license": "Unlicense / public domain dedication",
+        "attribution": "free-exercise-db by yuhonas",
+        "source": "free-exercise-db",
+        "source_id": "Lying_Glute",
+        "matched_name": "Lying Glute"
+      },
+      "expert_rating": null,
+      "plain_summary": "Pull your crossed leg toward your chest while lying down to stretch your glutes and relieve hip tightness."
+    },
+    {
+      "id": "foam_roller_thoracic_extension",
+      "name": "Foam Roller Thoracic Extension",
+      "category": "stretch",
+      "equipment": [
+        "foam_roller"
+      ],
+      "movement_pattern": "stretch",
+      "primary_muscles": [
+        "erector_spinae"
+      ],
+      "secondary_muscles": [
+        "latissimus_dorsi"
+      ],
+      "biomechanics": "Isolates extension of the thoracic spine (upper/mid back) over the fulcrum of the foam roller, reducing kyphosis and improving thoracic mobility necessary for overhead alignment.",
+      "setup_cues": [
+        "Place the foam roller on the floor and lie back so it rests horizontally across your mid-back (lower shoulder blades).",
+        "Support your head with your hands, keeping elbows pointing forward.",
+        "Keep your hips on the floor, brace your core, and gently arch your upper back backward over the roller.",
+        "Inhale as you extend backward, then exhale and return to start. Roll up or down 1 inch and repeat."
+      ],
+      "common_mistakes": [
+        "Flaring the lower ribs and arching the lower back (lumbar spine) instead of the upper back.",
+        "Letting your head drop back without hand support, straining the neck.",
+        "Rolling onto the lower back (which lacks ribs for protection)."
+      ],
+      "progression": "Extend arms overhead during the extension.",
+      "regression": "Perform seated against a high-backed chair, arching backward gently.",
+      "substitutions": [
+        "cat_cow_stretch"
+      ],
+      "media": {
+        "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Rhomboids-SMR/0.jpg",
+        "type": "image/jpeg",
+        "license": "Unlicense / public domain dedication",
+        "attribution": "free-exercise-db by yuhonas",
+        "source": "free-exercise-db",
+        "source_id": "Rhomboids-SMR",
+        "matched_name": "Rhomboids-SMR"
+      },
+      "expert_rating": null,
+      "plain_summary": "Lie back over a foam roller to stretch your upper back and chest, reversing the slouched posture of daily sitting."
+    },
+    {
+      "id": "hiking",
+      "name": "Hiking",
+      "category": "cardio",
+      "equipment": [
+        "none"
+      ],
+      "movement_pattern": "locomotion",
+      "primary_muscles": [
+        "quadriceps",
+        "gluteus_maximus",
+        "gastrocnemius"
+      ],
+      "secondary_muscles": [
+        "hamstrings",
+        "soleus",
+        "gluteus_medius",
+        "erector_spinae",
+        "core_stabilizers"
+      ],
+      "biomechanics": "Sustained loaded locomotion over grade. Ascents drive concentric quad/glute/calf work and aerobic demand; descents impose heavy eccentric quad loading and repetitive lateral-knee stress (IT band) that untrained legs adapt to slowly.",
+      "setup_cues": [
+        "Shorten your stride and increase cadence on steep grades, up and down.",
+        "On descents, land soft with a bent knee and keep the pelvis level.",
+        "Use trekking poles on long descents to offload the knees.",
+        "Fuel and drink early on efforts over two hours."
+      ],
+      "common_mistakes": [
+        "Braking down descents with long, straight-leg strides — this is what shreds knees and IT bands.",
+        "Going out at an unsustainable heart rate instead of a pace you can hold.",
+        "Skipping downhill/eccentric conditioning before a big mountain day."
+      ],
+      "plain_summary": "Walking mountains. Uphill builds legs, lungs, and heart; downhill hammers the knees with eccentric (lowering) load — the part gym training rarely prepares you for.",
+      "progression": "Longer or steeper hikes; add pack weight; faster ascent pace at a sustainable heart rate.",
+      "regression": "Shorter, flatter hikes or incline treadmill walking.",
+      "substitutions": [
+        "incline treadmill walk",
+        "stair climber"
+      ],
+      "media": {},
+      "expert_rating": null
+    }
+  ]
+}

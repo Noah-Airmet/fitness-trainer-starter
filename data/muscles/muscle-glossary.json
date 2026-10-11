@@ -1,0 +1,444 @@
+{
+  "schema_version": 1,
+  "generated_for": "fitness-trainer-starter",
+  "source": "lead-authored voice anchors + agent-bus (Codex gpt-5.5), fact-checked by lead",
+  "muscles": {
+    "adductor_magnus": {
+      "name": "Adductor magnus",
+      "group": "adductors",
+      "plain": "The largest inner-thigh muscle, running from your pelvis down the inside and back of your thigh.",
+      "why_it_matters": "It helps drive you up from squats and hinges while keeping your hips strong and steady.",
+      "pillar": null
+    },
+    "adductors": {
+      "name": "Inner thighs",
+      "group": "adductors",
+      "plain": "A group of muscles along your inner thighs that pull your legs inward and steady your hips.",
+      "heads": [
+        {
+          "name": "Adductor magnus",
+          "token": "adductor_magnus",
+          "plain": "The largest member, helping pull your thigh inward and drive your hip backward."
+        },
+        {
+          "name": "Other adductors",
+          "token": null,
+          "plain": "The smaller inner-thigh muscles that guide your leg and keep your pelvis controlled."
+        }
+      ],
+      "why_it_matters": "Strong adductors improve squat control, hip stability, and the overall shape of your upper legs.",
+      "pillar": null
+    },
+    "anterior_deltoid": {
+      "name": "Front delt",
+      "group": "deltoids",
+      "plain": "The front slice of your shoulder cap that raises your arm forward and helps with pressing.",
+      "why_it_matters": "Strong front delts support every chest and overhead press and add shape to the front of your shoulders.",
+      "pillar": null
+    },
+    "biceps_brachii": {
+      "name": "Biceps",
+      "group": "biceps_brachii",
+      "plain": "The muscle on the front of your upper arm that bends your elbow and turns your palm up.",
+      "heads": [
+        {
+          "name": "Long head",
+          "token": "biceps_brachii_long_head",
+          "plain": "The outer head that forms the 'peak' you see when you flex."
+        },
+        {
+          "name": "Short head",
+          "token": "biceps_brachii_short_head",
+          "plain": "The inner head that adds width to the front of the arm."
+        }
+      ],
+      "why_it_matters": "The biceps build the peak of the arm — your number-one priority muscle for the look you want.",
+      "pillar": "arms"
+    },
+    "biceps_brachii_long_head": {
+      "name": "Biceps — long head",
+      "group": "biceps_brachii",
+      "plain": "The outer part of your biceps that runs over the shoulder and forms the peak when you flex.",
+      "why_it_matters": "Building this head gives your upper arm a taller, sharper peak from the side.",
+      "pillar": "arms"
+    },
+    "biceps_brachii_short_head": {
+      "name": "Biceps — short head",
+      "group": "biceps_brachii",
+      "plain": "The inner part of your biceps that sits closer to your chest and helps bend your elbow.",
+      "why_it_matters": "Building this head adds width and fullness to the front of your upper arm.",
+      "pillar": "arms"
+    },
+    "brachialis": {
+      "name": "Brachialis",
+      "group": "brachialis",
+      "plain": "A strong elbow-bending muscle hidden underneath your biceps on the front of your upper arm.",
+      "why_it_matters": "Growing it pushes your biceps upward and makes your arm look wider from the front and side.",
+      "pillar": "arms"
+    },
+    "brachioradialis": {
+      "name": "Upper forearm",
+      "group": "brachioradialis",
+      "plain": "The thick muscle running from your outer upper arm to the thumb side of your forearm.",
+      "why_it_matters": "It strengthens curls and gives your forearm a solid, muscular ridge near the elbow.",
+      "pillar": "arms"
+    },
+    "calves": {
+      "name": "Calves",
+      "group": "calves",
+      "plain": "The muscles on the back of your lower leg that lift your heel and help push you off the ground.",
+      "heads": [
+        {
+          "name": "Gastrocnemius",
+          "token": "gastrocnemius",
+          "plain": "The visible upper calf with two rounded heads; it works hardest when your knee is fairly straight."
+        },
+        {
+          "name": "Soleus",
+          "token": "soleus",
+          "plain": "The broad muscle underneath; it works hardest when your knee is bent."
+        }
+      ],
+      "why_it_matters": "Strong calves support your ankles, power each step, and keep your lower legs in proportion.",
+      "pillar": null
+    },
+    "core_stabilizers": {
+      "name": "Core stabilizers",
+      "group": "core_stabilizers",
+      "plain": "The deep muscles around your waist, spine, and pelvis that hold your trunk steady while your limbs move.",
+      "why_it_matters": "A stable core lets you lift harder without your lower back or pelvis drifting out of position.",
+      "pillar": null
+    },
+    "deltoids": {
+      "name": "Shoulders",
+      "group": "deltoids",
+      "plain": "The three-part muscle wrapping over your shoulder joint like a rounded cap.",
+      "heads": [
+        {
+          "name": "Front delt",
+          "token": "anterior_deltoid",
+          "plain": "The front slice that raises your arm forward and helps with pressing."
+        },
+        {
+          "name": "Side delt",
+          "token": "lateral_deltoid",
+          "plain": "The outer cap that raises your arm sideways and makes your shoulders look broad."
+        },
+        {
+          "name": "Rear delt",
+          "token": "posterior_deltoid",
+          "plain": "The back slice that pulls your upper arm backward and balances your shoulder."
+        }
+      ],
+      "why_it_matters": "Balanced delts build rounded shoulders and help your arms move strongly in every direction.",
+      "pillar": null
+    },
+    "erector_spinae": {
+      "name": "Spinal erectors",
+      "group": "erector_spinae",
+      "plain": "Two long columns of muscle beside your spine that keep your back upright and help it extend.",
+      "why_it_matters": "Strong spinal erectors help you hold a safe, solid torso during squats, rows, and hinges.",
+      "pillar": null
+    },
+    "forearm_flexors": {
+      "name": "Forearm flexors",
+      "group": "forearm_flexors",
+      "plain": "The muscles along the palm side of your forearm that curl your wrist and help close your hand.",
+      "why_it_matters": "They build forearm thickness and help you keep a firm grip on weights.",
+      "pillar": "arms"
+    },
+    "gastrocnemius": {
+      "name": "Upper calf",
+      "group": "calves",
+      "plain": "The visible two-headed muscle on the back of your lower leg that works across your ankle and knee.",
+      "why_it_matters": "It creates the rounded calf shape and works hardest in calf raises done with a straighter knee.",
+      "pillar": null
+    },
+    "gluteus_maximus": {
+      "name": "Glutes",
+      "group": "gluteus_maximus",
+      "plain": "The large muscle forming most of your butt that drives your hip backward and powers you upright.",
+      "why_it_matters": "Strong glutes power squats, hinges, running, and climbing while supporting a stable pelvis.",
+      "pillar": null
+    },
+    "gluteus_medius": {
+      "name": "Side glute",
+      "group": "gluteus_medius",
+      "plain": "The fan-shaped muscle on the outer side of your hip that moves your leg outward and steadies your pelvis.",
+      "why_it_matters": "It keeps your hips and knees from collapsing inward during walking, running, and single-leg lifts.",
+      "pillar": null
+    },
+    "hamstrings": {
+      "name": "Hamstrings",
+      "group": "hamstrings",
+      "plain": "Three muscles down the back of your thigh that bend your knee and help drive your hip backward.",
+      "heads": [
+        {
+          "name": "Biceps femoris",
+          "token": null,
+          "plain": "The outer hamstring that helps bend your knee and gives the back of your thigh width."
+        },
+        {
+          "name": "Semitendinosus",
+          "token": null,
+          "plain": "A long inner hamstring that helps bend your knee and extend your hip."
+        },
+        {
+          "name": "Semimembranosus",
+          "token": null,
+          "plain": "A broad inner hamstring underneath that supports the same knee-bending and hip-driving jobs."
+        }
+      ],
+      "why_it_matters": "Strong hamstrings balance your quads, power hinges, and help protect your knees.",
+      "pillar": null
+    },
+    "hip_flexors": {
+      "name": "Hip flexors",
+      "group": "hip_flexors",
+      "plain": "A group of muscles at the front of your hip that lift your thigh toward your torso.",
+      "heads": [
+        {
+          "name": "Iliopsoas",
+          "token": "iliopsoas",
+          "plain": "The deepest and strongest hip flexor, running from your lower spine and pelvis to your upper thigh."
+        },
+        {
+          "name": "Supporting hip flexors",
+          "token": null,
+          "plain": "Smaller helpers across the front of your hip and thigh that assist with raising your leg."
+        }
+      ],
+      "why_it_matters": "Strong, controlled hip flexors help you walk, climb, squat deeply, and keep your pelvis steady.",
+      "pillar": null
+    },
+    "iliopsoas": {
+      "name": "Deep hip flexor",
+      "group": "hip_flexors",
+      "plain": "A deep muscle running from your lower spine and pelvis to your upper thigh that lifts your knee.",
+      "why_it_matters": "It helps you climb, run, and control your legs without your lower back taking over.",
+      "pillar": null
+    },
+    "infraspinatus": {
+      "name": "Infraspinatus",
+      "group": "rotator_cuff",
+      "plain": "A rotator-cuff muscle covering the back of your shoulder blade that turns your upper arm outward.",
+      "why_it_matters": "It keeps the shoulder joint centered and balanced during rows, presses, and overhead work.",
+      "pillar": null
+    },
+    "lateral_deltoid": {
+      "name": "Side delt",
+      "group": "deltoids",
+      "plain": "The middle of your three shoulder muscles — the cap on the very top-outside of your shoulder.",
+      "why_it_matters": "Wide side delts are the single biggest trick for looking athletic: they broaden your frame and make your waist look smaller.",
+      "pillar": "vtaper"
+    },
+    "latissimus_dorsi": {
+      "name": "Lats",
+      "group": "latissimus_dorsi",
+      "plain": "The big fan-shaped muscle spreading from your spine to your upper arm — the widest muscle in your back.",
+      "why_it_matters": "Wide lats are what make your shoulders look broad and your waist look smaller — the core of the V-taper.",
+      "pillar": "vtaper"
+    },
+    "latissimus_dorsi_lower": {
+      "name": "Lower lats",
+      "group": "latissimus_dorsi",
+      "plain": "The lower fibers of your lats, sweeping from your low back toward your upper arm.",
+      "why_it_matters": "Building them extends the V-taper farther toward your waist and strengthens pulls toward your hip.",
+      "pillar": "vtaper"
+    },
+    "obliques": {
+      "name": "Obliques",
+      "group": "obliques",
+      "plain": "The muscles along both sides of your waist that rotate, bend, and brace your torso.",
+      "why_it_matters": "Strong obliques give you a firm waist and keep your trunk steady when lifting or carrying.",
+      "pillar": "lean"
+    },
+    "pectoralis_major": {
+      "name": "Chest",
+      "group": "pectoralis_major",
+      "plain": "The big fan of muscle across the front of your ribcage that pushes your arms forward and together.",
+      "heads": [
+        {
+          "name": "Upper (clavicular) head",
+          "token": "pectoralis_major_clavicular",
+          "plain": "The top slice near your collarbone; incline pressing builds it and it's what reads as a 'full' chest in a shirt."
+        },
+        {
+          "name": "Main (sternal) head",
+          "token": null,
+          "plain": "The larger lower-and-mid portion that flat pressing develops."
+        }
+      ],
+      "why_it_matters": "A full chest — especially the upper part — is what makes you look built in and out of a shirt.",
+      "pillar": "chest"
+    },
+    "pectoralis_major_clavicular": {
+      "name": "Upper chest",
+      "group": "pectoralis_major",
+      "plain": "The top slice of your chest near your collarbone that helps press your arm upward and inward.",
+      "why_it_matters": "Incline pressing builds this area, filling the space below your collarbones and making your chest look complete.",
+      "pillar": "chest"
+    },
+    "posterior_deltoid": {
+      "name": "Rear delt",
+      "group": "deltoids",
+      "plain": "The back slice of your shoulder cap that pulls your upper arm backward and outward.",
+      "why_it_matters": "Rear delts round out your shoulders from behind, support posture, and add width to your upper back.",
+      "pillar": "vtaper"
+    },
+    "quadriceps": {
+      "name": "Quads",
+      "group": "quadriceps",
+      "plain": "The four big muscles on the front of your thigh that straighten your knee.",
+      "why_it_matters": "Strong quads drive nearly every lower-body lift and give your legs visible shape and overall body balance.",
+      "pillar": null
+    },
+    "rectus_abdominis": {
+      "name": "Abs",
+      "group": "rectus_abdominis",
+      "plain": "The long muscle down the front of your stomach that curls your ribs toward your pelvis.",
+      "why_it_matters": "It forms the visible six-pack and helps keep your ribs and pelvis controlled during lifts.",
+      "pillar": "lean"
+    },
+    "rhomboids": {
+      "name": "Rhomboids",
+      "group": "rhomboids",
+      "plain": "Small, strong muscles between your shoulder blades that pull the blades back toward your spine.",
+      "why_it_matters": "They thicken your mid-back and help you hold strong shoulder-blade position during rows and presses.",
+      "pillar": "vtaper"
+    },
+    "rotator_cuff": {
+      "name": "Rotator cuff",
+      "group": "rotator_cuff",
+      "plain": "Four small muscles wrapped around your shoulder joint that guide and hold the upper-arm bone in place.",
+      "heads": [
+        {
+          "name": "Supraspinatus",
+          "token": null,
+          "plain": "The top cuff muscle that starts lifting your arm and helps hold the joint centered."
+        },
+        {
+          "name": "Infraspinatus",
+          "token": "infraspinatus",
+          "plain": "The broad back cuff muscle that turns your upper arm outward."
+        },
+        {
+          "name": "Teres minor",
+          "token": "teres_minor",
+          "plain": "A small back cuff muscle that assists outward rotation and shoulder control."
+        },
+        {
+          "name": "Subscapularis",
+          "token": null,
+          "plain": "The front cuff muscle under your shoulder blade that turns your upper arm inward."
+        }
+      ],
+      "why_it_matters": "A strong rotator cuff keeps pressing and pulling smooth while lowering the chance of shoulder irritation.",
+      "pillar": null
+    },
+    "shoulder_stabilizers": {
+      "name": "Shoulder stabilizers",
+      "group": "shoulder_stabilizers",
+      "plain": "The smaller muscles around your shoulder blade and joint that keep everything lined up while your arm moves.",
+      "why_it_matters": "They give you a steady base for safe, strong pressing, pulling, and overhead lifting.",
+      "pillar": null
+    },
+    "soleus": {
+      "name": "Deep calf",
+      "group": "calves",
+      "plain": "The broad calf muscle underneath the gastrocnemius that lifts your heel, especially when your knee is bent.",
+      "why_it_matters": "It builds lower-calf thickness and supports your ankles during walking, running, and seated calf raises.",
+      "pillar": null
+    },
+    "teres_minor": {
+      "name": "Teres minor",
+      "group": "rotator_cuff",
+      "plain": "A small rotator-cuff muscle behind your shoulder that turns your upper arm outward.",
+      "why_it_matters": "It helps keep your shoulder centered and controlled during pulling and overhead movements.",
+      "pillar": null
+    },
+    "thoracic_spine_rotators": {
+      "name": "Upper-back rotators",
+      "group": "thoracic_spine_rotators",
+      "plain": "Small muscles around the middle and upper spine that help turn and steady your ribcage.",
+      "why_it_matters": "They let your upper back rotate cleanly while your lower back stays controlled.",
+      "pillar": null
+    },
+    "transversus_abdominis": {
+      "name": "Deep abs",
+      "group": "transversus_abdominis",
+      "plain": "The deepest abdominal muscle, wrapping around your waist like a built-in weight belt.",
+      "why_it_matters": "It braces your middle, supports your spine, and helps keep your waist firm during heavy lifts.",
+      "pillar": "lean"
+    },
+    "trapezius": {
+      "name": "Traps",
+      "group": "trapezius",
+      "plain": "The large diamond-shaped muscle from your neck across your upper back that moves and steadies your shoulder blades.",
+      "heads": [
+        {
+          "name": "Upper traps",
+          "token": null,
+          "plain": "The slope from your neck to your shoulders that lifts your shoulder blades."
+        },
+        {
+          "name": "Middle traps",
+          "token": "trapezius_middle_lower",
+          "plain": "The fibers across your mid-back that pull your shoulder blades together."
+        },
+        {
+          "name": "Lower traps",
+          "token": "trapezius_middle_lower",
+          "plain": "The lower fibers that pull your shoulder blades down and help them rotate upward."
+        }
+      ],
+      "why_it_matters": "Balanced traps support your neck and shoulders while adding thickness and control across your upper back.",
+      "pillar": null
+    },
+    "trapezius_middle_lower": {
+      "name": "Mid and lower traps",
+      "group": "trapezius",
+      "plain": "The middle and lower fibers of your traps that pull your shoulder blades back, down, and smoothly upward.",
+      "why_it_matters": "They improve shoulder control, posture, and the dense upper-back shape behind your V-taper.",
+      "pillar": "vtaper"
+    },
+    "triceps_brachii": {
+      "name": "Triceps",
+      "group": "triceps_brachii",
+      "plain": "The muscle on the back of your upper arm — it's actually two-thirds of your arm's size, more than the biceps.",
+      "heads": [
+        {
+          "name": "Long head",
+          "token": "triceps_brachii_long_head",
+          "plain": "The big inner slab; it crosses the shoulder, so it only fully works with your arm overhead."
+        },
+        {
+          "name": "Lateral head",
+          "token": null,
+          "plain": "The outer 'horseshoe' you see from the side; pushdowns hammer this one."
+        },
+        {
+          "name": "Medial head",
+          "token": null,
+          "plain": "A deep helper underneath that pitches in on every press."
+        }
+      ],
+      "why_it_matters": "Bigger triceps make the whole arm look thick from the back and the side, not just the front.",
+      "pillar": "arms"
+    },
+    "triceps_brachii_long_head": {
+      "name": "Triceps — long head",
+      "group": "triceps_brachii",
+      "plain": "The biggest of the three triceps heads, running from your shoulder blade to your elbow.",
+      "why_it_matters": "Because it crosses the shoulder, overhead moves stretch it fully — and a stretched muscle grows faster, building arm thickness.",
+      "pillar": "arms"
+    },
+    "whole_body": {
+      "name": "Whole body",
+      "group": "whole_body",
+      "plain": "A whole-body movement trains several major muscle groups together instead of isolating one small area.",
+      "why_it_matters": "It builds useful strength, coordination, and conditioning while getting more work done in less time.",
+      "pillar": null
+    }
+  }
+}

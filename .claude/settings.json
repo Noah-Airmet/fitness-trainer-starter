@@ -1,0 +1,18 @@
+{
+  "$comment": "Agent-first: pre-approve the normal fitness workflow so it never prompts.",
+  "permissions": {
+    "allow": [
+      "Bash(scripts/fit:*)",
+      "Bash(./scripts/fit:*)",
+      "Bash(scripts/new-athlete:*)",
+      "Bash(scripts/smoke-test:*)",
+      "Bash(date:*)",
+      "Bash(git status:*)",
+      "Bash(git log:*)",
+      "Bash(git diff:*)",
+      "Bash(git pull:*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)"
+    ]
+  }
+}

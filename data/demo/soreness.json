@@ -1,0 +1,125 @@
+{
+  "updated_at": "2026-10-11T13:41:49-06:00",
+  "muscles": {
+    "triceps_brachii": {
+      "level": 0.8,
+      "updated_at": "2026-10-11T13:41:49-06:00",
+      "notes": "Trained in 2026-10-07 push session."
+    },
+    "pectoralis_major": {
+      "level": 0.8,
+      "updated_at": "2026-10-11T13:41:49-06:00",
+      "notes": "Trained in 2026-10-07 push session."
+    },
+    "anterior_deltoid": {
+      "level": 0.8,
+      "updated_at": "2026-10-11T13:41:49-06:00",
+      "notes": "Trained in 2026-10-07 push session."
+    },
+    "lateral_deltoid": {
+      "level": 0.8,
+      "updated_at": "2026-10-11T13:41:49-06:00",
+      "notes": "Trained in 2026-10-07 push session."
+    },
+    "trapezius": {
+      "level": 0.7,
+      "updated_at": "2026-10-11T13:41:49-06:00",
+      "notes": "Trained in 2026-10-08 pull session."
+    },
+    "rhomboids": {
+      "level": 0.8,
+      "updated_at": "2026-10-11T13:41:49-06:00",
+      "notes": "Trained in 2026-10-08 pull session."
+    },
+    "infraspinatus": {
+      "level": 0.8,
+      "updated_at": "2026-10-11T13:41:49-06:00",
+      "notes": "Trained in 2026-10-08 pull session."
+    },
+    "trapezius_middle_lower": {
+      "level": 0.8,
+      "updated_at": "2026-10-11T13:41:49-06:00",
+      "notes": "Trained in 2026-10-08 pull session."
+    },
+    "posterior_deltoid": {
+      "level": 0.8,
+      "updated_at": "2026-10-11T13:41:49-06:00",
+      "notes": "Trained in 2026-10-08 pull session."
+    },
+    "biceps_brachii": {
+      "level": 0.8,
+      "updated_at": "2026-10-11T13:41:49-06:00",
+      "notes": "Trained in 2026-10-08 pull session."
+    },
+    "latissimus_dorsi": {
+      "level": 0.8,
+      "updated_at": "2026-10-11T13:41:49-06:00",
+      "notes": "Trained in 2026-10-08 pull session."
+    },
+    "teres_minor": {
+      "level": 0.8,
+      "updated_at": "2026-10-11T13:41:49-06:00",
+      "notes": "Trained in 2026-10-08 pull session."
+    },
+    "brachialis": {
+      "level": 0.4,
+      "updated_at": "2026-10-11T13:41:49-06:00",
+      "notes": "Trained in 2026-10-08 pull session."
+    },
+    "brachioradialis": {
+      "level": 0.4,
+      "updated_at": "2026-10-11T13:41:49-06:00",
+      "notes": "Trained in 2026-10-08 pull session."
+    },
+    "hamstrings": {
+      "level": 0.8,
+      "updated_at": "2026-10-11T13:41:49-06:00",
+      "notes": "Trained in 2026-10-09 legs session."
+    },
+    "gluteus_maximus": {
+      "level": 0.8,
+      "updated_at": "2026-10-11T13:41:49-06:00",
+      "notes": "Trained in 2026-10-09 legs session."
+    },
+    "quadriceps": {
+      "level": 0.8,
+      "updated_at": "2026-10-11T13:41:49-06:00",
+      "notes": "Trained in 2026-10-09 legs session."
+    },
+    "rectus_abdominis": {
+      "level": 0.8,
+      "updated_at": "2026-10-11T13:41:49-06:00",
+      "notes": "Trained in 2026-10-09 legs session."
+    },
+    "forearm_flexors": {
+      "level": 0.4,
+      "updated_at": "2026-10-11T13:41:49-06:00",
+      "notes": "Trained in 2026-10-09 legs session."
+    },
+    "gastrocnemius": {
+      "level": 0.4,
+      "updated_at": "2026-10-11T13:41:49-06:00",
+      "notes": "Trained in 2026-10-09 legs session."
+    },
+    "transversus_abdominis": {
+      "level": 0.4,
+      "updated_at": "2026-10-11T13:41:49-06:00",
+      "notes": "Trained in 2026-10-09 legs session."
+    },
+    "obliques": {
+      "level": 0.4,
+      "updated_at": "2026-10-11T13:41:49-06:00",
+      "notes": "Trained in 2026-10-09 legs session."
+    },
+    "adductor_magnus": {
+      "level": 0.4,
+      "updated_at": "2026-10-11T13:41:49-06:00",
+      "notes": "Trained in 2026-10-09 legs session."
+    },
+    "erector_spinae": {
+      "level": 0.4,
+      "updated_at": "2026-10-11T13:41:49-06:00",
+      "notes": "Trained in 2026-10-09 legs session."
+    }
+  }
+}

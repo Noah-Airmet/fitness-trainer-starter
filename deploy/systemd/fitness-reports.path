@@ -1,0 +1,11 @@
+# OPTIONAL — only if a phone client POSTs raw reports to /api/<user>/report.
+# Edit <athlete> to your athlete id (one PathExistsGlob line per athlete).
+[Unit]
+Description=Watch the fitness report queue
+
+[Path]
+PathExistsGlob=%h/fitness-trainer/queue/<athlete>/*.md
+MakeDirectory=yes
+
+[Install]
+WantedBy=default.target

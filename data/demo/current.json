@@ -1,0 +1,23 @@
+{
+  "display_name": "Demo Athlete",
+  "updated_at": "2026-10-11T13:43:22-06:00",
+  "latest_workout": "data/demo/workouts/2026-10-09-legs.json",
+  "latest_daily": "data/demo/daily/2026-10-11.json",
+  "next_plan": "data/demo/plans/2026-10-12-push.json",
+  "exercise_bank": "data/exercises/exercises.json",
+  "muscle_map": "data/muscles/body-map.json",
+  "goals": "data/demo/goals.json",
+  "metrics": "data/demo/metrics.json",
+  "soreness": "data/demo/soreness.json",
+  "training_summary": "data/demo/training-summary.json",
+  "week_outline": "data/demo/plans/week-outline.json",
+  "workout_history": [
+    "data/demo/workouts/2026-10-07-push.json",
+    "data/demo/workouts/2026-10-08-pull.json",
+    "data/demo/workouts/2026-10-09-legs.json"
+  ],
+  "daily_history": [
+    "data/demo/daily/2026-10-09.json",
+    "data/demo/daily/2026-10-11.json"
+  ]
+}

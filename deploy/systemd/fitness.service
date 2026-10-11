@@ -1,0 +1,16 @@
+# systemd USER unit — the fitness API + dashboard.
+# Install: see docs/DEPLOY.md. Assumes the repo lives at ~/fitness-trainer;
+# change WorkingDirectory/ExecStart if not.
+[Unit]
+Description=Fitness trainer server (API + dashboard)
+After=network-online.target
+
+[Service]
+Type=simple
+WorkingDirectory=%h/fitness-trainer
+ExecStart=/usr/bin/python3 server/fitness_server.py 127.0.0.1 8766
+Restart=on-failure
+RestartSec=3
+
+[Install]
+WantedBy=default.target

@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "fitness",
+      "runtimeExecutable": "python3",
+      "runtimeArgs": ["server/fitness_server.py", "127.0.0.1", "8766", "--root", "."],
+      "port": 8766
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "date": "2026-10-12",
+  "session_type": "push",
+  "status": "planned",
+  "intensity": "hard",
+  "pillars": [
+    "upper"
+  ],
+  "updated_by": "demo-seed",
+  "safety_note": "Week two: same loads, more reps. If set 3 of bench grinds below 6, stop there.",
+  "progression_target": "Bench 135 x 3x8 — close the 6.",
+  "warmup": [
+    {
+      "activity": "dynamic_arm_swings",
+      "duration_minutes": 5,
+      "notes": "Then bench 95 x8, 115 x4."
+    }
+  ],
+  "exercises": [
+    {
+      "exercise_id": "barbell_bench_press",
+      "name": "Barbell Bench Press",
+      "target": {
+        "sets": 3,
+        "reps": 8,
+        "weight_lb": 135
+      },
+      "notes": "8/8/6 last week. Chase 8/8/8."
+    },
+    {
+      "exercise_id": "incline_dumbbell_press",
+      "name": "Incline Dumbbell Press",
+      "target": {
+        "sets": 3,
+        "reps": 10,
+        "weight_lb_each": 40
+      },
+      "notes": "New. Upper chest. Smooth reps."
+    },
+    {
+      "exercise_id": "cable_lateral_raise",
+      "name": "Cable Lateral Raise",
+      "target": {
+        "sets": 3,
+        "reps": 12,
+        "weight_lb": 15
+      },
+      "notes": "Add a third set."
+    },
+    {
+      "exercise_id": "cable_tricep_pushdown",
+      "name": "Cable Tricep Pushdown",
+      "target": {
+        "sets": 3,
+        "reps": 12,
+        "weight_lb": 50
+      },
+      "notes": "Close the 10."
+    }
+  ],
+  "session_notes": "Upper-body pillar day.",
+  "updated_at": "2026-10-11T13:42:04-06:00"
+}

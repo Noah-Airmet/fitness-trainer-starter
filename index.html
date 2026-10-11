@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="color-scheme" content="light dark">
+  <title>The Training Ledger</title>
+  <meta name="theme-color" content="#1b1a17">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="assets/icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="assets/icon-192.png">
+  <link rel="stylesheet" href="assets/v2/app.css?v=20260730b">
+</head>
+<body>
+  <div id="page">
+    <header id="masthead">
+      <div class="mast-side">
+        <span>Vol. I — <span id="ann-user">…</span></span>
+      </div>
+      <div class="mast-title">The Training Ledger</div>
+      <div class="mast-side right">
+        <span class="ann-sync" id="ann-sync" title="Data link status"><span id="ann-sync-label">Linking…</span></span>
+        <button id="theme-toggle" type="button" aria-label="Toggle paper / carbon"></button>
+      </div>
+    </header>
+
+    <nav id="tabs" aria-label="Ledger sections">
+      <button type="button" data-view="today" aria-selected="true"><span class="tab-no">01</span>Today</button>
+      <button type="button" data-view="progress" aria-selected="false"><span class="tab-no">02</span><span class="tl-full">The Record</span><span class="tl-short">Record</span></button>
+      <button type="button" data-view="library" aria-selected="false"><span class="tab-no">03</span>Index</button>
+      <button type="button" data-view="log" aria-selected="false"><span class="tab-no">04</span><span class="tl-full">Field Notes</span><span class="tl-short">Notes</span></button>
+    </nav>
+
+    <main id="app">
+      <p class="dateline" style="margin-top:40px;">Opening the ledger…</p>
+    </main>
+
+    <footer id="folio">
+      <span id="status">First edition</span>
+      <span>Set on your own press</span>
+    </footer>
+  </div>
+
+  <aside id="drawer" aria-hidden="true">
+    <div id="drawer-panel" role="dialog" aria-modal="true" aria-labelledby="drawer-title">
+      <div class="drawer-handle" aria-hidden="true"></div>
+      <div class="drawer-head">
+        <div>
+          <p class="microlabel">Footnote</p>
+          <h2 id="drawer-title">Exercise</h2>
+        </div>
+        <button id="drawer-close" type="button" aria-label="Close footnote"></button>
+      </div>
+      <div id="drawer-content" class="drawer-content"></div>
+    </div>
+  </aside>
+
+  <script type="module" src="assets/v2/main.js?v=20260730b"></script>
+</body>
+</html>

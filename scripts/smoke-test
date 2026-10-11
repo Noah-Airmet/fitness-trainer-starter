@@ -1,0 +1,112 @@
+#!/usr/bin/env python3
+"""smoke-test — end-to-end check of server + fit CLI on a throwaway copy.
+
+Copies the repo to a temp dir, starts the server there on a spare port with
+git disabled, creates an athlete, and drives the real write path (goals,
+workout, daily, plan, outline) plus the validation errors. Your data/ is never
+touched. Run after changing server/, scripts/fit, or the data contracts.
+
+Usage: scripts/smoke-test
+"""
+import json
+import os
+import shutil
+import socket
+import subprocess
+import sys
+import tempfile
+import time
+import urllib.request
+from pathlib import Path
+
+REPO = Path(__file__).resolve().parent.parent
+failures = 0
+
+
+def check(label, ok, detail=""):
+    global failures
+    print(f"{'PASS' if ok else 'FAIL'}  {label}" + (f"  — {detail}" if detail and not ok else ""))
+    failures += 0 if ok else 1
+
+
+def free_port():
+    with socket.socket() as s:
+        s.bind(("127.0.0.1", 0))
+        return s.getsockname()[1]
+
+
+def fit(env, *args, stdin=None):
+    return subprocess.run([sys.executable, str(tmp / "scripts/fit"), *args],
+                          input=stdin, capture_output=True, text=True, env=env)
+
+
+tmp = Path(tempfile.mkdtemp(prefix="fitness-smoke-"))
+for item in ("server", "scripts", "templates", "assets", "index.html"):
+    src = REPO / item
+    (shutil.copytree if src.is_dir() else shutil.copy)(src, tmp / item)
+(tmp / "data").mkdir()
+for shared in ("exercises", "muscles"):
+    shutil.copytree(REPO / "data" / shared, tmp / "data" / shared)
+
+port = free_port()
+env = {**os.environ, "FITNESS_GIT": "0", "FITNESS_API": f"http://127.0.0.1:{port}",
+       "FITNESS_USER": "smoke"}
+server = subprocess.Popen([sys.executable, str(tmp / "server/fitness_server.py"),
+                           "127.0.0.1", str(port), "--root", str(tmp)],
+                          stdout=subprocess.DEVNULL, stderr=subprocess.PIPE, env=env)
+try:
+    subprocess.run([sys.executable, str(tmp / "scripts/new-athlete"), "smoke"],
+                   check=True, capture_output=True)
+    for _ in range(50):
+        try:
+            urllib.request.urlopen(f"http://127.0.0.1:{port}/api/users", timeout=1)
+            break
+        except OSError:
+            time.sleep(0.1)
+
+    r = fit(env, "state")
+    check("state on a blank athlete", r.returncode == 0, r.stderr)
+
+    workout = {"date": "2026-01-05", "session_type": "push", "exercises": [
+        {"exercise_id": "barbell_bench_press", "name": "Bench", "effort": "solid",
+         "actual": [{"set": 1, "reps": 8, "weight_lb": 135}, {"set": 2, "reps": 8, "weight_lb": 135}]}]}
+    r = fit(env, "log-workout", "-", stdin=json.dumps(workout))
+    check("log-workout accepted", r.returncode == 0, r.stderr)
+
+    r = fit(env, "daily", "--date", "2026-01-05", "--field", "protein", "--value", "good")
+    check("daily accepted", r.returncode == 0, r.stderr)
+
+    plan = {"date": "2026-01-06", "session_type": "pull", "exercises": [
+        {"exercise_id": "lat_pulldown", "name": "Pulldown", "target": {"sets": 3, "reps": 10, "weight_lb": 100}}]}
+    r = fit(env, "plan", "-", stdin=json.dumps(plan))
+    check("plan accepted", r.returncode == 0, r.stderr)
+
+    outline = {"week_of": "2026-01-05", "days": [{"date": "2026-01-05", "day": "Monday", "type": "push", "intensity": "hard"}]}
+    r = fit(env, "outline", "-", stdin=json.dumps(outline))
+    check("outline accepted", r.returncode == 0, r.stderr)
+
+    state = json.loads(fit(env, "state").stdout)
+    check("next_plan pointer set", state["current"]["next_plan"] == "data/smoke/plans/2026-01-06-pull.json")
+    check("training summary regenerated", (state["training_summary"] or {}).get("total_workouts") == 1)
+    check("bench e1RM computed",
+          state["training_summary"]["exercises"]["barbell_bench_press"]["best_e1rm"] == 171.0)
+    check("soreness boosted", (state["soreness"]["muscles"].get("pectoralis_major") or {}).get("level", 0) >= 0.79)
+    check("daily merged", any(d.get("nutrition", {}).get("protein") == "good" for d in state["dailies"]))
+
+    bad = dict(plan, exercises=[{"exercise_id": "not_a_real_lift"}])
+    r = fit(env, "plan", "-", stdin=json.dumps(bad))
+    check("unknown exercise_id rejected", r.returncode != 0 and "not_a_real_lift" in r.stderr)
+    r = fit(env, "state", "--user", "nobody")
+    check("unknown athlete rejected", r.returncode != 0 and "Unknown user" in r.stderr)
+    r = fit(env, "daily", "--date", "2026-1-5", "--field", "protein", "--value", "good")
+    check("bad date rejected", r.returncode != 0)
+
+    html = urllib.request.urlopen(f"http://127.0.0.1:{port}/").read().decode()
+    check("dashboard served", "Training Ledger" in html)
+finally:
+    server.terminate()
+    server.wait(timeout=5)
+    shutil.rmtree(tmp, ignore_errors=True)
+
+print("\nall passed" if not failures else f"\n{failures} failed")
+sys.exit(1 if failures else 0)

@@ -1,0 +1,367 @@
+{
+  "total_workouts": 3,
+  "first_workout": "2026-10-07",
+  "latest_workout": "2026-10-09",
+  "muscles": {
+    "triceps_brachii": {
+      "last_trained": "2026-10-07",
+      "total_sessions": 1
+    },
+    "lateral_deltoid": {
+      "last_trained": "2026-10-07",
+      "total_sessions": 1
+    },
+    "anterior_deltoid": {
+      "last_trained": "2026-10-07",
+      "total_sessions": 1
+    },
+    "trapezius": {
+      "last_trained": "2026-10-08",
+      "total_sessions": 2
+    },
+    "pectoralis_major": {
+      "last_trained": "2026-10-07",
+      "total_sessions": 1
+    },
+    "brachialis": {
+      "last_trained": "2026-10-08",
+      "total_sessions": 1
+    },
+    "rhomboids": {
+      "last_trained": "2026-10-08",
+      "total_sessions": 1
+    },
+    "infraspinatus": {
+      "last_trained": "2026-10-08",
+      "total_sessions": 1
+    },
+    "brachioradialis": {
+      "last_trained": "2026-10-08",
+      "total_sessions": 1
+    },
+    "trapezius_middle_lower": {
+      "last_trained": "2026-10-08",
+      "total_sessions": 1
+    },
+    "posterior_deltoid": {
+      "last_trained": "2026-10-08",
+      "total_sessions": 1
+    },
+    "biceps_brachii": {
+      "last_trained": "2026-10-08",
+      "total_sessions": 1
+    },
+    "latissimus_dorsi": {
+      "last_trained": "2026-10-08",
+      "total_sessions": 1
+    },
+    "teres_minor": {
+      "last_trained": "2026-10-08",
+      "total_sessions": 1
+    },
+    "forearm_flexors": {
+      "last_trained": "2026-10-09",
+      "total_sessions": 1
+    },
+    "hamstrings": {
+      "last_trained": "2026-10-09",
+      "total_sessions": 1
+    },
+    "gluteus_maximus": {
+      "last_trained": "2026-10-09",
+      "total_sessions": 1
+    },
+    "quadriceps": {
+      "last_trained": "2026-10-09",
+      "total_sessions": 1
+    },
+    "gastrocnemius": {
+      "last_trained": "2026-10-09",
+      "total_sessions": 1
+    },
+    "transversus_abdominis": {
+      "last_trained": "2026-10-09",
+      "total_sessions": 1
+    },
+    "obliques": {
+      "last_trained": "2026-10-09",
+      "total_sessions": 1
+    },
+    "adductor_magnus": {
+      "last_trained": "2026-10-09",
+      "total_sessions": 1
+    },
+    "erector_spinae": {
+      "last_trained": "2026-10-09",
+      "total_sessions": 1
+    },
+    "rectus_abdominis": {
+      "last_trained": "2026-10-09",
+      "total_sessions": 1
+    }
+  },
+  "exercises": {
+    "barbell_bench_press": {
+      "last_trained": "2026-10-07",
+      "best_weight_lb": 135.0,
+      "best_weight_date": "2026-10-07",
+      "best_e1rm": 171.0,
+      "best_e1rm_date": "2026-10-07",
+      "times_trained": 1,
+      "history": [
+        {
+          "date": "2026-10-07",
+          "best_weight_lb": 135.0,
+          "sets": 3,
+          "reps": 22,
+          "est_1rm": 171.0
+        }
+      ],
+      "last_effort": "hard",
+      "plateau": false
+    },
+    "seated_dumbbell_shoulder_press": {
+      "last_trained": "2026-10-07",
+      "best_weight_lb": 40.0,
+      "best_weight_date": "2026-10-07",
+      "best_e1rm": 53.3,
+      "best_e1rm_date": "2026-10-07",
+      "times_trained": 1,
+      "history": [
+        {
+          "date": "2026-10-07",
+          "best_weight_lb": 40.0,
+          "sets": 3,
+          "reps": 29,
+          "est_1rm": 53.3
+        }
+      ],
+      "last_effort": "solid",
+      "plateau": false
+    },
+    "cable_lateral_raise": {
+      "last_trained": "2026-10-07",
+      "best_weight_lb": 15.0,
+      "best_weight_date": "2026-10-07",
+      "best_e1rm": 21.0,
+      "best_e1rm_date": "2026-10-07",
+      "times_trained": 1,
+      "history": [
+        {
+          "date": "2026-10-07",
+          "best_weight_lb": 15.0,
+          "sets": 2,
+          "reps": 24,
+          "est_1rm": 21.0
+        }
+      ],
+      "last_effort": "solid",
+      "plateau": false
+    },
+    "cable_tricep_pushdown": {
+      "last_trained": "2026-10-07",
+      "best_weight_lb": 50.0,
+      "best_weight_date": "2026-10-07",
+      "best_e1rm": 70.0,
+      "best_e1rm_date": "2026-10-07",
+      "times_trained": 1,
+      "history": [
+        {
+          "date": "2026-10-07",
+          "best_weight_lb": 50.0,
+          "sets": 3,
+          "reps": 34,
+          "est_1rm": 70.0
+        }
+      ],
+      "last_effort": "solid",
+      "plateau": false
+    },
+    "lat_pulldown": {
+      "last_trained": "2026-10-08",
+      "best_weight_lb": 130.0,
+      "best_weight_date": "2026-10-08",
+      "best_e1rm": 173.3,
+      "best_e1rm_date": "2026-10-08",
+      "times_trained": 1,
+      "history": [
+        {
+          "date": "2026-10-08",
+          "best_weight_lb": 130.0,
+          "sets": 3,
+          "reps": 29,
+          "est_1rm": 173.3
+        }
+      ],
+      "last_effort": "solid",
+      "plateau": false
+    },
+    "seated_cable_row": {
+      "last_trained": "2026-10-08",
+      "best_weight_lb": 120.0,
+      "best_weight_date": "2026-10-08",
+      "best_e1rm": 160.0,
+      "best_e1rm_date": "2026-10-08",
+      "times_trained": 1,
+      "history": [
+        {
+          "date": "2026-10-08",
+          "best_weight_lb": 120.0,
+          "sets": 3,
+          "reps": 28,
+          "est_1rm": 160.0
+        }
+      ],
+      "last_effort": "hard",
+      "plateau": false
+    },
+    "face_pull": {
+      "last_trained": "2026-10-08",
+      "best_weight_lb": 40.0,
+      "best_weight_date": "2026-10-08",
+      "best_e1rm": 56.0,
+      "best_e1rm_date": "2026-10-08",
+      "times_trained": 1,
+      "history": [
+        {
+          "date": "2026-10-08",
+          "best_weight_lb": 40.0,
+          "sets": 2,
+          "reps": 30,
+          "est_1rm": 56.0
+        }
+      ],
+      "last_effort": "easy",
+      "plateau": false
+    },
+    "dumbbell_curl": {
+      "last_trained": "2026-10-08",
+      "best_weight_lb": 30.0,
+      "best_weight_date": "2026-10-08",
+      "best_e1rm": 40.0,
+      "best_e1rm_date": "2026-10-08",
+      "times_trained": 1,
+      "history": [
+        {
+          "date": "2026-10-08",
+          "best_weight_lb": 30.0,
+          "sets": 3,
+          "reps": 27,
+          "est_1rm": 40.0
+        }
+      ],
+      "last_effort": "hard",
+      "plateau": false
+    },
+    "leg_press": {
+      "last_trained": "2026-10-09",
+      "best_weight_lb": 270.0,
+      "best_weight_date": "2026-10-09",
+      "best_e1rm": 360.0,
+      "best_e1rm_date": "2026-10-09",
+      "times_trained": 1,
+      "history": [
+        {
+          "date": "2026-10-09",
+          "best_weight_lb": 270.0,
+          "sets": 3,
+          "reps": 30,
+          "est_1rm": 360.0
+        }
+      ],
+      "last_effort": "solid",
+      "plateau": false
+    },
+    "romanian_deadlift": {
+      "last_trained": "2026-10-09",
+      "best_weight_lb": 135.0,
+      "best_weight_date": "2026-10-09",
+      "best_e1rm": 180.0,
+      "best_e1rm_date": "2026-10-09",
+      "times_trained": 1,
+      "history": [
+        {
+          "date": "2026-10-09",
+          "best_weight_lb": 135.0,
+          "sets": 3,
+          "reps": 30,
+          "est_1rm": 180.0
+        }
+      ],
+      "last_effort": "solid",
+      "plateau": false
+    },
+    "seated_leg_curl": {
+      "last_trained": "2026-10-09",
+      "best_weight_lb": 100.0,
+      "best_weight_date": "2026-10-09",
+      "best_e1rm": 140.0,
+      "best_e1rm_date": "2026-10-09",
+      "times_trained": 1,
+      "history": [
+        {
+          "date": "2026-10-09",
+          "best_weight_lb": 100.0,
+          "sets": 2,
+          "reps": 24,
+          "est_1rm": 140.0
+        }
+      ],
+      "last_effort": "easy",
+      "plateau": false
+    },
+    "plank": {
+      "last_trained": "2026-10-09",
+      "best_weight_lb": 0,
+      "best_weight_date": null,
+      "best_e1rm": 0,
+      "best_e1rm_date": null,
+      "times_trained": 1,
+      "history": [
+        {
+          "date": "2026-10-09",
+          "best_weight_lb": 0,
+          "sets": 2,
+          "reps": 0,
+          "duration_s": 120
+        }
+      ],
+      "plateau": false
+    }
+  },
+  "weekly_volume": {
+    "2026-10-05": 31850
+  },
+  "weekly_muscle_sets": {
+    "2026-10-05": {
+      "adductor_magnus": 1.5,
+      "anterior_deltoid": 5.5,
+      "biceps_brachii": 6.0,
+      "brachialis": 1.5,
+      "brachioradialis": 1.5,
+      "erector_spinae": 1.5,
+      "forearm_flexors": 1.5,
+      "gastrocnemius": 1.0,
+      "gluteus_maximus": 5.5,
+      "hamstrings": 5.0,
+      "infraspinatus": 2.0,
+      "lateral_deltoid": 3.5,
+      "latissimus_dorsi": 4.5,
+      "obliques": 1.0,
+      "pectoralis_major": 3.0,
+      "posterior_deltoid": 3.5,
+      "quadriceps": 3.0,
+      "rectus_abdominis": 2.0,
+      "rhomboids": 4.5,
+      "teres_minor": 2.0,
+      "transversus_abdominis": 1.0,
+      "trapezius": 2.5,
+      "trapezius_middle_lower": 4.0,
+      "triceps_brachii": 6.0
+    }
+  },
+  "effort_calibration": {
+    "rated_exercises": 11,
+    "easy_share": 0.18
+  }
+}

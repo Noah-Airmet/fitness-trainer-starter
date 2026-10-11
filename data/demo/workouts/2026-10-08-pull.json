@@ -1,0 +1,94 @@
+{
+  "date": "2026-10-08",
+  "reported_day": "Thursday",
+  "session_type": "pull",
+  "updated_by": "demo-seed",
+  "exercises": [
+    {
+      "exercise_id": "lat_pulldown",
+      "name": "Lat Pulldown",
+      "effort": "solid",
+      "actual": [
+        {
+          "set": 1,
+          "reps": 10,
+          "weight_lb": 130
+        },
+        {
+          "set": 2,
+          "reps": 10,
+          "weight_lb": 130
+        },
+        {
+          "set": 3,
+          "reps": 9,
+          "weight_lb": 130
+        }
+      ]
+    },
+    {
+      "exercise_id": "seated_cable_row",
+      "name": "Seated Cable Row",
+      "effort": "hard",
+      "actual": [
+        {
+          "set": 1,
+          "reps": 10,
+          "weight_lb": 120
+        },
+        {
+          "set": 2,
+          "reps": 10,
+          "weight_lb": 120
+        },
+        {
+          "set": 3,
+          "reps": 8,
+          "weight_lb": 120
+        }
+      ],
+      "notes": "Torso rocked on set 3. Hold 120."
+    },
+    {
+      "exercise_id": "face_pull",
+      "name": "Face Pull",
+      "effort": "easy",
+      "actual": [
+        {
+          "set": 1,
+          "reps": 15,
+          "weight_lb": 40
+        },
+        {
+          "set": 2,
+          "reps": 15,
+          "weight_lb": 40
+        }
+      ]
+    },
+    {
+      "exercise_id": "dumbbell_curl",
+      "name": "Standing Dumbbell Curl",
+      "effort": "hard",
+      "actual": [
+        {
+          "set": 1,
+          "reps": 10,
+          "weight_lb_each": 30
+        },
+        {
+          "set": 2,
+          "reps": 9,
+          "weight_lb_each": 30
+        },
+        {
+          "set": 3,
+          "reps": 8,
+          "weight_lb_each": 30
+        }
+      ]
+    }
+  ],
+  "status": "completed",
+  "logged_at": "2026-10-11T13:41:49-06:00"
+}

@@ -1,0 +1,19 @@
+# systemd USER unit — the remote MCP connector for the Claude phone app.
+# Secret lives in ~/.config/fitness-trainer/mcp.env (chmod 600, never in git):
+#   TRAINER_MCP_SECRET=<long random string>
+#   FITNESS_USER=<athlete id>
+[Unit]
+Description=Fitness Trainer MCP (remote MCP shim over the fitness API)
+After=fitness.service
+Wants=fitness.service
+
+[Service]
+Type=simple
+WorkingDirectory=%h/fitness-trainer
+EnvironmentFile=%h/.config/fitness-trainer/mcp.env
+ExecStart=%h/fitness-trainer/.venv/bin/python server/trainer_mcp.py
+Restart=on-failure
+RestartSec=3
+
+[Install]
+WantedBy=default.target
