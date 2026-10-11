@@ -23,8 +23,3 @@ OTHER DEALINGS IN THE SOFTWARE.
 
 For more information, please refer to <https://unlicense.org/>
 
----
-
-One exception: the SVG muscle-map path data in data/muscles/body-map.json
-is adapted from react-muscle-highlighter and stays under its MIT license
-(full text in data/muscles/README.md). Keep that README alongside the file.
